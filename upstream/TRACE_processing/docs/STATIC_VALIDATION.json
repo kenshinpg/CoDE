@@ -52,6 +52,6 @@
   ],
   "clinical_execution": "not performed",
   "runtime_or_gpu_tests": "not performed",
-  "team_license": "pending author decision",
+  "team_license": "MIT, selected by author on 2026-11-06; third-party and data terms unchanged",
   "scope": "Static checks on this explicitly selected small code tree only."
 }

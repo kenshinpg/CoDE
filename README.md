@@ -52,6 +52,6 @@ Training uses training partitions; development data select/calibrate the specifi
 
 DDXPlus is a public synthetic dataset. Its example records retain their original [CC BY 4.0 attribution](examples/DATA_SOURCE.md). TRACE derives from MIMIC-IV-Ext Clinical Decision Making and remains subject to PhysioNet credentialing and the project data-use agreement. This release includes processing/evaluation code, schemas and aggregates; clinical notes, patient-linked explanations, citation sets, identifiers and checkpoints are excluded. See [data access](docs/DATA_ACCESS.md).
 
-This is a local release candidate. The authors/institution must select the license for their own code before public posting; `LICENSE_PENDING.md` records this decision. Existing SIS, Anchors and TabR licenses remain in force. A repository URL and final bibliographic DOI can be added when assigned; neither is assumed here.
+Original CoDE code, team-authored TRACE processing code and accompanying software documentation are licensed under the [MIT License](LICENSE). Third-party components retain their original licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). DDXPlus example data retain CC BY 4.0. External datasets, ontologies and model weights remain subject to their own terms.
 
 See `docs/VALIDATION.md` for the checks actually run on this package.

@@ -90,5 +90,5 @@
     "both existing CoDE handoff tests passed"
   ],
   "restricted_data_execution": false,
-  "status": "accepted_for_local_integration; author license decision remains pending"
+  "status": "accepted_for_local_integration; team-authored code licensed under MIT by author"
 }

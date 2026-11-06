@@ -6,6 +6,5 @@ The following are obtained separately:
 
 - Complete DDXPlus study selection/generation/mapping inputs; original public DDXPlus files alone do not recreate a fixed LLM-generated study corpus.
 - Credentialed MIMIC-CDM/TRACE records, admission/subject associations, generated explanations, exact mappings, review workbooks and model checkpoints.
-- Author/institution approval of the license for newly authored and team-shared code.
 
 `docs/paper_artifact_map.csv` distinguishes figure reconstruction from recomputation on original records. No missing private file is silently replaced with simulated study output. Public fixture examples and constructed test inputs remain separate from reported experiments.

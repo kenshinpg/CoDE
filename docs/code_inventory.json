@@ -664,7 +664,7 @@
     "kind": "accepted source-production supplement"
   },
   {
-    "file": "upstream/TRACE_processing/LICENSE_PENDING.md",
+    "file": "upstream/TRACE_processing/LICENSE",
     "kind": "accepted source-production supplement"
   },
   {
@@ -862,5 +862,9 @@
   {
     "file": "tools/CoDE/configs/trace_lantern_handoff/matching_rules.json",
     "kind": "original frozen-view to generation handoff"
+  },
+  {
+    "file": "LICENSE",
+    "kind": "MIT license for original project code and software documentation"
   }
 ]

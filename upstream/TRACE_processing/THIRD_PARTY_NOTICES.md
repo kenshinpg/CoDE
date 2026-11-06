@@ -1,10 +1,8 @@
 # Ownership and third-party resources
 
-Team-authored TRACE adapters, clients, validators and release helpers are identified
-in SOURCE_CODE_MANIFEST.json. Their public license is pending the authors'/institution's
-decision; this candidate is provided for integration and does not authorize publication
-under a license selected by the packaging assistant. CoDE's LICENSE_PENDING.md remains
-the release gate for team-owned/shared code.
+Team-authored TRACE adapters, clients, validators and release helpers are licensed
+under the MIT License in this directory and the CoDE repository root. Third-party
+code, model resources and clinical data retain their separate terms below.
 
 EntityCoding executable dependencies under vendor/entity-coding/ are copied from
 jd4501/entity-coding (recorded code revision fdf610ca1bee62be7b75d499c1d34eecfc4dada2).

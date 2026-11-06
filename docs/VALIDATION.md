@@ -27,4 +27,4 @@ The LANTERN upstream handoff has been accepted and integrated. All 29 manifest-t
 
 The original ZIP used CRLF shell endings. Included shell scripts now use LF, and `.gitattributes` preserves frozen byte identities during checkout. Both received and integrated source bindings remain documented.
 
-Before public posting, the authors/institution still need to select the license for team-authored/shared code. No additional LANTERN scientific experiment or code handoff is required for the agreed release scope.
+The author selected MIT for original project code and software documentation on 6 November 2026. Existing third-party and data licenses remain unchanged. No additional LANTERN scientific experiment or code handoff is required for the agreed release scope.

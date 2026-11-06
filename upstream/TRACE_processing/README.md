@@ -163,9 +163,9 @@ For a historical source release, invoke matcher prepare with --source pointing t
 authorized original release instead. See docs/ORIGINAL_BINDING.md for retry/fallback
 differences and the second-generator code boundary.
 
-## Ownership and release status
+## License
 
-This is a local code supplement candidate for integration into CoDE, not an upload
-or a new license grant. Team-authored code licensing remains pending the authors'
-decision, consistently with CoDE's LICENSE_PENDING.md. Preserve vendor licenses;
-data/model/ontology terms are separate. See THIRD_PARTY_NOTICES.md.
+Team-authored code and accompanying software documentation are licensed under the
+[MIT License](LICENSE). Preserve the separate EntityCoding MIT notice under
+`vendor/entity-coding/LICENSE`. Dataset, model and ontology terms are separate;
+see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
