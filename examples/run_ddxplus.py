@@ -28,14 +28,23 @@ def main():
         labels=sorted({r['label'] for r in train});source=AssociationSource(labels);source.fit(train)
         # Demonstration selection is fixed and outcome-independent.
         results=[]
+        excluded=dict(reference_label_not_in_training=0, empty_fact_set=0,
+                      unseen_fact_tokens=0)
         for r in test[:8]:
-            if r['label'] not in labels:continue
+            if r['label'] not in labels:
+                excluded['reference_label_not_in_training']+=1
+                continue
+            if not r['tokens']:
+                excluded['empty_fact_set']+=1
+                continue
             groups={}
             for token in r['tokens']:groups.setdefault(token.split('_@_')[0],[]).append(token)
             selected={x for g in sorted(groups)[::2] for x in groups[g]}
             # Keep the proposed diagnosis distinct from the reference label.
             full=source.distribution(r['tokens'],r['context'])
-            if full is None:continue
+            if full is None:
+                excluded['unseen_fact_tokens']+=1
+                continue
             diagnosis=labels[max(range(len(labels)),key=lambda i:full[i])]
             def q(fs,d):
                 probs=source.distribution(sorted(fs),r['context'])
@@ -46,6 +55,9 @@ def main():
             results.append(result)
         output=dict(mode='small association fit on supplied public DDXPlus CSVs',
                     training_records=len(train),labels=len(labels),examples=results,
+                    considered_records=len(test[:8]), scored_records=len(results),
+                    excluded_records=excluded,
+                    status='complete' if results else 'no_evaluable_records',
                     interpretation='Interface demonstration; separate from the paper cohort and effect estimates')
     else:
         examples=json.loads((ROOT/'examples/ddxplus_facts.json').read_text())
@@ -66,5 +78,10 @@ def main():
     dest=ROOT/'build/ddxplus_example.json';dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(json.dumps(output,indent=2,allow_nan=False)+'\n',encoding='utf-8')
     print(json.dumps(output,indent=2));print('Saved:',dest)
+    if not results:
+        print('No evaluable records. See the output JSON for record counts and exclusion reasons.',
+              file=sys.stderr)
+        return 1
+    return 0
 
-if __name__=='__main__':main()
+if __name__=='__main__':sys.exit(main())

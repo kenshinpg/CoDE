@@ -6,9 +6,8 @@ code, model resources and clinical data retain their separate terms below.
 
 EntityCoding executable dependencies under vendor/entity-coding/ are copied from
 jd4501/entity-coding (recorded code revision fdf610ca1bee62be7b75d499c1d34eecfc4dada2).
-Keep vendor/entity-coding/LICENSE (MIT, James Douglas). The exact retained executable
-hashes are in SOURCE_CODE_MANIFEST.json. Model weights have additional upstream
-restrictions and are not bundled. No MDACE dataset or other upstream dataset is copied.
+Keep vendor/entity-coding/LICENSE (MIT, James Douglas). Model weights have additional
+upstream restrictions and are not bundled. No MDACE dataset or other upstream dataset is copied.
 
 The actual HPO mapping prompt is the team's adaptation of the retrieval-then-contextual
 selection strategy and RAG-HPO prompt. The upstream JSON is obtained separately;

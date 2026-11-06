@@ -8,7 +8,6 @@ Final full matcher source hashes were:
 - base.py: 7f4bff206e405396e27eb2bf8a0447a4402b59b7bc84f6c3e670170a4800eefe
 - segment.py: 3031e14936fb4511d1ac602a3dc597be39f71249aa5153a0a28b1fb507c07fa5
 
-SOURCE_CODE_MANIFEST.json records historical/local source and published file digests.
 The public files are not falsely labelled byte-identical historical executables:
 paths and endpoint defaults are portable, and unused development CLI functions
 were removed from matching helper modules. Prompts, Pydantic schemas, validators,

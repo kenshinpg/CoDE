@@ -1,30 +1,27 @@
-# Local validation, 6 November 2026
+# Validation
 
-The package was assembled against the accepted manuscript and locally corrected production proof. The manuscript, fitted study models and accepted numerical results were left unchanged.
+Local checks used Python 3.12 on Windows. GPU inference and clinical experiments were not rerun.
 
 | Check | Result |
 | --- | --- |
-| Python source parsing | All included Python files parsed successfully |
 | Existing contract tests | 125 run: 122 passed; three skipped |
-| Skipped tests | One tiny PyTorch fitting test requires PyTorch, absent from the local QA interpreter; two integration assertions require separately authorized review inputs |
-| Public DDXPlus example | Four actual DDXPlus-derived fact sets passed the mapping validator and coverage calculation |
-| Patient-free generation/matching contracts | Strict generation, whole-text matching and span-fallback schemas exported successfully |
-| Selection estimates/intervals | All 114 exported values agree with full-precision accepted summaries after display rounding |
-| Figure 1 | All 34 generated plotting records match the final-proof numerical reference |
-| Exploratory DDXPlus distributions | All 60 matching patient-effect distribution means and counts agree with accepted aggregates |
-| Figure reconstruction | Three main numeric figures and two Supplementary numeric figures generated as PDF, SVG and PNG |
-| Table/artifact coverage | 34 table exports; map covers all 40 main/Supplementary figures and tables |
-| Release scans | No detected workstation/storage paths, private service hosts, credential literals or patient-linkage fields in result exports |
-| Archive | ZIP integrity and member paths checked; caches, build outputs and private input files excluded |
+| Skipped tests | One requires PyTorch; two require separately authorized audit inputs |
+| DDXPlus example | Bundled coverage calculation and CSV fitting route checked; empty and unsupported test inputs produce diagnostic counts and a nonzero exit status |
+| Selection estimates and intervals | All 114 exported values match the accepted summaries after display rounding |
+| Main overview figure | All 34 plotting records match the final-proof numerical reference |
+| DDXPlus edit distributions | Counts and means match the accepted aggregates for all 60 distributions |
+| Figure generation | Three main numeric figures and two supplementary numeric figures rendered as PDF, SVG and PNG |
+| Artifact map | Covers all 40 main and supplementary figures and tables, including 34 table exports |
+| TRACE input boundary | Six model-free checks passed, including export, generation-input validation and final-matching preparation on synthetic admissions |
 
-Tests exercised the supplied scoring/statistical functions on constructed records. Final clinical experiments, licensed source processing and large-model inference were not rerun. Replotting uses accepted aggregate statistics and does not regenerate bootstrap draws from individual clinical records. The small DDXPlus example's optional CSV fitting route requires separately downloaded public files; local validation covered its bundled fact/coverage route.
+Run the public checks with:
 
-The clinical construction figure is supplied as an editable SVG and accepted PDF. Font-dependent numeric redraws preserve the source values; their PDF bytes need not match the production figure files. The accepted figures remain available for direct comparison.
+```bash
+python scripts/verify_aggregates.py
+python scripts/plot_paper.py
+python examples/run_ddxplus.py
+# Requires the experiment dependencies:
+python -m unittest discover -s tools/CoDE/tests -v
+```
 
-`requirements/` describes installation dependencies. Historical model configurations are in the experiment configs and Table S4 export. The package's local QA environment is distinct from the historical GPU serving environment. The original runtime precision/version gaps reported in the paper are retained in the methods specification.
-
-The LANTERN upstream handoff has been accepted and integrated. All 29 manifest-tracked files matched their intended published digests after reversing an archive line-ending conversion; all 29 local historical-source bindings were also checked. Fourteen critical function/class ASTs matched their historical sources. Six model-free boundary checks passed, including the CoDE exporter → original generator input validator → final whole-text matching preparation on 2,400 invented admissions and 9,600 tasks. One deliberately failed synthetic generation remained unavailable. No model, API service or clinical record was used for these checks.
-
-The original ZIP used CRLF shell endings. Included shell scripts now use LF, and `.gitattributes` preserves frozen byte identities during checkout. Both received and integrated source bindings remain documented.
-
-The author selected MIT for original project code and software documentation on 6 November 2026. Existing third-party and data licenses remain unchanged. No additional LANTERN scientific experiment or code handoff is required for the agreed release scope.
+The tests use constructed fixtures. Aggregate checks and figure generation verify the supplied estimates; reproducing patient-cluster bootstrap inference requires the original evaluation inputs. CSV fitting requires official DDXPlus files obtained separately. Fresh environment installation and Linux/GPU execution were not retested locally. See [EXPERIMENTS.md](EXPERIMENTS.md) for experiment inputs and dependencies.

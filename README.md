@@ -20,7 +20,7 @@ python scripts/plot_paper.py
 python examples/run_ddxplus.py
 ```
 
-The DDXPlus example computes group coverage on four actual synthetic fact sets using the CoDE validator. Supplying official training/test CSVs also runs a small association-model fit and support calculation. The bundled fact sets come from a development fixture, separate from the paper's frozen 10,000-patient study cohort. The expected output is written to `build/ddxplus_example.json`. No clinical records, model endpoint or GPU are required.
+The DDXPlus example computes group coverage on four actual synthetic fact sets using the CoDE validator. Supplying official training/test CSVs also runs a small association-model fit and support calculation. The bundled fact sets come from a development fixture, separate from the paper's frozen 10,000-patient study cohort. The output is written to `build/ddxplus_example.json`. The CSV route considers the first eight loaded test records and reports scored and excluded counts. If none can be scored, it writes the diagnostic output and exits with a nonzero status. No clinical records, model endpoint or GPU are required.
 
 `plot_paper.py` redraws the three main result figures and the selection heatmap from full-precision accepted aggregates. It also plots the exploratory DDXPlus effect distributions from anonymous synthetic-data effect arrays. The editable TRACE construction diagram is supplied as SVG alongside its accepted PDF. Replotting aggregate results preserves the reported estimates and intervals; cluster-bootstrap inference from individual records requires the original evaluation inputs.
 
@@ -42,7 +42,7 @@ The DDXPlus example computes group coverage on four actual synthetic fact sets u
 
 ## Full experiments
 
-See [experiment instructions](docs/EXPERIMENTS.md), [input contracts](docs/INPUT_CONTRACTS.md), and [TRACE methods](docs/TRACE_PROCESSING.md). The upstream source-processing supplement is included under `upstream/TRACE_processing`; its README gives source-stage commands. `export_trace_lantern_handoff.py` connects the accepted CoDE view to the original generation input. The historical entrypoint names are retained to identify the implementations used for each accepted result. Machine-specific path defaults have been replaced by local paths; adaptations are listed in `docs/release_adaptations.json`.
+See [experiment instructions](docs/EXPERIMENTS.md), [input contracts](docs/INPUT_CONTRACTS.md), and [TRACE methods](docs/TRACE_PROCESSING.md). The upstream source-processing supplement is included under `upstream/TRACE_processing`; its README gives source-stage commands. `export_trace_lantern_handoff.py` connects the accepted CoDE view to the original generation input. The historical entrypoint names are retained to identify the implementations used for each accepted result. Configure local data paths and model endpoints before running the experiment entrypoints.
 
 Full fitting/evaluation uses NumPy, SciPy, LightGBM, PyTorch, scikit-learn and Pydantic. Local text generation additionally uses Transformers and an OpenAI-compatible local model service. Install `requirements/experiments.txt` for model experiments. Generation drivers use Linux process/file-lock facilities and are intended for Linux servers. Use a CUDA-compatible PyTorch build appropriate to your machine.
 
