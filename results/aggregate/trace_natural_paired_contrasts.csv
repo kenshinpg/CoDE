@@ -1,0 +1,11 @@
+Probe,Contrast,Explanations,AP difference [95% CI]
+R,Association - Group,614,"0.1948 [0.1110, 0.2979]"
+R,Local positive SHAP - Group,614,"0.2371 [0.1457, 0.3404]"
+R,Association - Local positive SHAP,614,"-0.0423 [-0.1118, 0.0219]"
+R,Local positive SHAP - Class SHAP,614,"0.0966 [0.0375, 0.1724]"
+R,Local positive SHAP - Tree A,614,"-0.1792 [-0.2817, -0.0522]"
+T,Association - Group,614,"0.1704 [0.0741, 0.3104]"
+T,Local positive SHAP - Group,614,"0.2270 [0.1033, 0.3567]"
+T,Association - Local positive SHAP,614,"-0.0566 [-0.1495, 0.0483]"
+T,Local positive SHAP - Class SHAP,614,"0.1800 [0.0836, 0.2778]"
+T,Local positive SHAP - Tree A,614,"-0.6623 [-0.7835, -0.5129]"

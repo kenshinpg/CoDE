@@ -1,0 +1,6 @@
+cell_1,cell_2,cell_3,cell_4
+Dataset,Comparison,Matched / eligible,Difference [95\% CI]
+DDXPlus,Local absolute SHAP $-$ class SHAP,1352 / 1490,"0.22 [$-0.07$, 0.59]"
+DDXPlus,TabR-S $-$ No-retrieval,989 / 1490,"$-2.83$ [$-4.45$, $-1.21$]"
+TRACE,Local absolute SHAP $-$ class SHAP,251 / 251,"$-7.97$ [$-11.95$, $-3.98$]"
+TRACE,TabR-S $-$ No-retrieval,251 / 251,"$-10.36$ [$-15.54$, $-5.18$]"

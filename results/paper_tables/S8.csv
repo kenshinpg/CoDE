@@ -1,0 +1,15 @@
+cell_1,cell_2,cell_3,cell_4,cell_5
+\multicolumn{5}{l}{\textbf{A. Before correctness filtering}},,,,
+Dataset,R: $H+F$,T: $H+F$,R: $H$,T: $H$
+DDXPlus,"99.47 (1,498/1,506)","99.20 (1,494/1,506)","3.92 (59/1,506)","3.39 (51/1,506)"
+TRACE,81.06 (261/322),86.07 (309/359),39.83 (143/359),39.83 (143/359)
+\multicolumn{5}{l}{\textbf{B. Natural cited input $H+E$: correct-proposal population}},,,,
+Dataset (explanations/units),R: explanation,T: explanation,R: unit mean,T: unit mean
+"DDXPlus (1,979/889)",98.99,98.03,98.83,98.07
+TRACE (614/210),82.90,92.83,80.08,90.28
+\multicolumn{5}{l}{\textbf{C. Controlled subsets: unit-averaged recovery}},,,,
+Dataset / probe,Units,25\%,50\%,75\%
+DDXPlus / R,"1,490",82.77,96.27,99.33
+DDXPlus / T,"1,490",75.48,94.12,98.69
+TRACE / R,251,66.02,78.84,90.08
+TRACE / T,251,75.10,84.30,94.10

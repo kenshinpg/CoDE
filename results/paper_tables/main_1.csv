@@ -1,0 +1,9 @@
+cell_1,cell_2
+\textbf{Object},\textbf{Contrast Examined}
+Association,Cohort association support: smoothed co-occurrence scoring inspired by COHD~\cite{code_cohd}.
+Representation,Patient representation support: study-specific static-set encoder; matched neural baseline and probe.
+Group-enhanced,Group-enhanced representation support: GRASP-inspired grouping/graph computation on the matched encoder~\cite{code_grasp}.
+Tree,"Tree-based support: LightGBM multiclass predictor, held fixed for attribution-rule comparisons~\cite{code_lightgbm}."
+Similar-case,Learned case support: TabR-S adaptation~\cite{code_tabr}; uniform voting and matched no-retrieval controls.
+Local/class SHAP,Attribution rules: patient-conditioned versus class-aggregated relevance; signs and aggregation also differ.
+Group removal,Attribution rule: change in source support after removing a dependency group.

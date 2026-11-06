@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "policy": "Development-only NLL fit; frozen test comparators; no test temperature selection",
+  "score_sha256": {
+    "DDX_RQ2": "341a8784d1cb84c34fa07c779d2a3d278448c66cd7b1294465aaa6497cad599d",
+    "DDX_RQ3": "f626410874e310906c7f420cc8553d27d770e3126c21c62be2d52e9f1ebc2fc1",
+    "TRACE_RQ2": "c6d2d175cca67b7e834404aec7c9de92844f06695b6e2be9e88df9fa6e8a66ef",
+    "TRACE_RQ3": "bc1eabb94b33dab34f353ccc36f818ff8e10c6c810780aec55fc8e2a8ec8dc8f"
+  },
+  "reference_sha256": {
+    "DDX_RQ2": "590ccd182f1094c6834277a94619745df8aeda335e7afd394f0fe7ffb0e22d01",
+    "DDX_RQ3": "26e1056cdc81eebf60806f8df26f013ff5f0ed8578fd004d4f1ed3eed89f516a",
+    "TRACE_RQ2": "a98871d1cf90c766d3c63ac4a763f1ef44d385d40667bf3e38f88dcbf6538c93",
+    "TRACE_RQ3": "3b3474d7955d3a64dc21fbf1f680831f74ba23dd0b2abe902c0b9a9f10fb2b70"
+  }
+}

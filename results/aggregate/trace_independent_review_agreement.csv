@@ -1,0 +1,5 @@
+Sample / policy,n,Micro-Dice,Mean Jaccard,Identical
+Random / Explicit,60,0.9381,0.8852,16/60
+Random / Compatible,60,0.9479,0.9019,21/60
+Targeted / Explicit,40,0.8872,0.7923,5/40
+Targeted / Compatible,40,0.9054,0.8192,7/40

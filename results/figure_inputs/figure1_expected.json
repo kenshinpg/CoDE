@@ -1,0 +1,280 @@
+[
+  {
+    "panel": "0a",
+    "method": "tree_local_abs_shap",
+    "mean": 11.884563758389262,
+    "ci": [
+      10.99298657718121,
+      12.750637583892619
+    ]
+  },
+  {
+    "panel": "0a",
+    "method": "tree_class_abs_shap",
+    "mean": 10.761073825503358,
+    "ci": [
+      9.89510067114094,
+      11.679395973154364
+    ]
+  },
+  {
+    "panel": "0a",
+    "method": "grasp",
+    "mean": 10.473825503355705,
+    "ci": [
+      9.66704697986577,
+      11.276946308724831
+    ]
+  },
+  {
+    "panel": "0a",
+    "method": "cohd",
+    "mean": 7.722147651006711,
+    "ci": [
+      6.763724832214765,
+      8.723523489932887
+    ]
+  },
+  {
+    "panel": "0a",
+    "method": "tabr",
+    "mean": 5.401342281879195,
+    "ci": [
+      4.153758389261745,
+      6.670033557046979
+    ]
+  },
+  {
+    "panel": "0a",
+    "method": "lightgbm",
+    "mean": 5.084563758389262,
+    "ci": [
+      3.9475838926174505,
+      6.165570469798658
+    ]
+  },
+  {
+    "panel": "0a",
+    "method": "tree_gain",
+    "mean": -0.36644295302013413,
+    "ci": [
+      -1.5452348993288587,
+      0.7908389261744965
+    ]
+  },
+  {
+    "panel": "0b",
+    "probe": "encoder",
+    "method": "cohd_coverage",
+    "mean": 0.23637445887627798,
+    "ci": [
+      0.07965435240679623,
+      0.45124611905967865
+    ]
+  },
+  {
+    "panel": "0b",
+    "probe": "encoder",
+    "method": "tree_positive_shap",
+    "mean": 0.09422836620651084,
+    "ci": [
+      0.007591367073662596,
+      0.23061433100849507
+    ]
+  },
+  {
+    "panel": "0b",
+    "probe": "lightgbm",
+    "method": "cohd_coverage",
+    "mean": 0.038483506134952175,
+    "ci": [
+      -0.027282510505249886,
+      0.10195002711828513
+    ]
+  },
+  {
+    "panel": "0b",
+    "probe": "lightgbm",
+    "method": "tree_positive_shap",
+    "mean": 0.017913182463808214,
+    "ci": [
+      -0.04021392861954916,
+      0.056672281523858
+    ]
+  },
+  {
+    "panel": "0c",
+    "budget": 0.25,
+    "method": "lightgbm_absolute",
+    "concordance": 91.58793840889649
+  },
+  {
+    "panel": "0c",
+    "budget": 0.25,
+    "method": "tree_positive_shap",
+    "concordance": 89.3791132021671
+  },
+  {
+    "panel": "0c",
+    "budget": 0.5,
+    "method": "lightgbm_absolute",
+    "concordance": 92.38871252204586
+  },
+  {
+    "panel": "0c",
+    "budget": 0.5,
+    "method": "tree_positive_shap",
+    "concordance": 85.92925925925925
+  },
+  {
+    "panel": "0c",
+    "budget": 0.75,
+    "method": "lightgbm_absolute",
+    "concordance": 81.28582451499118
+  },
+  {
+    "panel": "0c",
+    "budget": 0.75,
+    "method": "tree_positive_shap",
+    "concordance": 77.8069885361552
+  },
+  {
+    "panel": "1a",
+    "method": "tree_local_abs_shap",
+    "mean": 20.788844621513945,
+    "ci": [
+      15.679482071713146,
+      25.163346613545816
+    ]
+  },
+  {
+    "panel": "1a",
+    "method": "tree_class_abs_shap",
+    "mean": 28.75697211155378,
+    "ci": [
+      25.258565737051793,
+      32.02430278884462
+    ]
+  },
+  {
+    "panel": "1a",
+    "method": "grasp",
+    "mean": 30.350597609561753,
+    "ci": [
+      27.00398406374502,
+      33.14760956175299
+    ]
+  },
+  {
+    "panel": "1a",
+    "method": "cohd",
+    "mean": 11.625498007968126,
+    "ci": [
+      5.96613545816733,
+      16.663944223107567
+    ]
+  },
+  {
+    "panel": "1a",
+    "method": "tabr",
+    "mean": 16.007968127490038,
+    "ci": [
+      11.287450199203187,
+      20.59800796812749
+    ]
+  },
+  {
+    "panel": "1a",
+    "method": "lightgbm",
+    "mean": 24.772908366533862,
+    "ci": [
+      20.42191235059761,
+      28.351195219123504
+    ]
+  },
+  {
+    "panel": "1a",
+    "method": "tree_gain",
+    "mean": 14.414342629482071,
+    "ci": [
+      9.073306772908367,
+      19.266932270916335
+    ]
+  },
+  {
+    "panel": "1b",
+    "probe": "encoder",
+    "method": "cohd_coverage",
+    "mean": 0.19481216349837066,
+    "ci": [
+      0.11096972838564352,
+      0.2978612992172385
+    ]
+  },
+  {
+    "panel": "1b",
+    "probe": "encoder",
+    "method": "tree_positive_shap",
+    "mean": 0.23713045014380058,
+    "ci": [
+      0.14569108203503855,
+      0.34036431608964157
+    ]
+  },
+  {
+    "panel": "1b",
+    "probe": "lightgbm",
+    "method": "cohd_coverage",
+    "mean": 0.17037093026256145,
+    "ci": [
+      0.07406320114082166,
+      0.3103552721778301
+    ]
+  },
+  {
+    "panel": "1b",
+    "probe": "lightgbm",
+    "method": "tree_positive_shap",
+    "mean": 0.22699126684494048,
+    "ci": [
+      0.10326122233711572,
+      0.3566843683890691
+    ]
+  },
+  {
+    "panel": "1c",
+    "budget": 0.25,
+    "method": "lightgbm_absolute",
+    "concordance": 81.05601937744795
+  },
+  {
+    "panel": "1c",
+    "budget": 0.25,
+    "method": "tree_positive_shap",
+    "concordance": 75.6254724111867
+  },
+  {
+    "panel": "1c",
+    "budget": 0.5,
+    "method": "lightgbm_absolute",
+    "concordance": 80.83082592011162
+  },
+  {
+    "panel": "1c",
+    "budget": 0.5,
+    "method": "tree_positive_shap",
+    "concordance": 78.27681841967555
+  },
+  {
+    "panel": "1c",
+    "budget": 0.75,
+    "method": "lightgbm_absolute",
+    "concordance": 81.46861802825106
+  },
+  {
+    "panel": "1c",
+    "budget": 0.75,
+    "method": "tree_positive_shap",
+    "concordance": 78.82368574341052
+  }
+]

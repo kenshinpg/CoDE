@@ -1,0 +1,13 @@
+{
+  "fitted_manifest_sha256": "1c596f803cff15c5983f3a268b1fe9ce3c9f4d39a69db67ee10b1138ce54cdfc",
+  "budgets": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "bootstrap": 1000,
+  "random_repeats": 10,
+  "seed": 261006,
+  "planned_test_patients": 1506,
+  "protocol": "docs/CoDE研究阶段记录/75_统一测试队列RQ1证据选择评测协议_20261007.md"
+}

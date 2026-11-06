@@ -1,0 +1,48 @@
+{
+  "datasets": {
+    "DDXPlus": {
+      "models": "artifacts/code10k_sources_v1",
+      "protocol": "artifacts/code10k_protocol_v1",
+      "sample": "inputs/ddxplus_sample",
+      "rq1": "artifacts/code10k_rq1_v1_retry1",
+      "config": "configs/code10k_rq2_20261007.json",
+      "rq2_scores": "artifacts/code10k_rq2_v2_retry1/scores.jsonl",
+      "ledger": "artifacts/code10k_rq2_v2_retry1/explanation_ledger.jsonl"
+    },
+    "TRACE": {
+      "models": "artifacts/trace2400_extended_sources_v1",
+      "first": "artifacts/trace2400_sources_v1",
+      "view": "artifacts/trace2400_view_v2_names",
+      "raw": "inputs/trace_production/trace2400_unified_v1/run_20261013_103336_1104675",
+      "rq1_selections": "artifacts/trace2400_bce_audit_v1/rq1/selections_PRIVATE.jsonl",
+      "rq1_panels": "inputs/human_review_20261016/accepted_TRACE_RQ1.json",
+      "rq2_scores": "artifacts/trace2400_tabr_repair_v1/rq2/scores_PRIVATE.jsonl",
+      "ledger": "artifacts/trace2400_tabr_repair_v1/rq2/explanation_ledger.jsonl",
+      "rq2_panels": "inputs/human_review_20261016/accepted_TRACE_RQ2.json",
+      "rq3_scores": "artifacts/trace2400_bce_audit_v1/rq3/scores_PRIVATE.jsonl",
+      "rq3_panels": "inputs/human_review_20261016/accepted_TRACE_RQ3.json"
+    }
+  },
+  "accepted_sha256": {
+    "DDXPlus_rq2_scores": "341a8784d1cb84c34fa07c779d2a3d278448c66cd7b1294465aaa6497cad599d",
+    "TRACE_rq2_scores": "c6d2d175cca67b7e834404aec7c9de92844f06695b6e2be9e88df9fa6e8a66ef",
+    "TRACE_rq3_scores": "bc1eabb94b33dab34f353ccc36f818ff8e10c6c810780aec55fc8e2a8ec8dc8f"
+  },
+  "accepted_TRACE_model_sha256": {
+    "encoder": "1af024fd90ff78aede5553b3bc347324425d8b219850cad06259a7658ad035ed",
+    "cohd": "c10290862b9bf032b44924bbff5e01c9c3f69c69d48a43043df1998732b45a23",
+    "lightgbm": "f14aea442e6dbfe229cbe979e5cc4636fa13ebcbc7a655760cb1b98a3e839c01",
+    "grasp": "77b356aea83dd8c1011f1bd4c8cae36bb2849dcc563747074f2a33902f824d31",
+    "tabr": "c36062889c313269bb40d99ba20c2a7df3985e4baa2a3201cc5a7f0b6f60d984",
+    "no_retrieval": "a37bb7bca842c03390f5ef0098121386988983144db78ebd088ab77644e15a89"
+  },
+  "worker_code_sha256": {
+    "scripts/run_code10k_rq2.py": "c7c3a235f40888ae714108035d76f871c887926972c23651e73c21f6b236fbd0",
+    "scripts/run_code10k_rq1.py": "44c35151f95822cb0187a937d0f4e8e1d0393f2637ec30fed33658db3fca046b",
+    "scripts/run_trace2400_rq2.py": "ab29a5d7ae765813c5f6a1e4db03794f502035460206cea4e21bfc71aff486af",
+    "scripts/run_trace2400_evaluation.py": "29ec6ba377fe9b622b5afda125473daccbc25da87ae2557314bed1fbac482140",
+    "src/code_eval/trace2400/bank.py": "15323be7f581855c99eba0739a2e7686e098b9114a7d34d4c1067ee496a56764",
+    "src/code_eval/trace2400/math_policy.py": "0635e723656bc572241091e6320c81165f917aa139db85b3e0fffee501348f55",
+    "src/code_eval/frozen_bank.py": "e17ca6e27d8d8dfdf2a0a64c271162c3727837f66f40c9c19f03c9c5c9b19ddc"
+  }
+}

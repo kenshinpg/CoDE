@@ -1,0 +1,82 @@
+{
+  "status": "recipe_frozen_before_reserved_outcome_evaluation",
+  "primary_sources": [
+    "cohd_context_counts",
+    "context_encoder",
+    "context_grasp",
+    "lightgbm"
+  ],
+  "fit_source": "existing verified teacher_fit_selected_private, excluding all 8423 research patterns",
+  "grasp": {
+    "epochs": 30,
+    "warmup": 3,
+    "hidden": 128,
+    "centers": 32,
+    "neighbors": 20,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "seed": 261006,
+    "graph": "first active epoch identity; subsequent directed row-normalized nearest-center adjacency",
+    "center_data": "full fitting patients only; refreshed each active epoch",
+    "checkpoint": "fixed final epoch; no accuracy-based selection"
+  },
+  "cohd": {
+    "alpha": 5.0,
+    "context": "age decade and sex as fixed observed tokens",
+    "fit": "full fitting records counted once",
+    "unseen_symptom": "unavailable",
+    "unseen_context": "ignored association, counted in audit"
+  },
+  "evaluation": {
+    "partition": "evaluation",
+    "expected_patients": 1268,
+    "expected_explanations": 3349,
+    "budgets": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "random_repeats": 10,
+    "bootstrap": 500,
+    "seed": 261006,
+    "primary_controlled_budget": 0.25,
+    "primary_natural_target": "LLM top1 diagnosis correct; both fixed probes full-input correct",
+    "controlled_target": "frozen LightGBM full-input prediction",
+    "primary_probe": "encoder",
+    "sensitivity_probe": "lightgbm",
+    "source_probe_diagonal": "descriptive only",
+    "uniform_controls": [
+      "fact coverage",
+      "group coverage"
+    ],
+    "multiplicity": "exploratory secondary contrasts; no unqualified confirmatory claims from many unadjusted comparisons",
+    "primary_natural_metric": "failure AP",
+    "primary_controlled_metric": "within-patient equal-fact-count concordance"
+  },
+  "mandatory_checks": [
+    "fit pattern exclusion",
+    "common raw input and context declared",
+    "finite normalized support",
+    "GRASP nonzero graph gradients",
+    "GRASP nonzero graph-off and assignment-shift effects",
+    "GRASP multiple assignments and noncollapsed propagated centers"
+  ],
+  "not_acceptance_criteria": [
+    "high accuracy",
+    "positive method gain",
+    "statistical significance"
+  ],
+  "nonblocking_supplements": [
+    "SIS",
+    "LLM judge",
+    "paraphrase repetition",
+    "repeat-fit selection stability"
+  ],
+  "limitations": [
+    "retrospectively selected synthetic cohort including error-enriched challenge",
+    "automatic unreviewed semantic extraction",
+    "age discretization specific to association model",
+    "held-out evaluation is not external clinical validation",
+    "no changes to models or metrics based on reserved outcomes"
+  ]
+}

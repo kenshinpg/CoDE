@@ -1,0 +1,18 @@
+{
+  "view_id": "trace2400_record_evidence_v1",
+  "seed": 261013,
+  "split_fractions": {"train": 0.7, "development": 0.15, "test": 0.15},
+  "minimum_training_subjects_per_feature": 2,
+  "text_mapping": "original_only",
+  "radiology_unit": "parent_only",
+  "text_assertions": ["present", "absent"],
+  "multiple_concepts": "exclude_observation_keep_ledger",
+  "opposite_assertions": "exclude_admission_concept_keep_ledger",
+  "duplicate_concepts": "collapse_across_sources_by_hpo_id",
+  "diagnosis_name_pattern": "\\b(?:appendicitis|cholecystitis|diverticulitis|pancreatitis)\\b",
+  "diagnosis_filter": "exclude_technical_group_with_keyword_in_quote_or_original_concept_label",
+  "post_treatment": "retain_under_retrospective_task_and_report",
+  "context_features": [],
+  "lab_view_id": "lab_reference_state_v2_source_paired_assumption",
+  "study_scope": "retrospective record-derived evidence support; no diagnostic-time guarantee"
+}

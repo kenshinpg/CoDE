@@ -1,0 +1,2 @@
+# Install in a separate source-processing environment; retain the platform Torch build.
+-r ../upstream/TRACE_processing/requirements.txt

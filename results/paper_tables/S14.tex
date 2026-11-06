@@ -1,0 +1,25 @@
+\begin{table}[!tbp]\centering\scriptsize
+\caption{TRACE reference-recovery sensitivities. Scores continue to target the proposed diagnosis. Including partial exact mappings changes eligibility, rather than applying human corrections. Upper panel: descriptive AP on common records. Lower panel: paired AP differences with 95\% inferred-subject bootstrap intervals, unadjusted for multiple comparisons. R/T denote Representation/Tree probes; Tree-source scores under T involve self-evaluation.}\label{tab:trace-natural-sensitivity}
+\begin{tabular}{llrrrrr}\toprule
+Probe & Stratum & n & Failures & Group & \shortstack{Local positive\\SHAP} & Tree $A$ \\ \midrule
+R & Incorrect & 348 & 120 & 0.4063 & 0.3348 & 0.2381 \\
+R & All & 962 & 225 & 0.2624 & 0.3493 & 0.2925 \\
+R & Partial-inclusive correct & 642 & 110 & 0.1839 & 0.4312 & 0.6046 \\
+T & Incorrect & 348 & 53 & 0.2879 & 0.1348 & 0.0892 \\
+T & All & 962 & 97 & 0.1569 & 0.1744 & 0.1285 \\
+T & Partial-inclusive correct & 642 & 44 & 0.0782 & 0.3012 & 0.9713 \\
+\bottomrule\end{tabular}
+
+\par\smallskip
+\begin{tabular}{lll lr}\toprule
+Probe & Stratum & n & Contrast & AP difference [95\% CI] \\ \midrule
+R & Incorrect & 348 & Local positive SHAP $-$ Group & -0.0715 [-0.1380, -0.0018] \\
+R & Incorrect & 348 & Local positive SHAP $-$ Tree $A$ & 0.0967 [0.0494, 0.1717] \\
+R & All & 962 & Local positive SHAP $-$ Group & 0.0869 [0.0272, 0.1526] \\
+R & All & 962 & Local positive SHAP $-$ Tree $A$ & 0.0569 [0.0053, 0.1205] \\
+T & Incorrect & 348 & Local positive SHAP $-$ Group & -0.1531 [-0.2612, -0.0696] \\
+T & Incorrect & 348 & Local positive SHAP $-$ Tree $A$ & 0.0456 [0.0145, 0.1206] \\
+T & All & 962 & Local positive SHAP $-$ Group & 0.0175 [-0.0464, 0.1059] \\
+T & All & 962 & Local positive SHAP $-$ Tree $A$ & 0.0459 [-0.0028, 0.1377] \\
+\bottomrule\end{tabular}
+\end{table}

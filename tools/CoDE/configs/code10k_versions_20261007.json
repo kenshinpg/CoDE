@@ -1,0 +1,54 @@
+{
+  "stage": "frozen10k test versions",
+  "seed": 26100644,
+  "bootstrap": 1000,
+  "numerical_tolerance": 1e-10,
+  "support_gap_sensitivity": 0.01,
+  "pairing": "All unique unordered variant pairs within original explanation, operation, and retained fact count; original excluded; identical fact sets deduplicated. No selector or probe outcome selects variants.",
+  "aggregation": "Eligible pairs averaged within explanation, explanations within patient, then patients equally. Each pairwise method contrast uses common finite score pairs before aggregation.",
+  "endpoints": [
+    "support_d",
+    "support_d_gap_001",
+    "top1_d",
+    "top1_y"
+  ],
+  "endpoint_ties": "Excluded from ranking denominator; all possible pairs and tie counts reported. Scorer ties receive 0.5.",
+  "primary_probe": "encoder",
+  "secondary_probe": "lightgbm; LightGBM-derived scores are self-source descriptive controls",
+  "strata": [
+    "correct",
+    "wrong"
+  ],
+  "populations": [
+    "all"
+  ],
+  "baselines": [
+    "B0_cohd",
+    "B0_lightgbm",
+    "B1_fact",
+    "B1_group",
+    "B2_A_cohd",
+    "B2_A_lightgbm",
+    "B0_tabr",
+    "B0_no_retrieval"
+  ],
+  "candidates": [
+    "B3_cohd",
+    "B3_local_shap",
+    "B3_class_shap",
+    "B2_A_case",
+    "B2_A_tabr",
+    "B2_A_no_retrieval",
+    "B3_tabr",
+    "B3_no_retrieval"
+  ],
+  "comparators": [
+    "B1_group",
+    "B2_A_cohd",
+    "B2_A_lightgbm",
+    "B2_A_case",
+    "B2_A_tabr",
+    "B2_A_no_retrieval"
+  ],
+  "limits": "No clinical quality endpoint; support for wrong d is not clinical benefit. No fusion, B4, fit stability, or independent confirmation in this run. R ranks identically to A here. CIs unadjusted; no threshold tuning."
+}

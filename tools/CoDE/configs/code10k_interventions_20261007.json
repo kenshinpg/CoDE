@@ -1,0 +1,57 @@
+{
+  "stage": "frozen10k test intervention",
+  "seed": 26100643,
+  "patients": "all",
+  "max_explanations_per_patient": 4,
+  "partition": "test",
+  "sampling": "All original test rationales with complete mappings and supported proposed diagnosis; no outcome selection, no full-probe correctness restriction",
+  "selectors": {
+    "cohd": [
+      "support",
+      "counter"
+    ],
+    "local_shap": [
+      "support",
+      "counter"
+    ],
+    "class_shap": [
+      "unsigned"
+    ]
+  },
+  "direction_semantics": "COHD: full-input leave-group-out probability difference; local SHAP: group-summed raw class-logit attribution, not probability change; class SHAP: class mean absolute attribution, unsigned",
+  "operations": [
+    "add",
+    "delete"
+  ],
+  "group_budget": 1,
+  "random_repeats": 10,
+  "random_replacement": true,
+  "controls": "same direction and same actual changed fact count; exclude high-selected group; sample with replacement; no fallback",
+  "high": "maximum directional magnitude over legal candidates; lexical group tie-break",
+  "low": "minimum magnitude among same-count same-direction alternatives, lexical tie-break; ties retained",
+  "zero_tolerance": 1e-10,
+  "epsilon_role": "numerical zero only, not clinical threshold",
+  "group_scope": "add all observed missing members, delete all cited members; context held fixed",
+  "primary_probe": "encoder",
+  "secondary_probe": "lightgbm; tree-source self-evaluation descriptive",
+  "selection_uses_reference_label": false,
+  "selection_uses_probe_outcome": false,
+  "g0_acceptance": "contracts, exact-count matching, timing and explicit unavailability; not positive effect or significance",
+  "future_G1_metric": "high intervention effect minus mean ten matched random effects, within-patient averaging then patient bootstrap500",
+  "future_G2": "fixed patient, d, operation and changed count; B0/B1/B2/B3 scores exported, B4 requires separate freeze before G2",
+  "not_started": [
+    "LLM editing",
+    "fusion",
+    "new sources",
+    "refitting",
+    "PRM",
+    "clinical thresholds",
+    "independent confirmation"
+  ],
+  "analysis_populations": [
+    "all_development",
+    "excluding_original_40_patients"
+  ],
+  "bootstrap": 500,
+  "independent_confirmation": false
+}

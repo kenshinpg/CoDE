@@ -1,0 +1,6 @@
+cell_1,cell_2,cell_3,cell_4,cell_5,cell_6
+Dataset,Stratum,Reviewed,Opposing explanations,Opposing/all citations,Negative: used/all
+DDXPlus,Random,30,0/30,0/284,3/11
+DDXPlus,Targeted,20,0/20,0/230,1/6
+TRACE,Random,30,9/30,23/487,108/126
+TRACE,Targeted,20,4/20,8/314,69/83

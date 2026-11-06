@@ -1,0 +1,23 @@
+{
+  "protocol": "Read-only accepted v3_3 RQ2 and intervention cache summaries; all existing panels; no new inference significance claims",
+  "datasets": {
+    "DDX": {
+      "reference": "inputs/round1_followup_20261016/DDX_RQ2.json",
+      "reference_sha256": "590ccd182f1094c6834277a94619745df8aeda335e7afd394f0fe7ffb0e22d01",
+      "scores": "artifacts/code10k_rq2_v2_retry1/scores.jsonl",
+      "scores_sha256": "341a8784d1cb84c34fa07c779d2a3d278448c66cd7b1294465aaa6497cad599d"
+    },
+    "TRACE": {
+      "reference": "inputs/round1_followup_20261016/TRACE_RQ2_repaired.json",
+      "reference_sha256": "a98871d1cf90c766d3c63ac4a763f1ef44d385d40667bf3e38f88dcbf6538c93",
+      "scores": "artifacts/trace2400_tabr_repair_v1/rq2/scores_PRIVATE.jsonl",
+      "scores_sha256": "c6d2d175cca67b7e834404aec7c9de92844f06695b6e2be9e88df9fa6e8a66ef"
+    }
+  },
+  "interventions": {
+    "patient_aggregates": "artifacts/code10k_interventions_v1/effects/g1_patient_aggregates.json",
+    "reference": "artifacts/code10k_interventions_v1/effects/g1_all_panels.json",
+    "patient_sha256": "0a15d1e17281f3e87db1a8f2539a478739c8a05f553f6837ffbc1c7e9e5e4a64",
+    "reference_sha256": "c359929641afdf3362dfb3848ab012728725f5c6dada15d1a3c634fa2d1e0c5a"
+  }
+}

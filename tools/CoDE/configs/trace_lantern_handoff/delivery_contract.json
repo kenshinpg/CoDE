@@ -1,0 +1,68 @@
+{
+  "contract_id": "trace_rollout_handoff_v1",
+  "generation_model": "Qwen3-4B",
+  "extraction_service": "Qwen3.8-27B",
+  "rollouts_per_admission": 4,
+  "expected_admissions": 2400,
+  "expected_logical_tasks": 9600,
+  "generation_requested": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "max_output_tokens": 2048,
+    "thinking": false,
+    "diagnoses_count": 3,
+    "diagnoses_distinct": true,
+    "explanation_language": "English"
+  },
+  "extraction_workers": 128,
+  "model_identity": "Record actual repository/revision or deployment weight identity, tokenizer and service configuration; alias alone insufficient",
+  "preflight": "Fixed small development-only sample before full production; check full-input preservation, token length, format, mapping specificity and omitted mentions; no accuracy-based acceptance",
+  "generation_record_required": [
+    "task_id",
+    "patient_id",
+    "rollout_index",
+    "input_view_id",
+    "input_digest",
+    "messages",
+    "model_identity",
+    "request_parameters",
+    "attempts",
+    "selected_attempt",
+    "raw_response",
+    "status",
+    "parsed_explanation",
+    "parsed_diagnoses"
+  ],
+  "claim_record_required": [
+    "task_id",
+    "claim_id",
+    "quote",
+    "span_start",
+    "span_end",
+    "stated_concept",
+    "stated_value",
+    "assertion",
+    "qualifiers",
+    "concept_mapping",
+    "mapping_status",
+    "patient_fact_matches",
+    "review_status"
+  ],
+  "span_contract": "Unicode code-point offsets, half-open [start,end) against the unmodified parsed_explanation, plus exact quote; preserve raw response separately",
+  "patient_fact_match_fields": [
+    "fact_id",
+    "status",
+    "reason",
+    "matching_rule_id"
+  ],
+  "record_statuses": [
+    "complete",
+    "partial",
+    "failed"
+  ],
+  "attempt_policy": "Bounded retry for transport or structural errors within the same task; retain every attempt; never retry based on diagnostic correctness",
+  "review_policy": "Preserve initial extraction, changes, reasons and model config; distinguish model review and human review",
+  "outcomes": "Private reference diagnosis and per-patient outcome fields never enter generation, extraction or review requests",
+  "messages_policy": "Use all frozen display texts and the shared four-label vocabulary; no patient IDs, subject IDs, split, provenance, hidden facts or outcome sidecars in messages; store exact sent messages",
+  "no_silent_truncation": true
+}

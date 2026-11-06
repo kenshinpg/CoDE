@@ -1,0 +1,10 @@
+outputs/
+logs/
+models/
+resources/
+configs/environment.local.sh
+*.pkl
+*.safetensors
+*.npz
+*.sqlite
+__pycache__/

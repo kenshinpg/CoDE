@@ -1,0 +1,36 @@
+[
+  {
+    "path": "sis/sis.py",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/master/sufficient_input_subsets/sis.py",
+    "retrieved": "2026-10-23",
+    "commit": null,
+    "sha256": "2718ae0e195384927f814efeba0edd127cabcdebfaf7a4b9a02bf2d59e7b9079"
+  },
+  {
+    "path": "sis/LICENSE",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/master/LICENSE",
+    "retrieved": "2026-10-23",
+    "commit": null,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "anchor/anchor_base_upstream.py",
+    "url": "https://raw.githubusercontent.com/marcotcr/anchor/master/anchor/anchor_base.py",
+    "retrieved": "2026-10-23",
+    "commit": null,
+    "sha256": "57103ed072bebcdab48579a7b2cf8512aa768e9f6fc439fe3624ff8fc927d7f3"
+  },
+  {
+    "path": "anchor/LICENSE",
+    "url": "https://raw.githubusercontent.com/marcotcr/anchor/master/LICENSE",
+    "retrieved": "2026-10-23",
+    "commit": null,
+    "sha256": "500a7cc5f4df25bc5a6a291508b14eae69e925fc391072d96c3cd74147dd3bfb"
+  },
+  {
+    "path": "anchor/anchor_base.py",
+    "sha256": "1f2c4886c2c8bda019bffca5a7708e0943eb98b2e0652d525d62e0daaa2ca765",
+    "derived_from": "anchor/anchor_base_upstream.py",
+    "change": "Remove sole unused sklearn import; algorithm unchanged"
+  }
+]

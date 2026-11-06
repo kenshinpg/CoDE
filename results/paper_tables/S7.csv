@@ -1,0 +1,12 @@
+cell_1,cell_2,cell_3,cell_4,cell_5
+Probe,Mapping,vs. Group,vs. Association $A$,vs. Tree $A$
+Representation,Automatic,-0.0363,+0.2520,+0.2946
+Representation,R01--C,+0.0665,+0.2618,-0.1499
+Representation,R01--I,+0.0143,+0.1395,-0.3884
+Representation,R02--C,+0.2757,+0.4093,+0.1492
+Representation,R02--I,+0.0530,+0.2648,-0.2352
+Tree,Automatic,+0.0066,-0.1985,-0.3504
+Tree,R01--C,+0.0831,+0.3101,-0.4209
+Tree,R01--I,-0.0524,+0.2063,-0.5070
+Tree,R02--C,+0.1049,+0.1924,-0.5527
+Tree,R02--I,-0.0602,+0.1259,-0.6715

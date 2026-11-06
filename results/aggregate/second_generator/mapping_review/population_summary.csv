@@ -1,0 +1,7 @@
+id,probe,stratum,primary,reviewed_records,automatic_eligible,reviewed_eligible,common_records,subject_clusters,automatic_failures,reviewed_failures,failures_to_success,success_to_failure
+encoder_correct,encoder,correct,True,27,10,10,10,10,2,2,0,0
+encoder_incorrect,encoder,incorrect,False,27,7,7,7,7,4,4,0,0
+encoder_all,encoder,all,False,27,17,17,17,17,6,6,0,0
+lightgbm_correct,lightgbm,correct,False,27,10,10,10,10,0,0,0,0
+lightgbm_incorrect,lightgbm,incorrect,False,27,7,7,7,7,3,3,0,0
+lightgbm_all,lightgbm,all,False,27,17,17,17,17,3,3,0,0

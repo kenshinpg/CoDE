@@ -1,0 +1,20 @@
+\begin{table}[!tbp]\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{Role sensitivity for correct proposals under Representation. Entries are AP differences; Related and Support include simultaneous 95\% intervals with recomputed outcomes. Counts are explanations/patients or admissions. Assoc., Local and Group denote Association, local positive-SHAP and uniform group coverage; $A$ is Tree direct support.}
+\label{tab:role-contrasts}
+\begin{tabular}{llrll}\toprule
+Dataset / stratum ($n$/units) & Contrast & All & Related [simultaneous CI] & Support [simultaneous CI]\\\midrule
+DDXPlus / Random (11/11) & Assoc.$-$Group & 0.3000 & 0.0000 [-0.6000, 0.6000] & 0.0000 [-0.6000, 0.6000] \\
+DDXPlus / Random (11/11) & Local$-$Group & 0.8000 & 0.3333 [-0.2667, 0.9333] & 0.3333 [-0.2667, 0.9333] \\
+DDXPlus / Random (11/11) & Local$-A$ & 0.0000 & -0.2500 [-0.8500, 0.3500] & -0.2500 [-0.8500, 0.3500] \\
+DDXPlus / Targeted (20/18) & Assoc.$-$Group & 0.4485 & 0.0656 [-0.1251, 0.2563] & 0.0656 [-0.1251, 0.2563] \\
+DDXPlus / Targeted (20/18) & Local$-$Group & 0.2696 & 0.0483 [-0.1424, 0.2391] & 0.0483 [-0.1424, 0.2391] \\
+DDXPlus / Targeted (20/18) & Local$-A$ & 0.1541 & 0.0086 [-0.1821, 0.1993] & 0.0086 [-0.1821, 0.1993] \\
+TRACE / Random (13/13) & Assoc.$-$Group & 0.1035 & 0.0000 [0.0000, 0.0000] & 0.0000 [0.0000, 0.0000] \\
+TRACE / Random (13/13) & Local$-$Group & 0.3258 & 0.0000 [0.0000, 0.0000] & 0.0000 [0.0000, 0.0000] \\
+TRACE / Random (13/13) & Local$-A$ & 0.3167 & 0.0000 [0.0000, 0.0000] & 0.0000 [0.0000, 0.0000] \\
+TRACE / Targeted (20/18) & Assoc.$-$Group & 0.0221 & 0.4931 [0.0200, 0.9661] & 0.5101 [0.0225, 0.9977] \\
+TRACE / Targeted (20/18) & Local$-$Group & -0.0449 & 0.1319 [-0.3411, 0.6050] & 0.1240 [-0.3636, 0.6116] \\
+TRACE / Targeted (20/18) & Local$-A$ & 0.0112 & -0.3269 [-0.8000, 0.1462] & -0.3464 [-0.8340, 0.1412] \\
+\bottomrule\end{tabular}
+\par\smallskip\raggedright Failure counts for All/Related/Support are 1/2/2 (DDXPlus random), 8/11/11 (DDXPlus targeted), 2/2/2 (TRACE random), and 13/2/2 (TRACE targeted). Related and Support coincide in DDXPlus. In TRACE random, all four scores have AP=1 after restriction; the two failures have empty citation sets. Zero contrasts reflect this sample's separation, not population equivalence.
+\end{table}

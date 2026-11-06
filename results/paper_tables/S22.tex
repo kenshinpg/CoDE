@@ -1,0 +1,25 @@
+\begin{table}[!htbp]
+\begin{adjustwidth}{-\extralength}{0cm}
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Core contrasts and 95\% bootstrap intervals. RQ2 reports AP differences multiplied by 100; RQ3 reports concordance percentage points. Original and new marginal columns use 1,000 and 5,000 draws, respectively. The last column adjusts within each three-row family. Assoc./Local/Group denote coverage; $A$ is Tree direct support. RQ2 uses 1,979 explanations/889 patients (DDXPlus) and 614/210 admissions (TRACE). RQ3 $n$ counts units contributing discordant pairs.}\label{tab:simultaneous-contrasts}
+\begin{tabular}{llrrrr}\toprule
+Dataset & Contrast & Difference & Original marginal & New marginal & Simultaneous\\\midrule
+\multicolumn{6}{l}{\textbf{RQ2: correct proposals, Representation endpoint (AP $\times100$)}}\\
+DDXPlus & Assoc.$-$Group & 23.64 & [7.97, 45.12] & [8.11, 45.52] & [0.09, 47.18] \\
+DDXPlus & Local$-$Group & 9.42 & [0.76, 23.06] & [0.91, 24.21] & [-14.12, 32.97] \\
+DDXPlus & Local$-A$ & -7.27 & [-29.68, 9.78] & [-29.31, 11.98] & [-30.81, 16.28] \\
+\addlinespace
+TRACE & Assoc.$-$Group & 19.48 & [11.10, 29.79] & [11.16, 29.45] & [6.70, 32.26] \\
+TRACE & Local$-$Group & 23.71 & [14.57, 34.04] & [14.44, 34.93] & [10.93, 36.50] \\
+TRACE & Local$-A$ & -17.92 & [-28.17, -5.22] & [-28.81, -5.53] & [-30.70, -5.13] \\
+\midrule\multicolumn{6}{l}{\textbf{RQ3: Representation concordance ($A-$Local), percentage points}}\\
+DDXPlus & 25\% ($n=835$) & 2.21 & [1.28, 3.16] & [1.23, 3.19] & [-6.54, 10.96] \\
+DDXPlus & 50\% ($n=225$) & 6.46 & [4.18, 8.93] & [4.17, 8.91] & [-2.29, 15.21] \\
+DDXPlus & 75\% ($n=36$) & 3.48 & [-5.02, 12.34] & [-5.35, 12.12] & [-5.27, 12.23] \\
+\addlinespace
+TRACE & 25\% ($n=231$) & 5.43 & [3.00, 7.67] & [3.13, 7.83] & [1.46, 9.40] \\
+TRACE & 50\% ($n=182$) & 2.55 & [0.26, 4.79] & [0.35, 4.76] & [-1.42, 6.52] \\
+TRACE & 75\% ($n=109$) & 2.64 & [-0.99, 6.74] & [-1.26, 6.67] & [-1.32, 6.61] \\
+\bottomrule\end{tabular}
+\end{adjustwidth}
+\end{table}

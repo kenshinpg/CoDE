@@ -1,0 +1,5 @@
+dataset,audit_group,explanations,patients,all_citations,first_citations,support_citations,all_empty,first_empty,support_empty,opposed_citations,explanations_with_opposition,support_and_oppose_citations,negative_facts,negative_with_argument
+DDXPlus,random,30,28,284,114,114,0,6,6,0,0,0,11,3
+DDXPlus,targeted,20,18,230,119,119,0,3,3,0,0,0,6,1
+TRACE,random,30,30,487,143,120,0,3,4,23,9,0,126,108
+TRACE,targeted,20,18,314,80,73,0,0,0,8,4,1,83,69

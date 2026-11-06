@@ -1,0 +1,9 @@
+cell_1,cell_2,cell_3
+Score,DDXPlus,TRACE
+Frequency coverage,0.0127,0.1575
+IDF coverage,0.0249,0.1773
+Group coverage,0.0192,0.1880
+Fact coverage,0.0254,0.1880
+Association coverage,0.2556,0.3828
+Local positive-SHAP coverage,0.1135,0.4252
+Tree direct support $A$,0.1861,0.6043

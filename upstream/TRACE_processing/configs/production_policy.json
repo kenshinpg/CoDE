@@ -1,0 +1,80 @@
+{
+  "source_cohort": "All 2400 received admissions, no exclusion for extraction/link/review failure",
+  "history_examination": {
+    "ner_window_tokens": 512,
+    "ac_batch": 16,
+    "assertion_context_spacy_tokens": [
+      100,
+      25
+    ]
+  },
+  "retrieval": {
+    "max_tokens": 100,
+    "dimensions": 768,
+    "pooling": "attention_mask_mean",
+    "normalization": "L2",
+    "candidate_concepts_per_query": 20,
+    "tokenizer": "native; no lower-case override"
+  },
+  "link": {
+    "model": "Qwen3.8-27B",
+    "temperature": 0,
+    "max_tokens": 512,
+    "thinking": false,
+    "attempts_per_invocation": 3,
+    "response_mode": "json_object",
+    "local_validation": "Pydantic strict + candidate membership"
+  },
+  "history_review": {
+    "temperature": 0,
+    "max_tokens": 4096,
+    "thinking": false,
+    "attempts_per_invocation": 2,
+    "mapping_batch_mentions": 16,
+    "explicit_failed_task_second_pass": true,
+    "corrections_applied": false
+  },
+  "radiology": {
+    "atom_batch_parents": 8,
+    "mapping_page_units": 4,
+    "temperature": 0,
+    "max_tokens": 4096,
+    "thinking": false,
+    "map_and_review_attempts": 2,
+    "review_scope": "candidate-conditioned; not independent full-report recall audit",
+    "all_original_parents_retained": true
+  },
+  "laboratory": {
+    "states": [
+      "LOW",
+      "WITHIN_RANGE",
+      "HIGH"
+    ],
+    "unit_policy": "source_paired_assumption",
+    "unit_conversion": false,
+    "continuous_values_visible": false
+  },
+  "rollouts": {
+    "model": "Qwen3-4B",
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "max_tokens": 2048,
+    "thinking": false,
+    "base_seed": 261013,
+    "attempts_per_invocation": 3,
+    "diagnoses": 3,
+    "workers": 64
+  },
+  "matching": {
+    "model": "Qwen3.8-27B",
+    "facts_per_group": 8,
+    "free_tokens": 3072,
+    "segment_tokens": 2048,
+    "attempts_per_mode": 2,
+    "workers": 128,
+    "request_timeout": 150,
+    "tokenize_timeout": 30,
+    "no_upstream_candidate_filter": true
+  },
+  "status": "Recorded policies. Runtime manifests take precedence; this public candidate has not run clinical production."
+}

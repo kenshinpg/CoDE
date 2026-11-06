@@ -1,0 +1,6 @@
+cell_1,cell_2,cell_3,cell_4
+Partition,Patients,Rationales,Complete mappings
+Training,"6,988","27,952","25,115"
+Development,"1,506","6,024","5,400"
+Test,"1,506","6,024","5,382"
+Total,"10,000","40,000","35,897"

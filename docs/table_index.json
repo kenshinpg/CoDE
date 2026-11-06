@@ -1,0 +1,274 @@
+[
+  {
+    "item": "Table 1",
+    "label": "tab:method-selection",
+    "page": "5",
+    "document": "main",
+    "file": "results/paper_tables/main_1.csv",
+    "caption": ""
+  },
+  {
+    "item": "Table 2",
+    "label": "tab:analysis-populations",
+    "page": "10",
+    "document": "main",
+    "file": "results/paper_tables/main_2.csv",
+    "caption": ""
+  },
+  {
+    "item": "Table 3",
+    "label": "tab:trace-core",
+    "page": "11",
+    "document": "main",
+    "file": "results/paper_tables/main_3.csv",
+    "caption": ""
+  },
+  {
+    "item": "Table S1",
+    "label": "tab:cohort-partitions",
+    "page": "2",
+    "document": "supplement",
+    "file": "results/paper_tables/S1.csv",
+    "caption": "Patient partitions and machine-complete citation mappings before analysis-specific eligibility filters."
+  },
+  {
+    "item": "Table S2",
+    "label": "tab:rq2-flow",
+    "page": "2",
+    "document": "supplement",
+    "file": "results/paper_tables/S2.csv",
+    "caption": "Sequential inclusion for correct-proposal coverage and Tree-rule comparisons. Incorrect proposals remain in separate sensitivity analyses."
+  },
+  {
+    "item": "Table S3",
+    "label": "tab:trace-partitions",
+    "page": "2",
+    "document": "supplement",
+    "file": "results/paper_tables/S3.csv",
+    "caption": "TRACE partitions. App./Chol./Div./Panc. denote appendicitis, cholecystitis, diverticulitis and pancreatitis. Each test admission has a distinct inferred subject."
+  },
+  {
+    "item": "Table S4",
+    "label": "tab:rerun-config",
+    "page": "5",
+    "document": "supplement",
+    "file": "results/paper_tables/S4.csv",
+    "caption": "Configurations for the fitted sources, probes and text processing."
+  },
+  {
+    "item": "Table S5",
+    "label": "tab:reviewer-set-agreement",
+    "page": "10",
+    "document": "supplement",
+    "file": "results/paper_tables/S5.csv",
+    "caption": "Citation-set agreement. Dice, Jaccard and identical counts compare reviewers. The last two columns compare automatic mapping with each reviewer's policy set: micro precision/recall agreement (percent), not mapping accuracy. Neither reviewer is a gold standard."
+  },
+  {
+    "item": "Table S6",
+    "label": "tab:mapping-flips",
+    "page": "10",
+    "document": "supplement",
+    "file": "results/paper_tables/S6.csv",
+    "caption": "Four-combination mapping sensitivity. Cells give remaining failures (recovered/newly failing); all counts are rationales. C/I denote conservative/inclusive policies. Samples overlap by one rationale and are not pooled."
+  },
+  {
+    "item": "Table S7",
+    "label": "tab:targeted-policy-ap",
+    "page": "11",
+    "document": "supplement",
+    "file": "results/paper_tables/S7.csv",
+    "caption": "Targeted-audit policy sensitivity on the same 53 rationales (32 patients). Entries are descriptive AP differences: local positive-SHAP coverage minus each comparator; no significance claim is attached. C/I denote conservative/inclusive policies. Failure counts appear in Table~\\ref{tab:mapping-flips}; Tree-probe comparisons involve Tree-source self-evaluation."
+  },
+  {
+    "item": "Table S8",
+    "label": "tab:absolute-recovery",
+    "page": "12",
+    "document": "supplement",
+    "file": "results/paper_tables/S8.csv",
+    "caption": "Absolute reference-diagnosis recovery (\\%). R/T denote Representation/Tree. Panel A gives correct/evaluable admissions or patients before full-input correctness filtering. DDXPlus $H$ contains age and sex; TRACE $H$ is empty. Panel B uses correct proposals and both-full-correct records, and gives both explanation-weighted and unit-averaged recovery. Panel C averages within patient/admission before averaging across units. All results use frozen predictors."
+  },
+  {
+    "item": "Table S9",
+    "label": "tab:rq1-both-full-correct",
+    "page": "14",
+    "document": "supplement",
+    "file": "results/paper_tables/S9.csv",
+    "caption": "DDXPlus primary evidence-selection gains: 50 matched controls at 25\\% and ten at 50/75\\%. Patient-paired 95\\% intervals are unadjusted. R/T denote Representation/Tree probes; * marks self-evaluation. Group-enhanced shares the Representation backbone. Gains are relative to each selector's own fact-count-matched random control, not paired differences between selectors."
+  },
+  {
+    "item": "Table S10",
+    "label": "tab:trace-selection-contrasts",
+    "page": "14",
+    "document": "supplement",
+    "file": "results/paper_tables/S10.csv",
+    "caption": "TRACE direct accuracy contrasts at 25\\% (percentage points), mean admission-level selection Jaccard and identical-set percentage. Overlap describes one fitted-model comparison, not repeat-fit stability."
+  },
+  {
+    "item": "Table S11",
+    "label": "tab:trace-rq1-all",
+    "page": "14",
+    "document": "supplement",
+    "file": "results/paper_tables/S11.csv",
+    "caption": "TRACE all-test sensitivity at 25\\%: available admissions and matched-control gains [95\\% CI]. Availability is evaluated within each comparison family. Gains use 50 controls; $^{10}$ marks complete comparison families retaining ten because additional controls contain unseen Representation states."
+  },
+  {
+    "item": "Table S12",
+    "label": "tab:natural-core",
+    "page": "15",
+    "document": "supplement",
+    "file": "results/paper_tables/S12.csv",
+    "caption": "Natural-rationale failure AP [95\\% CI] for correct proposals. All rows use 1,979 rationales/889 patients; Representation and Tree probes have 20 and 39 failures. $^{*}$: self-evaluation; Group-enhanced shares the Representation backbone."
+  },
+  {
+    "item": "Table S13",
+    "label": "tab:trace-natural",
+    "page": "15",
+    "document": "supplement",
+    "file": "results/paper_tables/S13.csv",
+    "caption": "TRACE natural-rationale failure AP [95\\% CI], correct proposals: 614 explanations from 210 admissions, with 105 Representation and 44 Tree failures. *: self-evaluation. Fact and group coverage coincide because feature groups are singletons."
+  },
+  {
+    "item": "Table S14",
+    "label": "tab:trace-natural-sensitivity",
+    "page": "16",
+    "document": "supplement",
+    "file": "results/paper_tables/S14.csv",
+    "caption": "TRACE reference-recovery sensitivities. Scores continue to target the proposed diagnosis. Including partial exact mappings changes eligibility, rather than applying human corrections. Upper panel: descriptive AP on common records. Lower panel: paired AP differences with 95\\% inferred-subject bootstrap intervals, unadjusted for multiple comparisons. R/T denote Representation/Tree probes; Tree-source scores under T involve self-evaluation."
+  },
+  {
+    "item": "Table S15",
+    "label": "tab:controlled-core",
+    "page": "17",
+    "document": "supplement",
+    "file": "results/paper_tables/S15.csv",
+    "caption": "Controlled-set patient-averaged concordance (\\%) [95\\% CI]. Common sets at 25/50/75\\%: 11,641/12,397/10,224. The Representation probe contributes 835, 225 and 36 patients. Tree self-evaluation is omitted; fixed-count fact coverage equals 50\\%, and Tree $R$ has identical within-patient ordering to $A$."
+  },
+  {
+    "item": "Table S16",
+    "label": "tab:trace-controlled-contrasts",
+    "page": "17",
+    "document": "supplement",
+    "file": "results/paper_tables/S16.csv",
+    "caption": "TRACE paired controlled contrasts. Concordance differences are percentage points; referenced-support differences use AP units. Intervals are marginal and unadjusted; R/T denote Representation/Tree. Tree-source comparisons under T involve self-evaluation. Positive concordance favors the first named score. $R$ and $A$ have the same fixed-admission, fixed-diagnosis ordering."
+  },
+  {
+    "item": "Table S17",
+    "label": "tab:version-support-contrasts",
+    "page": "18",
+    "document": "supplement",
+    "file": "results/paper_tables/S17.csv",
+    "caption": "Fixed-diagnosis evidence-version comparisons under the Representation probe. Panel A gives local positive-SHAP minus comparator concordance (percentage points) for correct proposals and nonzero support differences. Panel B additionally requires both versions to recover the reference diagnosis and a target-support gap of at least 0.01; it reports SHAP concordance (percent) and paired differences (points). Brackets give 95\\% intervals. Populations differ between panels. Higher support for an incorrect proposal is not clinical improvement."
+  },
+  {
+    "item": "Table S18",
+    "label": "tab:adjudicated-quality",
+    "page": "19",
+    "document": "supplement",
+    "file": "results/paper_tables/S18.csv",
+    "caption": "Automatic citation mapping against complete adjudicated references. Complete/reviewed counts describe explanations; units are patients or admissions. Precision, recall and F1 pool facts within each stratum. DDXPlus strata overlap by one explanation."
+  },
+  {
+    "item": "Table S19",
+    "label": "tab:adjudicated-contrasts",
+    "page": "19",
+    "document": "supplement",
+    "file": "results/paper_tables/S19.csv",
+    "caption": "Adjudicated-reference sensitivity for correct proposals under Representation. Assoc., Local and Group denote Association, local positive-SHAP and uniform group coverage; $A$ is Tree direct support. Fixed retains automatic outcomes; Updated recomputes them. Intervals are simultaneous 95\\% intervals for the Updated contrast, adjusted across three comparisons within each stratum. Counts are explanations/patients or admissions."
+  },
+  {
+    "item": "Table S20",
+    "label": "tab:role-census",
+    "page": "20",
+    "document": "supplement",
+    "file": "results/paper_tables/S20.csv",
+    "caption": "Premise roles in the reviewed explanations. Opposing refers to the first-ranked diagnosis. The final column counts negative/normal citations with stated argumentative use. Random and targeted strata are reported separately."
+  },
+  {
+    "item": "Table S21",
+    "label": "tab:role-contrasts",
+    "page": "21",
+    "document": "supplement",
+    "file": "results/paper_tables/S21.csv",
+    "caption": "Role sensitivity for correct proposals under Representation. Entries are AP differences; Related and Support include simultaneous 95\\% intervals with recomputed outcomes. Counts are explanations/patients or admissions. Assoc., Local and Group denote Association, local positive-SHAP and uniform group coverage; $A$ is Tree direct support."
+  },
+  {
+    "item": "Table S22",
+    "label": "tab:simultaneous-contrasts",
+    "page": "22",
+    "document": "supplement",
+    "file": "results/paper_tables/S22.csv",
+    "caption": "Core contrasts and 95\\% bootstrap intervals. RQ2 reports AP differences multiplied by 100; RQ3 reports concordance percentage points. Original and new marginal columns use 1,000 and 5,000 draws, respectively. The last column adjusts within each three-row family. Assoc./Local/Group denote coverage; $A$ is Tree direct support. RQ2 uses 1,979 explanations/889 patients (DDXPlus) and 614/210 admissions (TRACE). RQ3 $n$ counts units contributing discordant pairs."
+  },
+  {
+    "item": "Table S23",
+    "label": "tab:ap-prevalence-reference",
+    "page": "22",
+    "document": "supplement",
+    "file": "results/paper_tables/S23.csv",
+    "caption": "AP relative to failure prevalence for correct proposals under Representation. The common populations contain 20/1,979 failures in DDXPlus ($\\pi=0.0101$) and 105/614 in TRACE ($\\pi=0.1710$). Lift is a descriptive ratio, not an accuracy improvement."
+  },
+  {
+    "item": "Table S24",
+    "label": "tab:aligned-endpoints",
+    "page": "23",
+    "document": "supplement",
+    "file": "results/paper_tables/S24.csv",
+    "caption": "Descriptive AP under two endpoints, using the Representation probe and complete mappings. Within each dataset/stratum, records are identical across endpoints and methods. Group and Local denote group coverage and local positive-SHAP coverage; $A$ denotes Tree direct support. Events are failures to recover the reference or disagreements with the proposal."
+  },
+  {
+    "item": "Table S25",
+    "label": "tab:equal-fact-check",
+    "page": "24",
+    "document": "supplement",
+    "file": "results/paper_tables/S25.csv",
+    "caption": "Accuracy differences between original selections in equal-fact-count matched subgroups at the 25\\% budget, using Representation and full-input-correct records. Differences are left minus right in percentage points; marginal 95\\% intervals use 5,000 patient/admission bootstrap draws."
+  },
+  {
+    "item": "Table S26",
+    "label": "tab:temperature-ranking",
+    "page": "25",
+    "document": "supplement",
+    "file": "results/paper_tables/S26.csv",
+    "caption": "Development-temperature sensitivity under Representation. Natural rows compare local positive-SHAP coverage minus Tree $A$ in correct proposals (AP units); controlled rows compare Tree $A$ minus local positive-SHAP coverage (percentage points). Intervals are simultaneous 95\\% intervals for calibrated contrasts. Original main results remain unchanged."
+  },
+  {
+    "item": "Table S27",
+    "label": "tab:source-correction-natural",
+    "page": "25",
+    "document": "supplement",
+    "file": "results/paper_tables/S27.csv",
+    "caption": "TRACE source-fact sensitivity: AP contrasts under Representation after reapplying eligibility to each view. Correct proposals use 614/210 original and 613/209 corrected explanations/admissions. All proposals use 962/250 and 961/249; incorrect proposals retain 348 explanations. Intervals adjust within each three-contrast stratum. All scores target the proposed diagnosis; recovery targets the reference diagnosis."
+  },
+  {
+    "item": "Table S28",
+    "label": "tab:source-correction-controlled",
+    "page": "26",
+    "document": "supplement",
+    "file": "results/paper_tables/S28.csv",
+    "caption": "TRACE controlled-set correction sensitivity under Representation. Values are concordance percentage-point differences, Tree $A$ minus local positive-SHAP coverage. Counts are original/corrected admissions contributing success--failure pairs. Intervals adjust across budgets."
+  },
+  {
+    "item": "Table S29",
+    "label": "tab:extra-selection",
+    "page": "27",
+    "document": "supplement",
+    "file": "results/paper_tables/S29.csv",
+    "caption": "Additional selection baselines under the Representation probe. Panel A uses the 25\\% group budget. Panel B uses variable-size threshold/search sets and its own available population. Recovery and random-control recovery are percentages; gain intervals are pointwise percentage-point intervals."
+  },
+  {
+    "item": "Table S30",
+    "label": "tab:extra-natural",
+    "page": "27",
+    "document": "supplement",
+    "file": "results/paper_tables/S30.csv",
+    "caption": "Failure-detection AP for correct-proposal natural explanations under Representation. All rows within a dataset use the same available comparison records: DDXPlus has 1,979 explanations/889 patients and 20 failures; TRACE has 614 explanations/210 admissions and 105 failures. Existing scores are repeated as comparators."
+  },
+  {
+    "item": "Table S31",
+    "label": "tab:second-generator",
+    "page": "28",
+    "document": "supplement",
+    "file": "results/paper_tables/S31.csv",
+    "caption": "Second-generator failure-detection AP contrasts under the Representation probe. Values are AP differences with simultaneous 95\\% intervals for each three-contrast family. Association and SHAP denote Association coverage and local positive-SHAP coverage; Group denotes equal-weight group coverage. Correct-proposal 4B/27B populations contain 614/635 explanations, 210/206 admissions and 105/98 failures. The 27B all-proposal and incorrect-proposal populations contain 990/355 explanations and 255/157 failures."
+  }
+]

@@ -1,0 +1,6 @@
+cell_1,cell_2,cell_3,cell_4,cell_5,cell_6
+Sample / policy,Dice,Jaccard,Identical,Auto--R01 P/R,Auto--R02 P/R
+Random / Conservative,0.7849,0.6411,1/50,87.92/82.34,73.52/81.46
+Random / Inclusive,0.9646,0.9350,19/50,98.52/68.79,99.58/66.48
+Targeted / Conservative,0.7407,0.6079,0/53,83.88/78.40,75.34/77.29
+Targeted / Inclusive,0.9348,0.8690,13/53,93.79/62.97,99.61/63.18

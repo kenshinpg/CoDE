@@ -1,0 +1,30 @@
+{
+  "model": {
+    "num_embeddings": null,
+    "d_main": 265,
+    "context_dropout": 0.38920071545944357,
+    "d_multiplier": 2.0,
+    "encoder_n_blocks": 0,
+    "predictor_n_blocks": 1,
+    "mixer_normalization": "auto",
+    "dropout0": 0.38852797479169876,
+    "dropout1": 0.0,
+    "normalization": "LayerNorm",
+    "activation": "ReLU"
+  },
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 0.0003121273641315169,
+    "weight_decay": 1.2260352006404615e-06
+  },
+  "context_size": 96,
+  "original_batch_size": 512,
+  "original_patience": 16,
+  "seed": 261007,
+  "epochs": 30,
+  "batch_size": 128,
+  "checkpoint": "fixed_final_epoch; no explanation labels or reserved results for selection",
+  "source_sha256": "7ad417baa846f500aa5ae8546907936ed9d538dbaa6680086cc060e6edc6c841",
+  "source_configuration": "exp/tabr/otto/default-evaluation/0.toml",
+  "scope": "development feasibility, not final RQ results"
+}

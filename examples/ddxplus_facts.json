@@ -1,0 +1,510 @@
+[
+  {
+    "example": "ddx_example_1",
+    "facts": [
+      {
+        "fact_id": "E_103:true",
+        "feature_id": "E_103",
+        "value": "true",
+        "question": "Have you lost your sense of smell?",
+        "value_text": "Yes",
+        "group_id": "group_33137fdc7a57076b"
+      },
+      {
+        "fact_id": "E_116:true",
+        "feature_id": "E_116",
+        "value": "true",
+        "question": "Have you had a cold in the last 2 weeks?",
+        "value_text": "Yes",
+        "group_id": "group_bbd993a5d2edfabc"
+      },
+      {
+        "fact_id": "E_120:true",
+        "feature_id": "E_120",
+        "value": "true",
+        "question": "Do you have polyps in your nose?",
+        "value_text": "Yes",
+        "group_id": "group_b114d719eecf50ba"
+      },
+      {
+        "fact_id": "E_124:true",
+        "feature_id": "E_124",
+        "value": "true",
+        "question": "Do you have asthma or have you ever had to use a bronchodilator in the past?",
+        "value_text": "Yes",
+        "group_id": "group_8d47cd6a12b77e6b"
+      },
+      {
+        "fact_id": "E_125:true",
+        "feature_id": "E_125",
+        "value": "true",
+        "question": "Have you ever been diagnosed with gastroesophageal reflux?",
+        "value_text": "Yes",
+        "group_id": "group_67fda3c09c3b9d5b"
+      },
+      {
+        "fact_id": "E_181:true",
+        "feature_id": "E_181",
+        "value": "true",
+        "question": "Do you have nasal congestion or a clear runny nose?",
+        "value_text": "Yes",
+        "group_id": "group_f14dca0044ecc03d"
+      },
+      {
+        "fact_id": "E_201:true",
+        "feature_id": "E_201",
+        "value": "true",
+        "question": "Do you have a cough?",
+        "value_text": "Yes",
+        "group_id": "group_d198cd75ab1e8068"
+      },
+      {
+        "fact_id": "E_204:V_10",
+        "feature_id": "E_204",
+        "value": "V_10",
+        "question": "Have you traveled out of the country in the last 4 weeks?",
+        "value_text": "N",
+        "group_id": "group_18ca7685c54cea21"
+      },
+      {
+        "fact_id": "E_226:true",
+        "feature_id": "E_226",
+        "value": "true",
+        "question": "Are you more likely to develop common allergies than the general population?",
+        "value_text": "Yes",
+        "group_id": "group_2771f4458b7dd6c5"
+      },
+      {
+        "fact_id": "E_53:true",
+        "feature_id": "E_53",
+        "value": "true",
+        "question": "Do you have pain somewhere, related to your reason for consulting?",
+        "value_text": "Yes",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_54:V_192",
+        "feature_id": "E_54",
+        "value": "V_192",
+        "question": "Characterize your pain:",
+        "value_text": "sharp",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_55:V_108",
+        "feature_id": "E_55",
+        "value": "V_108",
+        "question": "Do you feel pain somewhere?",
+        "value_text": "cheek(R)",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_55:V_109",
+        "feature_id": "E_55",
+        "value": "V_109",
+        "question": "Do you feel pain somewhere?",
+        "value_text": "cheek(L)",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_55:V_122",
+        "feature_id": "E_55",
+        "value": "V_122",
+        "question": "Do you feel pain somewhere?",
+        "value_text": "nose",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_55:V_32",
+        "feature_id": "E_55",
+        "value": "V_32",
+        "question": "Do you feel pain somewhere?",
+        "value_text": "mouth",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_55:V_89",
+        "feature_id": "E_55",
+        "value": "V_89",
+        "question": "Do you feel pain somewhere?",
+        "value_text": "forehead",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_56:3",
+        "feature_id": "E_56",
+        "value": "3",
+        "question": "How intense is the pain?",
+        "value_text": "3",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_57:V_122",
+        "feature_id": "E_57",
+        "value": "V_122",
+        "question": "Does the pain radiate to another location?",
+        "value_text": "nose",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_57:V_166",
+        "feature_id": "E_57",
+        "value": "V_166",
+        "question": "Does the pain radiate to another location?",
+        "value_text": "temple(R)",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_57:V_167",
+        "feature_id": "E_57",
+        "value": "V_167",
+        "question": "Does the pain radiate to another location?",
+        "value_text": "temple(L)",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_57:V_25",
+        "feature_id": "E_57",
+        "value": "V_25",
+        "question": "Does the pain radiate to another location?",
+        "value_text": "back of head",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_58:5",
+        "feature_id": "E_58",
+        "value": "5",
+        "question": "How precisely is the pain located?",
+        "value_text": "5",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_59:3",
+        "feature_id": "E_59",
+        "value": "3",
+        "question": "How fast did the pain appear?",
+        "value_text": "3",
+        "group_id": "group_dbc123675c51e5b2"
+      }
+    ]
+  },
+  {
+    "example": "ddx_example_2",
+    "facts": [
+      {
+        "fact_id": "E_194:true",
+        "feature_id": "E_194",
+        "value": "true",
+        "question": "Have you noticed a high pitched sound when breathing in?",
+        "value_text": "Yes",
+        "group_id": "group_cdb5550d837e4ef8"
+      },
+      {
+        "fact_id": "E_202:true",
+        "feature_id": "E_202",
+        "value": "true",
+        "question": "Does the person have a whooping cough?",
+        "value_text": "Yes",
+        "group_id": "group_06171e947218bc13"
+      },
+      {
+        "fact_id": "E_204:V_4",
+        "feature_id": "E_204",
+        "value": "V_4",
+        "question": "Have you traveled out of the country in the last 4 weeks?",
+        "value_text": "North America",
+        "group_id": "group_18ca7685c54cea21"
+      },
+      {
+        "fact_id": "E_209:true",
+        "feature_id": "E_209",
+        "value": "true",
+        "question": "Are your vaccinations up to date?",
+        "value_text": "Yes",
+        "group_id": "group_586ca91cef39ed45"
+      },
+      {
+        "fact_id": "E_219:true",
+        "feature_id": "E_219",
+        "value": "true",
+        "question": "Are your symptoms more prominent at night?",
+        "value_text": "Yes",
+        "group_id": "group_5369c6f5e6809a0b"
+      },
+      {
+        "fact_id": "E_4:true",
+        "feature_id": "E_4",
+        "value": "true",
+        "question": "Have you or any member of your family ever had croup?",
+        "value_text": "Yes",
+        "group_id": "group_7a679c7530cc08ee"
+      }
+    ]
+  },
+  {
+    "example": "ddx_example_3",
+    "facts": [
+      {
+        "fact_id": "E_116:true",
+        "feature_id": "E_116",
+        "value": "true",
+        "question": "Have you had a cold in the last 2 weeks?",
+        "value_text": "Yes",
+        "group_id": "group_bbd993a5d2edfabc"
+      },
+      {
+        "fact_id": "E_119:true",
+        "feature_id": "E_119",
+        "value": "true",
+        "question": "Have you been diagnosed with chronic sinusitis?",
+        "value_text": "Yes",
+        "group_id": "group_1553f9d5a94bfb4f"
+      },
+      {
+        "fact_id": "E_124:true",
+        "feature_id": "E_124",
+        "value": "true",
+        "question": "Do you have asthma or have you ever had to use a bronchodilator in the past?",
+        "value_text": "Yes",
+        "group_id": "group_8d47cd6a12b77e6b"
+      },
+      {
+        "fact_id": "E_201:true",
+        "feature_id": "E_201",
+        "value": "true",
+        "question": "Do you have a cough?",
+        "value_text": "Yes",
+        "group_id": "group_d198cd75ab1e8068"
+      },
+      {
+        "fact_id": "E_204:V_10",
+        "feature_id": "E_204",
+        "value": "V_10",
+        "question": "Have you traveled out of the country in the last 4 weeks?",
+        "value_text": "N",
+        "group_id": "group_18ca7685c54cea21"
+      },
+      {
+        "fact_id": "E_214:true",
+        "feature_id": "E_214",
+        "value": "true",
+        "question": "Have you noticed a wheezing sound when you exhale?",
+        "value_text": "Yes",
+        "group_id": "group_f235151046cfbff3"
+      },
+      {
+        "fact_id": "E_46:true",
+        "feature_id": "E_46",
+        "value": "true",
+        "question": "Have you had 2 or more asthma attacks in the past year?",
+        "value_text": "Yes",
+        "group_id": "group_5471ac9cf6910a8b"
+      },
+      {
+        "fact_id": "E_66:true",
+        "feature_id": "E_66",
+        "value": "true",
+        "question": "Are you experiencing shortness of breath or difficulty breathing in a significant way?",
+        "value_text": "Yes",
+        "group_id": "group_887f90d71ceeaf53"
+      }
+    ]
+  },
+  {
+    "example": "ddx_example_4",
+    "facts": [
+      {
+        "fact_id": "E_124:true",
+        "feature_id": "E_124",
+        "value": "true",
+        "question": "Do you have asthma or have you ever had to use a bronchodilator in the past?",
+        "value_text": "Yes",
+        "group_id": "group_8d47cd6a12b77e6b"
+      },
+      {
+        "fact_id": "E_140:true",
+        "feature_id": "E_140",
+        "value": "true",
+        "question": "Have you recently had stools that were black (like coal)?",
+        "value_text": "Yes",
+        "group_id": "group_4ee3a3ff3c067996"
+      },
+      {
+        "fact_id": "E_173:true",
+        "feature_id": "E_173",
+        "value": "true",
+        "question": "Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?",
+        "value_text": "Yes",
+        "group_id": "group_bfa24f8b31aea1cf"
+      },
+      {
+        "fact_id": "E_201:true",
+        "feature_id": "E_201",
+        "value": "true",
+        "question": "Do you have a cough?",
+        "value_text": "Yes",
+        "group_id": "group_d198cd75ab1e8068"
+      },
+      {
+        "fact_id": "E_204:V_10",
+        "feature_id": "E_204",
+        "value": "V_10",
+        "question": "Have you traveled out of the country in the last 4 weeks?",
+        "value_text": "N",
+        "group_id": "group_18ca7685c54cea21"
+      },
+      {
+        "fact_id": "E_210:true",
+        "feature_id": "E_210",
+        "value": "true",
+        "question": "Have you recently thrown up blood or something resembling coffee beans?",
+        "value_text": "Yes",
+        "group_id": "group_56b61edaad380c72"
+      },
+      {
+        "fact_id": "E_215:true",
+        "feature_id": "E_215",
+        "value": "true",
+        "question": "Do you have symptoms that get worse after eating?",
+        "value_text": "Yes",
+        "group_id": "group_ff268014e21a6b87"
+      },
+      {
+        "fact_id": "E_53:true",
+        "feature_id": "E_53",
+        "value": "true",
+        "question": "Do you have pain somewhere, related to your reason for consulting?",
+        "value_text": "Yes",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_54:V_112",
+        "feature_id": "E_54",
+        "value": "V_112",
+        "question": "Characterize your pain:",
+        "value_text": "haunting",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_54:V_161",
+        "feature_id": "E_54",
+        "value": "V_161",
+        "question": "Characterize your pain:",
+        "value_text": "sensitive",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_54:V_179",
+        "feature_id": "E_54",
+        "value": "V_179",
+        "question": "Characterize your pain:",
+        "value_text": "a knife stroke",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_54:V_180",
+        "feature_id": "E_54",
+        "value": "V_180",
+        "question": "Characterize your pain:",
+        "value_text": "tugging",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_54:V_181",
+        "feature_id": "E_54",
+        "value": "V_181",
+        "question": "Characterize your pain:",
+        "value_text": "burning",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_54:V_193",
+        "feature_id": "E_54",
+        "value": "V_193",
+        "question": "Characterize your pain:",
+        "value_text": "sickening",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_54:V_196",
+        "feature_id": "E_54",
+        "value": "V_196",
+        "question": "Characterize your pain:",
+        "value_text": "scary",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_55:V_101",
+        "feature_id": "E_55",
+        "value": "V_101",
+        "question": "Do you feel pain somewhere?",
+        "value_text": "upper chest",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_55:V_104",
+        "feature_id": "E_55",
+        "value": "V_104",
+        "question": "Do you feel pain somewhere?",
+        "value_text": "hypochondrium(L)",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_55:V_187",
+        "feature_id": "E_55",
+        "value": "V_187",
+        "question": "Do you feel pain somewhere?",
+        "value_text": "belly",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_56:7",
+        "feature_id": "E_56",
+        "value": "7",
+        "question": "How intense is the pain?",
+        "value_text": "7",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_57:V_101",
+        "feature_id": "E_57",
+        "value": "V_101",
+        "question": "Does the pain radiate to another location?",
+        "value_text": "upper chest",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_57:V_29",
+        "feature_id": "E_57",
+        "value": "V_29",
+        "question": "Does the pain radiate to another location?",
+        "value_text": "lower chest",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_58:8",
+        "feature_id": "E_58",
+        "value": "8",
+        "question": "How precisely is the pain located?",
+        "value_text": "8",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_59:0",
+        "feature_id": "E_59",
+        "value": "0",
+        "question": "How fast did the pain appear?",
+        "value_text": "0",
+        "group_id": "group_dbc123675c51e5b2"
+      },
+      {
+        "fact_id": "E_98:true",
+        "feature_id": "E_98",
+        "value": "true",
+        "question": "Do you have a hiatal hernia?",
+        "value_text": "Yes",
+        "group_id": "group_05f314ba17fb2630"
+      }
+    ]
+  }
+]

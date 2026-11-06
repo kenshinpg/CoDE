@@ -1,0 +1,6 @@
+cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9
+Dataset,Stratum,Complete/reviewed,Units,Precision,Recall,F1,Extra,Missed
+DDXPlus,Random,50/50,48,0.8008,0.8271,0.8138,94,79
+DDXPlus,Targeted,52/53,31,0.8819,0.8000,0.8390,60,112
+TRACE,Random,56/60,51,0.9518,0.9722,0.9619,46,26
+TRACE,Targeted,33/40,29,0.9160,0.9581,0.9366,44,21

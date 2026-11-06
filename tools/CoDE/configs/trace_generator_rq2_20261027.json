@@ -1,0 +1,57 @@
+{
+  "protocol": "trace_second_generator_rq2_20261027",
+  "generation_reference": {
+    "historical_full_pipeline_sha256": "09045edc5d144ec0f944790214c9eef9701179ff5c53736679a2200b3b17244a",
+    "bundled_pilot_snapshot_sha256": "b8d06815145c767307dc3032c30aadedc2e2408921570c4d1861fc98652788a4",
+    "reused_full_production_elements": ["SYSTEM", "Answer", "messages", "parse_response"],
+    "adapted_elements": ["preparation", "driver", "logging", "infrastructure_recovery"],
+    "token_preflight": "service tokenize budget check; no replay of historical local/service token-sequence gate",
+    "generation_seed_base": 261013,
+    "independent_generator_task_ids": true
+  },
+  "infrastructure_recovery": {
+    "policy": "stop_node_then_resume_same_task_independent_of_outcomes",
+    "generation_budget": "3 returned responses; infrastructure exceptions recorded separately",
+    "matching_budget": "2 returned responses per mode; free then segment; infrastructure exceptions recorded separately",
+    "difference_from_history": "Historical transport errors consumed attempts and could trigger segment fallback; this recovery policy can affect mappings and eligibility"
+  },
+  "paths": {
+    "view": "artifacts/trace2400_view_v2_names",
+    "models": "artifacts/trace2400_extended_sources_v1",
+    "baseline_scores": "artifacts/trace2400_tabr_repair_v1/rq2/scores_PRIVATE.jsonl",
+    "baseline_ledger": "artifacts/trace2400_tabr_repair_v1/rq2/explanation_ledger.jsonl"
+  },
+  "frozen_patients_sha256": "3061f988e105c667731e4ed4071c4bcb201d0e5303bd7bf6799ca3171dba8bad",
+  "baseline_scores_sha256": "c6d2d175cca67b7e834404aec7c9de92844f06695b6e2be9e88df9fa6e8a66ef",
+  "model_sha256": {
+    "encoder": "1af024fd90ff78aede5553b3bc347324425d8b219850cad06259a7658ad035ed",
+    "cohd": "c10290862b9bf032b44924bbff5e01c9c3f69c69d48a43043df1998732b45a23",
+    "lightgbm": "f14aea442e6dbfe229cbe979e5cc4636fa13ebcbc7a655760cb1b98a3e839c01"
+  },
+  "reused_code_sha256": {
+    "src/code_eval/trace2400/bank.py": "15323be7f581855c99eba0739a2e7686e098b9114a7d34d4c1067ee496a56764",
+    "src/code_eval/trace2400/math_policy.py": "0635e723656bc572241091e6320c81165f917aa139db85b3e0fffee501348f55",
+    "src/code_eval/trace2400/encoding.py": "9f10ab8a1606e43e48453e366b5fcefacb1493aa369694897bb8613b9ecb57b0",
+    "src/code_eval/trace2400/retrieval.py": "225469f21a0f99994297db9992988c00c51cbd464fc07f19f1fc7c5b65fa1205",
+    "src/code_eval/context_encoder.py": "af91e4e15202ed79200aa1e82af99ac604d021d43ac2b3525911449b5c1ca144",
+    "src/code_eval/cohort_stats.py": "6d6f5196a1787fb131aa5843680cc191e9c4d4d798724ef700a752138e63a0bd",
+    "src/code_eval/tree_subset.py": "a3609f8b92f68be7e285ccba5eba652cf4e7348594cb0f5bdb87b6950e557d05",
+    "src/code_eval/round1_followup.py": "c30e496819565953cebe1a8caa60f2a0d7c2142d8169fe3346dd3429bf015d81",
+    "src/code_eval/proxy_metrics.py": "4a57cfe7c450cca6bf5f748fe3f520c8b5e8637ac89dbf92d5f99d8d64cce7c2",
+    "src/code_eval/adjudication_sensitivity.py": "6b4be27f4e91c34ffc3ea900bbe1fc51e985fdcf09e277f5c1719eeae1b59415",
+    "scripts/run_coverage_controls.py": "bcb40f31a43001122448ec8487f9579bb7d77a8434408059364ef3614067696f"
+  },
+  "scope": {
+    "test_admissions": 359,
+    "rollouts_per_admission": 4,
+    "generation": "Qwen3.8-27B",
+    "primary_probe": "encoder",
+    "primary_stratum": "correct",
+    "bootstrap": 5000,
+    "seed": 261016,
+    "simultaneous_family": "3 contrasts within generator/probe/stratum",
+    "mapping": "original automatic full_v1",
+    "source_F": "original frozen input",
+    "human_spotcheck": "32 fixed records exported, not automatically accepted"
+  }
+}

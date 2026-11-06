@@ -1,0 +1,11 @@
+cell_1,cell_2,cell_3
+\textbf{Contrast},\textbf{Difference},\textbf{Simultaneous 95\% CI}
+\multicolumn{3}{l}{Natural explanations: failure-detection AP differences},,
+"Association coverage {$-$} 
+ group coverage",0.1948,"[0.0670, 0.3226]"
+Local positive SHAP {$-$} group coverage,0.2371,"[0.1093, 0.3650]"
+Local positive SHAP {$-$} Tree $A$,$-$0.1792,"[$-$0.3070, $-$0.0513]"
+\multicolumn{3}{l}{Controlled subsets: Tree $A$ {$-$} local positive SHAP (percentage points)},,
+25\% budget ($n=231$),5.43,"[1.46, 9.40]"
+50\% budget ($n=182$),2.55,"[$-$1.42, 6.52]"
+75\% budget ($n=109$),2.64,"[$-$1.32, 6.61]"

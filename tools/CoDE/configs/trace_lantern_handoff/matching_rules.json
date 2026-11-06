@@ -1,0 +1,37 @@
+{
+  "rule_id": "trace_visible_fact_matching_v1",
+  "mapping_scope": "General HPO mapping for textual claims; native lab item and discrete state for laboratory claims; retain unsupported concepts",
+  "match_target": "Facts visible in this rollout input_view_id only",
+  "statuses": [
+    "exact",
+    "partial",
+    "contradiction",
+    "ambiguous",
+    "no_visible_fact"
+  ],
+  "exact_definition": "Same concept meaning, explicitly expressed state/assertion and required qualifiers; synonyms allowed only when semantic specificity is preserved",
+  "partial_definition": "Broader concept or omitted required site, degree, state or other modifier; not exact coverage",
+  "contradiction_definition": "Explicit incompatible assertion or state on an identifiable patient feature",
+  "ambiguous_definition": "Multiple unresolved concepts/items/values or uncertain alignment",
+  "no_visible_fact_definition": "No counterpart in the actual visible input; underlying TRACE record association is separate",
+  "primary_coverage": {
+    "eligible_status": "exact",
+    "unique_by": "fact_id",
+    "partial_weight": 0,
+    "contradiction_weight": 0,
+    "ambiguous_weight": 0,
+    "no_visible_fact_weight": 0,
+    "unavailable_mapping": "unavailable, not empty evidence",
+    "demographics": "none",
+    "group_id": "copy frozen input group_id",
+    "denominator": "all visible facts/groups for that admission, including explicit negatives and visible lab states"
+  },
+  "constraints": [
+    "Never fill omitted claim values from patient records",
+    "Never add unmentioned patient facts during missed-mention review",
+    "HPO identifier is not a fact identifier",
+    "Preserve general claims even when unmatched or contradictory",
+    "Matching is not a clinical correctness or causal judgment",
+    "Review changes annotations only; original rollout immutable"
+  ]
+}

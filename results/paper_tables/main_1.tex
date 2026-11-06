@@ -1,0 +1,14 @@
+\begin{table}[H]
+\caption{{Rationale} 
+ for the comparison set. Sources, attribution rules and scoring readouts occupy different levels; multiple rules from one predictor are not independent cohort~sources.}
+\label{tab:method-selection}
+\begin{tabularx}{\textwidth}{lL}\toprule
+\textbf{Object} & \textbf{Contrast Examined} \\ \midrule
+Association & Cohort association support: smoothed co-occurrence scoring inspired by COHD~\cite{code_cohd}. \\\midrule
+Representation & Patient representation support: study-specific static-set encoder; matched neural baseline and probe. \\\midrule
+Group-enhanced & Group-enhanced representation support: GRASP-inspired grouping/graph computation on the matched encoder~\cite{code_grasp}. \\\midrule
+Tree & Tree-based support: LightGBM multiclass predictor, held fixed for attribution-rule comparisons~\cite{code_lightgbm}. \\\midrule
+Similar-case & Learned case support: TabR-S adaptation~\cite{code_tabr}; uniform voting and matched no-retrieval controls. \\\midrule
+Local/class SHAP & Attribution rules: patient-conditioned versus class-aggregated relevance; signs and aggregation also differ. \\\midrule
+Group removal & Attribution rule: change in source support after removing a dependency group. \\
+\bottomrule\end{tabularx}\end{table}

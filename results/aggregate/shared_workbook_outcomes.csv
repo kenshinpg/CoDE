@@ -1,0 +1,9 @@
+dataset,stratum,review,explanations_units,representation_failures_before_after,tree_failures_before_after
+DDXPlus,Random,All,16/16,1 -> 1,1 -> 1
+DDXPlus,Targeted,All,53/32,20 -> 21,39 -> 22
+DDXPlus,Random,Complete,14/14,1 -> 1,1 -> 1
+DDXPlus,Targeted,Complete,45/28,16 -> 17,33 -> 18
+TRACE,Random,All,26/25,4 -> 4,2 -> 2
+TRACE,Targeted,All,40/33,35 -> 27,14 -> 12
+TRACE,Random,Complete,11/11,2 -> 2,1 -> 1
+TRACE,Targeted,Complete,8/8,6 -> 5,4 -> 3

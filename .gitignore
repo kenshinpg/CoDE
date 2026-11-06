@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+tools/CoDE/artifacts/
+tools/CoDE/inputs/
+tools/CoDE/logs/
+models/
+.env
+*.xlsx
+*.pkl
+*.pt
+*.safetensors

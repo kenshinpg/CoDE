@@ -1,0 +1,7 @@
+cell_1,cell_2,cell_3
+Condition,Rationales,Patients
+Test cohort,"6,024","1,506"
+Machine-complete mapping,"5,382","1,473"
+Supported proposal and available subset probe,"5,348","1,472"
+Both full-input probes correct,"5,288","1,456"
+Correct proposal and common scores,"1,979",889

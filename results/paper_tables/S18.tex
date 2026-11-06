@@ -1,0 +1,11 @@
+\begin{table}[!tbp]\centering\footnotesize
+\caption{Automatic citation mapping against complete adjudicated references. Complete/reviewed counts describe explanations; units are patients or admissions. Precision, recall and F1 pool facts within each stratum. DDXPlus strata overlap by one explanation.}
+\label{tab:adjudicated-quality}
+\begin{tabular}{llrrrrrrr}\toprule
+Dataset & Stratum & Complete/reviewed & Units & Precision & Recall & F1 & Extra & Missed\\\midrule
+DDXPlus & Random & 50/50 & 48 & 0.8008 & 0.8271 & 0.8138 & 94 & 79 \\
+DDXPlus & Targeted & 52/53 & 31 & 0.8819 & 0.8000 & 0.8390 & 60 & 112 \\
+TRACE & Random & 56/60 & 51 & 0.9518 & 0.9722 & 0.9619 & 46 & 26 \\
+TRACE & Targeted & 33/40 & 29 & 0.9160 & 0.9581 & 0.9366 & 44 & 21 \\
+\bottomrule\end{tabular}
+\end{table}

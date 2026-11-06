@@ -1,0 +1,14 @@
+cell_1,cell_2,cell_3,cell_4
+Generator / proposals,Contrast,AP difference,Simultaneous 95\% CI
+4B / correct,Association $-$ Group,0.1948,"[0.0670, 0.3226]"
+,SHAP $-$ Group,0.2371,"[0.1093, 0.3650]"
+,SHAP $-$ Tree $A$,$-0.1792$,"[$-0.3070$, $-0.0513$]"
+27B / correct,Association $-$ Group,0.3411,"[0.1792, 0.5030]"
+,SHAP $-$ Group,0.3179,"[0.1560, 0.4798]"
+,SHAP $-$ Tree $A$,$-0.0672$,"[$-0.2291$, 0.0946]"
+27B / all,Association $-$ Group,0.1686,"[0.0934, 0.2437]"
+,SHAP $-$ Group,0.1501,"[0.0749, 0.2252]"
+,SHAP $-$ Tree $A$,$-0.0147$,"[$-0.0898$, 0.0605]"
+27B / incorrect,Association $-$ Group,$-0.0262$,"[$-0.1005$, 0.0480]"
+,SHAP $-$ Group,$-0.0616$,"[$-0.1359$, 0.0126]"
+,SHAP $-$ Tree $A$,0.0312,"[$-0.0431$, 0.1055]"

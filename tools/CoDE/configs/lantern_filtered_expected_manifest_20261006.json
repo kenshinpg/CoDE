@@ -1,0 +1,44 @@
+{
+  "artifacts": {
+    "record_decisions_private.jsonl": "de03184ad9f21b54f0cb78f4918b563b5ec0fd0c7143ed8ac56a9ef392fc3c87",
+    "generation_results.jsonl": "ab59a793cec3f542dcf8296e1dca52df78975a039db4088483553f246b072907",
+    "generation_requests.jsonl": "6eb365a744cb16408ea454421fe8033114f924f2e90ef21bf6dabb5b6b9cf724",
+    "retention_by_stratum.json": "7a581bee0a5c8d170cac515e1a53943929482d916f4350329fad2e938e23f727",
+    "audit_report.json": "d2a1636fcdbcbe2a08b57ae781c662e5f7859a5568172a814280198d64c37590",
+    "patients_public.jsonl": "133ab79a0921069d273989104c54612674fcc0a77375ae7471c4a6dde097390a",
+    "bad_lines.jsonl": "a1e1b9cc93e0887d68389a740f1854e2eb9d1719697e9538eab93afd287bee5c",
+    "reference_private.jsonl": "32d1e4a9842225359c582071e7d8f83e6279b5e1bc7a2a5125f3924b06f9bc8c",
+    "evidence_dictionary.json": "6844af3d73d5c6570310bea43fe70ba3d3441e0a6af5fee382a985d25ec76969",
+    "patient_retention_private.jsonl": "86e2a892027d236417e114b4e2fb0af59af15bbb920f806809d1d3994a4a66de",
+    "d0_initial_complete.jsonl": "8b1cd43975a24da8b1981c185816926f4365e3eea9b9659f7722cd3619880702",
+    "response_selection_private.jsonl": "357168e162589c1f00a470a97770134cbf6126c2de546348a9c32af3fbbf0d9c",
+    "case_selection_private.jsonl": "4448d9d781e555fe37b2a7443788eac820a5867efd08db3a71776f813e90193f"
+  },
+  "code_sha256": "33e588f141d10c596716e5c7ddadc1e52c7c9655967569d6117e6b1bbb766219",
+  "source_files": {
+    "0": {
+      "path": "inputs/local/TBBOS-PRM/outputs/lantern/subset_extract_v1/extracted/node0/d0.jsonl",
+      "sha256": "ac2a7e6fe9b5352542fd0f012222aed1b97851bfe221b64f38c424d0c0f2bec3",
+      "bytes": 649040437,
+      "mtime_ns": 1791217247440236783
+    },
+    "1": {
+      "path": "inputs/local/TBBOS-PRM/outputs/lantern/subset_extract_v1/extracted/node1/d0.jsonl",
+      "sha256": "daddc1ca44ebdb060da7a77b305eb35671b1f6c39ce690534d67798cef94309c",
+      "bytes": 620408411,
+      "mtime_ns": 1791217646652799188
+    },
+    "2": {
+      "path": "inputs/local/TBBOS-PRM/outputs/lantern/subset_extract_v1/extracted/node2/d0.jsonl",
+      "sha256": "dfbc91872ea22343934a6f952346dc16fff98cbc4762ee9e112955ad6dc0aaf5",
+      "bytes": 695432181,
+      "mtime_ns": 1791217887162218090
+    },
+    "3": {
+      "path": "inputs/local/TBBOS-PRM/outputs/lantern/subset_extract_v1/extracted/node3/d0.jsonl",
+      "sha256": "194b60423b099be5d136dca3408515efed3edfba7791d45e9ef72f6a99f7631a",
+      "bytes": 708485704,
+      "mtime_ns": 1791217891726827663
+    }
+  }
+}

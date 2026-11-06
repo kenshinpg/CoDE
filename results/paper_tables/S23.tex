@@ -1,0 +1,14 @@
+\begin{table}[!tbp]\centering\footnotesize
+\caption{AP relative to failure prevalence for correct proposals under Representation. The common populations contain 20/1,979 failures in DDXPlus ($\pi=0.0101$) and 105/614 in TRACE ($\pi=0.1710$). Lift is a descriptive ratio, not an accuracy improvement.}
+\label{tab:ap-prevalence-reference}
+\begin{tabular}{llrrr}\toprule
+Dataset & Score & AP & AP $-\pi$ & AP/$\pi$\\\midrule
+DDXPlus & Group coverage & 0.0192 & 0.0091 & 1.90 \\
+DDXPlus & Association coverage & 0.2556 & 0.2455 & 25.29 \\
+DDXPlus & Local positive SHAP & 0.1135 & 0.1034 & 11.23 \\
+DDXPlus & Tree direct support & 0.1861 & 0.1760 & 18.42 \\
+TRACE & Group coverage & 0.1880 & 0.0170 & 1.10 \\
+TRACE & Association coverage & 0.3828 & 0.2118 & 2.24 \\
+TRACE & Local positive SHAP & 0.4252 & 0.2542 & 2.49 \\
+TRACE & Tree direct support & 0.6043 & 0.4333 & 3.53 \\
+\bottomrule\end{tabular}\end{table}

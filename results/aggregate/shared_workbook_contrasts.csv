@@ -1,0 +1,13 @@
+dataset_review,contrast,automatic,fixed_endpoint,updated_with_ci95
+DDXPlus / All,Assoc. - Group,0.2115,0.2934,"0.3464 [0.1298, 0.5509]"
+DDXPlus / All,Local - Group,-0.0363,0.2056,"0.1995 [0.0401, 0.3743]"
+DDXPlus / All,Local - A,0.2946,0.2463,"-0.0305 [-0.2759, 0.1872]"
+DDXPlus / Complete,Assoc. - Group,0.1715,0.3245,"0.3798 [0.1222, 0.6106]"
+DDXPlus / Complete,Local - Group,-0.0998,0.2462,"0.2212 [0.0386, 0.4251]"
+DDXPlus / Complete,Local - A,0.2351,0.1643,"-0.1702 [-0.4217, 0.0622]"
+TRACE / All,Assoc. - Group,0.0211,0.0789,"0.1645 [0.0518, 0.2598]"
+TRACE / All,Local - Group,-0.0063,0.0539,"0.1607 [0.0599, 0.2737]"
+TRACE / All,Local - A,0.0650,0.0724,"-0.0257 [-0.1925, 0.1579]"
+TRACE / Complete,Assoc. - Group,0.0516,0.0849,"-0.0195 [-0.2329, 0.3471]"
+TRACE / Complete,Local - Group,-0.1306,-0.0972,"-0.0333 [-0.3486, 0.3252]"
+TRACE / Complete,Local - A,0.0294,0.0044,"-0.0931 [-0.5833, 0.4012]"

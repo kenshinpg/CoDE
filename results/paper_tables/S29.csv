@@ -1,0 +1,14 @@
+cell_1,cell_2,cell_3,cell_4,cell_5,cell_6
+Dataset,Rule,$n$,Recovery,Random,Gain [95\% CI]
+\multicolumn{6}{l}{\textit{A. Fixed 25\% group budget}},,,,,
+DDXPlus,Frequency,1490,42.89,82.43,"-39.55 [-41.56, -37.51]"
+DDXPlus,IDF,1490,96.64,81.53,"15.11 [14.10, 16.14]"
+DDXPlus,Greedy,1490,99.26,91.17,"8.09 [7.27, 8.90]"
+TRACE,Frequency,251,45.42,64.07,"-18.65 [-24.10, -13.10]"
+TRACE,IDF,251,56.97,64.07,"-7.10 [-12.82, -1.23]"
+TRACE,Greedy,251,100.00,64.07,"35.93 [33.95, 38.00]"
+\multicolumn{6}{l}{\textit{B. Variable-size sets}},,,,,
+DDXPlus,SIS,1477,99.12,65.23,"33.89 [32.40, 35.39]"
+DDXPlus,Group-mask Anchors,1490,93.96,64.77,"29.19 [27.47, 31.00]"
+TRACE,SIS,211,100.00,43.43,"56.57 [54.26, 58.87]"
+TRACE,Group-mask Anchors,251,85.66,36.28,"49.38 [43.93, 54.27]"

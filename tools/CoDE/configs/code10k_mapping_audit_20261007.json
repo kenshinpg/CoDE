@@ -1,0 +1,1025 @@
+{
+  "seed": "261007audit",
+  "random_n": 50,
+  "random_sampling": "Deterministic hash sample of machine-complete test explanations excluding patients in prior98 audit; explanation sampling, patient-clustered analysis required",
+  "eligible_random": 5323,
+  "random_ids": [
+    "019fe18affd6f2d97e04f269e66e96cc56f133db7048d86b5d48dd266561def9",
+    "066a123ed0653ec922c3e23ec2c081a4de6e3de2ac695fe81d1bdd4d6fd68e25",
+    "08f93a42c9d12c8b584d6ee00e3d2638aaad99930679f07ed9b811c9b5b92c27",
+    "0c68a696a47c74c922f7619a7a515c5524731a7487aa8e7a7699be5e2cca1ba5",
+    "0f6d0d94907f9e2761226573db54fd00826d3a7e6b8e0a2f605efece48f47301",
+    "183e22aa2c3db41c5ca102fcb16e94fa5f9ed74aca91f1aca97bccc50648d104",
+    "2294150fab9dc16880ad19318f8f2af77bff88c2ae84fd5d0394963402ae2125",
+    "231448209883b954f21a18385fea2c37973c358d71f583cba422991a143a8d5e",
+    "287409e2adfcb8dfa39639986a09c8361c7894a30fe0a36bd3446d5c26af93ee",
+    "28984fc39bfa36fc382bb45320b19022b63d561dc3a6a13c1e18633481801ce6",
+    "2eea9e6cf1f0670852308bcf7fb9267a11809793b991ae5127f46552fbeacc1a",
+    "2ff5d4852565614297a781309d1016efd3a9d6e052967baf69e051183108e6a5",
+    "348e5a7e4415420e13e7cc00c4529aace7cb0f2047869f13a450fdbecc875e4f",
+    "3cdb44abb0e0048831559929b69c56ac8c9bd3a4a7f0e879c6e9428efcb85b66",
+    "4a2f40b936455e41c7629775eae0c310c203c252f63b6f87da4891a33f0a6e9b",
+    "4abd4a1e32a06a86184afd0c5cc4bfeb4a1f36dabde2473d27a4481d958f0919",
+    "4f77044df14e4ff07d15af83c87701f6eb3186c221a7aa54d1aaba52083a715f",
+    "5005c62be8a8bab4dbcdf2c6011604d3b4412b8b0005cdfa07f513ec37531e59",
+    "500651fa65f3f40982f64f2ee972b094ef57f41aa29b893564a82d23db72f6ef",
+    "54c72655382fb12b63923a71e8f953c44888fe363b6f4419fc33f1dc986b88a7",
+    "56c76a0bd821ce2650bea4d7246eef39364965d8190f241f4767ed7483a20893",
+    "65fe171baaf1fd985810e6d2accc61d045827de40f9415f1384aad21d7e757a2",
+    "6ab6781d6659d7bed4e5940fddf33d0950675d67aec975bf100232b53b1afad7",
+    "6e85d4d9dff9fac2dbd3f0099e1286c562cd9eb5a4b7c648bb50b5628cf844bb",
+    "6ee5622ac6e34176f408f4cb06a37e395b95ddca63f1a2bf965c9383aa8dac6d",
+    "72940ad4e24073f8efa65e83f97b7692de2e7cfde214ab215f1692ee34821c6e",
+    "7a2b4de791c64c61e579feccf8190257b59a993882f5bcd2d2844de994ccc9d7",
+    "8356e34f4f694762a663380297138052ddc476c238bdacb1514bc652e5568fc4",
+    "8709fce76018f9c776bffe60cdbe1e49d9c2e4418b0b8755eedb08e2d7b9551d",
+    "8b6a66fd6c5b33c758e832164d7ebc27b5037abdf8fedecd2eb76badea33c23e",
+    "8d741eee648194d5693fad3aed632c694d445337bf51b557611d13811eb987c4",
+    "9350526a3d4c830c38faa0424c25750fccaa25b0c9485e8bd66807b18dacf329",
+    "954a3283f43aebde3a2bace3630bc2a987acf3d33362332782ed516d62a28f62",
+    "97f7a69ad0cc246c437dbe75be72bc098627e8c7f00feaf3d0bf8d6c6d90f6cd",
+    "9cb7395c12273dce6012d7ce3ba24931d837860e0ddd156a705782e937e4c8d7",
+    "9d126e9cd3e7bd4c75d7991886e800623512340e729c1f20f9edae561b69d320",
+    "9ee94558170f7c199e3b7bff60108a528a609cf5146957788d92cd92622db572",
+    "a513efb871a9096b6671ba1fa516ef8172706819efdc57121c3ec807ba918ad3",
+    "a63b00c2507f55b1f1bd41be57b842b0c9086e4be40c62dc5903d98c3ea35ffa",
+    "ab57b1f6e5f862e3905dc8336fadced7b8f81bd98f38567b4d11f3aef8735657",
+    "b21b23bf99190beab75b866d36e5f055a68681776b3ed57c4866fb657eefeeb3",
+    "b4fb48cac8f4249cd228f4ab537f675c7ae4a4ec3b797004b0a1dc2792229a4c",
+    "d58027bacd6c6059f3c2c010cb74e786e19e86f128296f7c3c8994a924cd11b8",
+    "d6150c64a2158d77a44b40ea049d7d0008132858a7526f9746bacb33bd432b51",
+    "df82aae9dd8a7e7ad4ebd57c5ddf59179d7a85fe7de342c7774f8d1ec6cd11f9",
+    "e51c7543df2c74735eadfe5636138504bf0584427e45bd2d847933935398a956",
+    "e61f2f3d1513a943ce073a82fd5abc54e58aa1a64898c3611a61e955a6c0cf90",
+    "ef8a55fafdb96145d0e36700cb2c49a3b643e1b926d341071c64fc82459ede8b",
+    "f0d7b68de36134c0ee4fbf1e385f48534043cdef22e53a91ae3cc5f97c7d4a5a",
+    "f50b0e312338c0116378cd8c99eb27b4bc97eacfde9861205264eaa911a18715"
+  ],
+  "targeted_ids": [
+    "00abdb07c0df63701b4eef28fb5dc77024f9584b45b75c37d96287a265a282ad",
+    "0322948a299563b18705e4209f5c94df1d543bfff2633e8f13d2b987ff000362",
+    "0ab6011c377415986d5d25d84bd275024f7a762364e03b177c4db6396d57b168",
+    "0ea6b59497febf6be230d683736429af1722139ef4c95d0d2f9df5d16945d2be",
+    "0f1d4a82c0e434c2833f3e6c2e44e561e39fd6858e427517f4db6c5ea34b06d6",
+    "13ee75f6c0953354586e1553a00cc11dc406e8c2c55dd2330f91388d21cfd5ae",
+    "16dafaa731edca2ce16df4225bbb97b9bcc3445933177768f4142a00797c54a5",
+    "17dd4ac83a99afaaf97fe13230b1b160447711d1df9a3f1779cdb6a366889ba9",
+    "1e3b02ae2206a89d99d14089013241fdf43779e10df358cb4e42decc525ddccd",
+    "289c9bc254d9989e9776b646f369f94210e28dc00790a11378c50f4a770c3c72",
+    "2b1b1ed8b08c6d38980a6d2c7c4149424a2e947fc43de24bcc05869ba73af2df",
+    "2f0fffa8ccacc41b6c60831cfacf1457d70283b6013a294c2154c887db96ed81",
+    "3afd721aadd3700f594ad62656c0312c75c7bf51551bf23b1f06f3f1c3150450",
+    "3c7a4ca4988a5a2c83f635366d6b84f542e96f972f5836da895d79d9f5220a9d",
+    "3ceab2f6763fa0cde23b9e7045cb108193b6174383663e97d89bdc6db793db63",
+    "3fee1ab834c98a07db2c118d6d4328fdebe5bf0591647d173a21e9da2bc3f488",
+    "4579b7ec53f68f9d00a3805bf6abfd761c635d3d4417b8e23decd1a65ad2ecd1",
+    "493085736ba20259d2e4b96085fa900530cc3e1a44b439aec6649b40ce3f4e26",
+    "4ce9d74c65d939eef1f69ed69eca14c5c1aac4f0037c2940a54915ff615ecd55",
+    "4d50e79b3e1b9c9b3f3cb83f3de61c5c66b9ad8dbbc0631e27c8f01df3024ac4",
+    "5566f06ce3be5b90bdd54a8ebb6f94a1a4d287539201e62df454d4f394bd5984",
+    "5ad37d02eea39fa585164f8a8da77de5c4592bf8c3d1185d4139cf9cc8095247",
+    "5c417c6dfd850f94fb4e2bcd59da77ffdf16d0be0d0501a1291a3cf2cdc15ee7",
+    "5fc156d2545c47fcbdfc875ebc6c3a091ed22a6157c911ace89201bccac000da",
+    "6d7624ba23b4a2685de2acab7a63e9a719ea2e514d5283f97a3108d730e0408b",
+    "74b043c6870f75be3887857a9fbba5769884e7f3272629691399c9cb67ef4a6a",
+    "753ddffaeeac34716dfa45d3a1b704dc74071e98d7ea0875d73ed17264647da5",
+    "7540a29482facab66bf72006a476bf2f74b035b49cd62e8d00afed12b325ed07",
+    "812f356bde52379f3beb3c1f3a37a50db6df44a9556cba44caf62821a3c8dc1a",
+    "825ec7a842184d52ae50a84dfedd46e08ed7e6b5522adf451d667a9272d6baad",
+    "867540c21fb1f88de6e6b61db40436afad33252aac91bca31715afced676924c",
+    "8faff1856e5b334a9b655e84be2e6db5701fd4aeef340e6f05098d2f87ba4438",
+    "a338445fb3d6706593a6e5936b78b9d90909c22164e7582f081d11343c809ff8",
+    "a38866e6066bc791f6c5dd88f7f37613b4e3794c0cd28dbc90ffc8e0007a55d4",
+    "a7b5872ab05bf6cc565fc5424fb948934a04d36055f3e3f19056f4a167d0a27a",
+    "a7ef99eefdd0e1ec5858d459d0d560cdc02fc8a429b2eeee58f0e4ac1b0d148e",
+    "ba160e0d1fd480337f32406dd68bb6475000ae95029c52082991daf65ccaf90c",
+    "bea9fd0c5a027a3c37473222cc2dac8247efbc5d3306e86983451d3d82030f3e",
+    "c9b3d40d15cf6a968705663c40171b9af1462ea52fa4897b99d91e30fae7751d",
+    "cb673bba9f9075b8dbe44a23e021cfa0d22a9fe6bf1817c56d2436f82802f1db",
+    "d05480e131fbaa1bae4fb683fa02c1e20b37dfbcc021bd620072991d60caeb07",
+    "d1fa2515818972589a1de7250ea9481f53a212b9e72cd4e471f41510027b93ae",
+    "d2ec85a306769a2703479b32db6d34784a7be835bb38077d418401ec691680a1",
+    "d449b07db5eb8661d471daabdce21e8b88527747800b85e9b9e36533a822b854",
+    "d58027bacd6c6059f3c2c010cb74e786e19e86f128296f7c3c8994a924cd11b8",
+    "d8dda8ce0e0bee0a10bf4c7a947b56a1265647645044fb01a67f32f4e21d961c",
+    "dcc0ac548c6e9fff38455cf58aa833474d74744f9038d9c44226d7130341be99",
+    "e12ca7a50a0abebeb0fc843bfa2d015d23286eb95418ada8407d89d0cbe3b97c",
+    "e1b5d702a8b05414758c676997cfae9b17b2173b49013a110e441caa6d397ff4",
+    "f06a202a90c84f96d5e84a2dd5ee5dc4895f80551e77061a15e291748053a004",
+    "faac21d3bdf27806df36e954a9ee18ad49ecc289e9ab1f3932ef3a67bbe7103a",
+    "fb78f1677ea34daf3dbbe9be1b25bb45ab69c7edbbd40da9c92c57ea775a6c61",
+    "feda905e5506cbfb4105d13381d7ef70f5f84a8e7cd119f1db1215c92f716317"
+  ],
+  "prior_audit_patients": [
+    "08913ba7827640bff55b6280e5390b52524796d34fdb2b20bb90a29e71c16849",
+    "0a59f81b87c206c53cb687b39e377cc6d4772c58ff508d8f9c54458497575768",
+    "0bedaa14449bf314774edc4eb029dac90d88f566b7def300a70dbbf37604e7b8",
+    "0db9e0a68ae47e17532bfec27dc4d0eeaa18d900f26071f1a767f121cf76aa89",
+    "0e619d2f3ccb2d8adc9cdb30846ed531a313c863d6c9a1c0e4af7f4acb48231d",
+    "0f3bb970537156c1a1adbb09a85255d05cdfec785f2e6f5bfef6a43b3740cad2",
+    "1974fa25f6738819f0cb1d8e4aa4e906f5e88da63ed27e5910b1930cd416b645",
+    "199c6da89461ce885b5bc07d25a893c6758aff82bfb6082bab858ab087166efb",
+    "1ea85f9cac9718b883ffcdcf8ef95312c1e37e5fe9758f7547fcb8941bbc74ba",
+    "2de233e83dc327c6104a11506fad5683e4ae7ecf8848d854fd7038acf9befb35",
+    "2e7ddb4c06f805196e159351abcbf6e614e4dc2a0d8b7c6284e92fb54224786f",
+    "2ed922aecff5de4580ddba21d8c5e718eec868f9bffdee7f4f143b282a892078",
+    "301700334b7ab7bab65388798f04c3e0c9f8377326f81d96b459b0bc6e7f26d7",
+    "3d6d51078798dcb715ee9298303d0479924a89072ad247628b9f6d0df2bd651a",
+    "3df2a3e8a4a8f79863ff8b5b2b04aec907cb1e8b7e8187a210cff86c748f26a2",
+    "400dae939dee18355619d8a8eaf722f2fb9d1daf73d6bc971025e04296b97d9a",
+    "41c3e907166505cfa9444082cb3265b7ba8387f82823617954043d92d3196125",
+    "43bfa544c141ab58e6817a92df31c3bbca29882d8c27df20e5a2c7628817ac84",
+    "492d8a0858b311f1aa0d6be24a56f77fd56836334d49e010466cffbdcbf4a8ec",
+    "4db89364a3e9f1469fd1781c90eb76caf1b8934ee8b38de44cf00b0a7a8e56b5",
+    "52c05218f5c1dcd415a0753100f451b4f653522a9abbfe4e6d6a2c83e5b64777",
+    "56702612c5931560aa3b1d407b6573e203f775bebec6f1fa3b096e01115186a6",
+    "5921b5866cbc9712247fcf8076391548b0284b73664e8f5bb4731e265c424c31",
+    "5beab990d9eb389417e09e5484862d8022af427ba27d5cdd8b077ffa64a304bf",
+    "5d9da4fa394dacd1d387fe315328601870e95cd80962e5a01e7fea261fad46f0",
+    "68a0b4433974d56cc39ddbb903502f11b073de70b1ae188bbe49cf6122066d78",
+    "6aa04d563c37c7e358eac454a9f8b38e1a2619cc002bd76c3273daf0ebd02d40",
+    "6c66660080ba5cc3a11a99172b9b9aa44e77b1178e69b3ce46e4ec1713d596b6",
+    "7a480d3c215d18b9f16803879a2cb95c2aed5a7b0a573a82a59a12535287f0e8",
+    "7b1e83bba0b2727ba653e7445b7ecc2cfb4fb5b9dd908409caf3b0f58b7a2bae",
+    "7d783dbef55816d10cce62b94671e57fcdc07c09950fb3381b718870b0ac6c49",
+    "7f1cd874bc55f6ac79d34267057414a6a13164fbb5ec14dc5d7c911a8e3b1aa7",
+    "80ab1d4f9489520c163cf3f0f4bbd6ea2539798e7d29448fa03297aa4da06d58",
+    "80ce3e99413b85d2286ff9ca46f5cdabfeb81323cca2da90ab734236838ce346",
+    "8122c3858b7fad748f14e9d4718803e0fd02dd7c3ac42cae5c20c9088fd0c682",
+    "82020017ec93dc918ca710f60f4be0edc2d747dd575e0df071fac16bb804ef7b",
+    "823cc4cadd9aa4537a91748cb2fe106fbc6cd8a14099f34b6e0cae81f9fc732e",
+    "8810a1791d92985d004a8c4d7f225a25a9528d4b9bfd91b5c360b87f30b2acd3",
+    "8edfc3552d47f06d103513fb54a29bf93c7c08eead1c28f931015a6654b4a266",
+    "942baa5334676e91df68563677d46cbf98acb4922a4425297170580b31aa51f7",
+    "943782b6887f2b024aaa719e0b079f7f45ad958e17851276632db85cf439374e",
+    "96decb22fa44b2bb7f74be10f84e5e5de8f7b3c62bac7aa325999277ec33608b",
+    "97df7e6a540d082e2aac11cfb129a044d2607cc7942162d42363b0aa92280bfc",
+    "9bff00afe0a6b6d96f400124bb11b25dd977074710c7f6352ad5266269b60685",
+    "9cde0af76b669f6f8a521d117c9b14089cafc35496db6242b1ef706a4f582905",
+    "a007a1447437a0c10059afcc28091186cee42b1d7a3f4f4ce274b460fdab6ac7",
+    "a1bca649e9e58a63fccc17fa416464393ec2b7cfcb323d096bb80851d7565b72",
+    "acefcdecf7dd8f8ea07947900fccb4376ebbd59d922c615dcb56b5b576fa6332",
+    "ae7be36286f231a6c977f3e09e3bd1382e11f295f807f7a8aadc420580ed60d4",
+    "b784d28e965f2333352881a6aab7c42a0525b9027f18894ca83fe2ab16b5635a",
+    "b81dd652857d067c65ec117f72502232a43a9eb00de887736d77b47b08460c07",
+    "b86b66a2932c55d543724f77419d92cbeaba2424ce19838d24b5dde0683101ca",
+    "bc450fd708e11ff779b9eab07adac92644532e5eae1bf80ad1074794ba014967",
+    "bf02814cd0e0462fc2d837154d009658a7862464af4dacf19cd578e053453e99",
+    "c24b15650fdc0d0b9d0415ab0f31ea19dd61e928a0abe902854436e017864993",
+    "c76e78f15e2dbff3ac53c82cd07b51bde5508101565412d661bec973409dd083",
+    "c83199072e1adcbf070ce9e3b2aed36f4f41909abc40752606e9f03b5bab3ae8",
+    "c8a97eae1300bb3231a4fbd81abecb6f13d612749e37c03f127c025a3a89bcf4",
+    "c90271b558ba37aba0961abaf3cfa79797f3f74bcc56e3c448d157b5d469cf1b",
+    "c9948482b3ce0c722dc0f02c63da8c9db62614e41a408b2e204262755a3595b4",
+    "caf2a23e8ddfbee673033f2f2fcb595c15e7011dcc06f2a133c0d1c2d9df95b4",
+    "cc0a6179390dc68d17bcbc37ac5b3c93d57fe954c97497e2f31e3966cabe9b54",
+    "cde0894b7527ab69c57ffcb3f4a020366dd4c601ae6bba2b9dbee2e464ddab93",
+    "cef870851bd7db2cd20eed64c0f3fd28a6e55977e51871da459f66989bb61389",
+    "d0951cfa86897658985c31a831c29f98439ae0860f33885b4d55b74dc82897f0",
+    "d13e647bb43a731fe73e215c96d65d6e50d7c58d2bbb2e102d6d9ef81e8fd6af",
+    "d2959d70d1ebba24adb0c39376af95e4a8e59f11acf605fbbc33722f2dd9844e",
+    "d3dde2f3dd89a9295259e66b79fbc3ff1042eb8682cc04cbbc2272982f54c86e",
+    "d5b05c542fc8f2e8fb73b914597ffa5139d494edb838467cae164cbf0aeee46e",
+    "d83a1d0083aad1d0637d18676b88bccaa427fd8890a03014c30a4b83b252750f",
+    "d99ecfc4d64b11b925e13efb9cb567fdee31e59396c7719ec3c45e1bf996a862",
+    "d9a24f82081ddea4362c52fed991179cb437aba9d6a801f6b44747d6736ca25e",
+    "db5aeb9f9c6031c95132bd1445118e9e8b2b110e5efce14d7f43747586d54bd0",
+    "e0203cda4b8699971e7742d25da976b75bc8e344f3426aa0c505df519ee35196",
+    "e0486f43c2b50aebc9e9e14d46d09a9b391238416bbe5d5f34e7dc6c699e3cf0",
+    "e1d8e13f0af6ec5dc1d50454964a93f212549ad629837f5bd4ef1c62fdb8b0b1",
+    "e589f3c65448c7879619acfbde59befc74d1563f12873ad5288c13525b74f615",
+    "e6eb88dc8133060133de55d5ea7ab68bed879e3c6fa8d5851b2d2c722a180691",
+    "ea94df0acce7a3d721f203a3c21898f49376f7a7d8151d6c29095a4cc24fbc28",
+    "ee462b51d329d2c1ae860627cc82f043f7538ea586dcc59842f530f62c3a2165",
+    "efd18fe489b74afd7e3bb4c72ca98f94976e79c5e9c062f199a0c76519a89d81",
+    "f41c207b702bcede0e13966d28d18a930fe0d93536379714bb0feb542a32dba5",
+    "f50e97840b04370b95980d100617b8b3a0c9553d52387717d31b96d4e0d829c3",
+    "f5e8892cb530d1e14d89e5be94798720368430a70a5012d3120d86fcbbbf3424",
+    "f6be72d5b9dbefea1d9f7d3a0b3273fba8e4cea3280d7b5878abe43680fe1ca5",
+    "fb1a8c0614508a3c77c79c5ea521678e599756c1459b52547e4f1c9855696902",
+    "fc4777b31eec729868d0d8398c429127fa911d54ec7b73bc73b4b37af453ae77",
+    "fc4dd5c74100235e603085257850c0f079e409fd439077531056d97615c77669",
+    "fcccfeacd94adf6cc334fd2064cb9f3cebdb4d3ce7c018c149614399795d36d2",
+    "fcdc6f6677a7f5c52db0d2c853c93859f799644abea9d8de2bb1b8946de69c9a",
+    "fd9a293cb67a84719f55821be1d5acd43d0b9d3d723d062f84cb0330cf9e6697"
+  ],
+  "tasks": [
+    {
+      "audit_id": "N001",
+      "explanation_id": "9d126e9cd3e7bd4c75d7991886e800623512340e729c1f20f9edae561b69d320",
+      "patient_id": "5d70c57c71a085e394fb3d48f1d1072177d59c063b954a76a7d3ea0093ff1954",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N002",
+      "explanation_id": "8b6a66fd6c5b33c758e832164d7ebc27b5037abdf8fedecd2eb76badea33c23e",
+      "patient_id": "d3a82b2afa6e8a48fe9df699cb68527b3f6dfae87952d21e6a14a935ac6d169d",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N003",
+      "explanation_id": "2eea9e6cf1f0670852308bcf7fb9267a11809793b991ae5127f46552fbeacc1a",
+      "patient_id": "76a66cc8fe9bd94d65339c9f0d82085883db01a82f63de67147de6d4dd105c1b",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N004",
+      "explanation_id": "019fe18affd6f2d97e04f269e66e96cc56f133db7048d86b5d48dd266561def9",
+      "patient_id": "c7f58a8e8dfb9a7119a94700ceb4a2455c367033d26b4228eb58ab45d150e777",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N005",
+      "explanation_id": "56c76a0bd821ce2650bea4d7246eef39364965d8190f241f4767ed7483a20893",
+      "patient_id": "dd61e9980b8e5e2151cdbe4c5fc93e6221b5da7040f7a47f7c2aebf715471e2f",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N006",
+      "explanation_id": "7a2b4de791c64c61e579feccf8190257b59a993882f5bcd2d2844de994ccc9d7",
+      "patient_id": "494eda42d8c4d5fdc0bf31c5007731196334ab64ab19462e38dbff8f5275b4be",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N007",
+      "explanation_id": "e51c7543df2c74735eadfe5636138504bf0584427e45bd2d847933935398a956",
+      "patient_id": "c523d07d1b5b1ab515f2eeeb164a14917dbd6e1b46b3dcf9a3b3af0ae645cd6c",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N008",
+      "explanation_id": "6e85d4d9dff9fac2dbd3f0099e1286c562cd9eb5a4b7c648bb50b5628cf844bb",
+      "patient_id": "9d3258f45843f90218d2b6ad76a027b3970e690f0988fcbe194b35243f0cf12c",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N009",
+      "explanation_id": "9cb7395c12273dce6012d7ce3ba24931d837860e0ddd156a705782e937e4c8d7",
+      "patient_id": "09e191676504178472e11b051a5b5dbcec2b20c95607c8901695ecb7cf873b6b",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N010",
+      "explanation_id": "348e5a7e4415420e13e7cc00c4529aace7cb0f2047869f13a450fdbecc875e4f",
+      "patient_id": "599e4df111e5deaed0935142452a31d24f5836cf864a1bc1f4f2d8f81ab18879",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N011",
+      "explanation_id": "72940ad4e24073f8efa65e83f97b7692de2e7cfde214ab215f1692ee34821c6e",
+      "patient_id": "fc96b9434e0be8532179c863668ea9370a9c15625a10eb2d87f536cf52588df2",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N012",
+      "explanation_id": "e61f2f3d1513a943ce073a82fd5abc54e58aa1a64898c3611a61e955a6c0cf90",
+      "patient_id": "88d570b1585e1b3865d1bafce11d7c3494d0731412453a2f3f57c254282f1a2c",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N013",
+      "explanation_id": "f50b0e312338c0116378cd8c99eb27b4bc97eacfde9861205264eaa911a18715",
+      "patient_id": "ba17077992c0ff7067ebfa45f51ad1e9eaf593e578a3912dd413e185e4e77249",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N014",
+      "explanation_id": "b4fb48cac8f4249cd228f4ab537f675c7ae4a4ec3b797004b0a1dc2792229a4c",
+      "patient_id": "267c9de387ea5ef54178eb36ba0a7a00414fb4cc4fa06cbbabd41051747fa892",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N015",
+      "explanation_id": "ab57b1f6e5f862e3905dc8336fadced7b8f81bd98f38567b4d11f3aef8735657",
+      "patient_id": "5d70c57c71a085e394fb3d48f1d1072177d59c063b954a76a7d3ea0093ff1954",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N016",
+      "explanation_id": "231448209883b954f21a18385fea2c37973c358d71f583cba422991a143a8d5e",
+      "patient_id": "0e7eac1f475108b7b89b11eb3b59db35bb866d238b23d14d75acd3a2eb78bc4c",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N017",
+      "explanation_id": "4a2f40b936455e41c7629775eae0c310c203c252f63b6f87da4891a33f0a6e9b",
+      "patient_id": "37ff83139ec6c7e2a6d410120df963b7320eff9a54cb6e3aefc4b1af0b60c7c1",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N018",
+      "explanation_id": "4f77044df14e4ff07d15af83c87701f6eb3186c221a7aa54d1aaba52083a715f",
+      "patient_id": "5bed46a25833724065d345d092490c56c0d537a27c362f26f78b2611a4d61bbf",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N019",
+      "explanation_id": "500651fa65f3f40982f64f2ee972b094ef57f41aa29b893564a82d23db72f6ef",
+      "patient_id": "32efa68801085f54c88024a8911c72b3c822f885f3b28e78404bccca97f6aaf7",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N020",
+      "explanation_id": "6ab6781d6659d7bed4e5940fddf33d0950675d67aec975bf100232b53b1afad7",
+      "patient_id": "18ca29a3301bd44c4e5bcf52e0c6276fb0b86f46e5cc8b1ede89bdc798bc2e36",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N021",
+      "explanation_id": "97f7a69ad0cc246c437dbe75be72bc098627e8c7f00feaf3d0bf8d6c6d90f6cd",
+      "patient_id": "a65e6e899f82f647163782b7a9375f62cba670f8087150f1c683bdc4beccffe4",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N022",
+      "explanation_id": "9350526a3d4c830c38faa0424c25750fccaa25b0c9485e8bd66807b18dacf329",
+      "patient_id": "f7b849ee027bb60c41f1e7f3467e03204153630c29425abd9d793dad0d3dd6c5",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N023",
+      "explanation_id": "f0d7b68de36134c0ee4fbf1e385f48534043cdef22e53a91ae3cc5f97c7d4a5a",
+      "patient_id": "1910966e954af85d061da40c1c8ed11ffb0e396318ca44c73a91d93bddd81508",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N024",
+      "explanation_id": "df82aae9dd8a7e7ad4ebd57c5ddf59179d7a85fe7de342c7774f8d1ec6cd11f9",
+      "patient_id": "29c0f17c1fd49d832fb7dbb86afed016cfa95078cce5c42165ade27797a50498",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N025",
+      "explanation_id": "066a123ed0653ec922c3e23ec2c081a4de6e3de2ac695fe81d1bdd4d6fd68e25",
+      "patient_id": "250c18065ee4c7f8160eb2337409c585a030e37f6c94c05491ac3183b949e7d0",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N026",
+      "explanation_id": "183e22aa2c3db41c5ca102fcb16e94fa5f9ed74aca91f1aca97bccc50648d104",
+      "patient_id": "fd9e7d9b9dee682801bc97064ac1efd180afbd8673a9447a1b13b1bb2fee36a0",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N027",
+      "explanation_id": "a63b00c2507f55b1f1bd41be57b842b0c9086e4be40c62dc5903d98c3ea35ffa",
+      "patient_id": "6e25165e765aed4b18c0b0d5291e7abd9eb70c7ad180a1976d4d160e23c32dde",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N028",
+      "explanation_id": "d6150c64a2158d77a44b40ea049d7d0008132858a7526f9746bacb33bd432b51",
+      "patient_id": "39195367a111dbaaa939d7fcf22702f2726eb8229d917d6911b16175a30dd9eb",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N029",
+      "explanation_id": "5005c62be8a8bab4dbcdf2c6011604d3b4412b8b0005cdfa07f513ec37531e59",
+      "patient_id": "31e9f5a43ac9af5c9309f11d5f70dc4ff9bc9bdccca248e5bce3a98bd3ed0aa6",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N030",
+      "explanation_id": "a513efb871a9096b6671ba1fa516ef8172706819efdc57121c3ec807ba918ad3",
+      "patient_id": "e605d419b0e1112376f631ac63caf7db4126be41a416b3ec1572543e849fb956",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N031",
+      "explanation_id": "2ff5d4852565614297a781309d1016efd3a9d6e052967baf69e051183108e6a5",
+      "patient_id": "09e191676504178472e11b051a5b5dbcec2b20c95607c8901695ecb7cf873b6b",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N032",
+      "explanation_id": "08f93a42c9d12c8b584d6ee00e3d2638aaad99930679f07ed9b811c9b5b92c27",
+      "patient_id": "f82d2f7cbdb88a68c8bd54e6c2214c17934f5f3d7ee27ecf8665a1ca11eec023",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N033",
+      "explanation_id": "954a3283f43aebde3a2bace3630bc2a987acf3d33362332782ed516d62a28f62",
+      "patient_id": "8edf04f31a7750a937dd20c0cda630c9599ff8bb923a5ea86f9111f8feb88643",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N034",
+      "explanation_id": "4abd4a1e32a06a86184afd0c5cc4bfeb4a1f36dabde2473d27a4481d958f0919",
+      "patient_id": "ef80ad7da085cd3a1f11247cec47b177145a93e116b84c98e11888181d6b1e12",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N035",
+      "explanation_id": "54c72655382fb12b63923a71e8f953c44888fe363b6f4419fc33f1dc986b88a7",
+      "patient_id": "377805536a1c6e2fe6c29db009e39dfd998210a527358e8f1ba1b720a4b9d0e3",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N036",
+      "explanation_id": "9ee94558170f7c199e3b7bff60108a528a609cf5146957788d92cd92622db572",
+      "patient_id": "904c4b762d699641e5ea8abe548fdacfd8967ae2c9b59016e5da0a66d97a2f56",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N037",
+      "explanation_id": "b21b23bf99190beab75b866d36e5f055a68681776b3ed57c4866fb657eefeeb3",
+      "patient_id": "c270e3c6ed9813b2513fd7858eaec5b59bb5a99a53aa8b85e4e49051b4b11989",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N038",
+      "explanation_id": "28984fc39bfa36fc382bb45320b19022b63d561dc3a6a13c1e18633481801ce6",
+      "patient_id": "34d42bba802cc02ead7e92dccb7ad93d09d7f710375ecf8eadd809cb4f11e9d3",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N039",
+      "explanation_id": "0f6d0d94907f9e2761226573db54fd00826d3a7e6b8e0a2f605efece48f47301",
+      "patient_id": "1401898ef44e4db2206747da0d3ca195853f2af97e4d1201a582d5c4aa6ce9ff",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N040",
+      "explanation_id": "65fe171baaf1fd985810e6d2accc61d045827de40f9415f1384aad21d7e757a2",
+      "patient_id": "690831be100ce25568c0afb4a73cc792797de2be2b488dbda3289c45da56229c",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N041",
+      "explanation_id": "2294150fab9dc16880ad19318f8f2af77bff88c2ae84fd5d0394963402ae2125",
+      "patient_id": "1894e7dc8558285b6c2b7b23cf8af602356dd38a7c762968f8d6a2a9f3ff5e44",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N042",
+      "explanation_id": "d58027bacd6c6059f3c2c010cb74e786e19e86f128296f7c3c8994a924cd11b8",
+      "patient_id": "8c635ad2765eade4315704276e5c5d60b498ed394305df3f4a25acb71f7129fa",
+      "random_sample": true,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N043",
+      "explanation_id": "0c68a696a47c74c922f7619a7a515c5524731a7487aa8e7a7699be5e2cca1ba5",
+      "patient_id": "1b4bf702a620b58488e72f0e998b09f0264fd5fc6440a687b904d5250b9358a7",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N044",
+      "explanation_id": "6ee5622ac6e34176f408f4cb06a37e395b95ddca63f1a2bf965c9383aa8dac6d",
+      "patient_id": "50a74f87a3d61a90e52eb36e982f161f1de9ba3b229bc29f00c197d4d23ecda6",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N045",
+      "explanation_id": "8709fce76018f9c776bffe60cdbe1e49d9c2e4418b0b8755eedb08e2d7b9551d",
+      "patient_id": "040c5f135ff7ed9e577568cd317303504faf79e9d0fe1c9ed40b84077be2194f",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N046",
+      "explanation_id": "8356e34f4f694762a663380297138052ddc476c238bdacb1514bc652e5568fc4",
+      "patient_id": "cdac4e0cc2bb218dd1a389940c03d8457771f6cb8d3396e0e98335dc562f12d0",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N047",
+      "explanation_id": "8d741eee648194d5693fad3aed632c694d445337bf51b557611d13811eb987c4",
+      "patient_id": "48c00512552e09965175f5fb1e393c4990f18a78b964bf09d76885abac28178e",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N048",
+      "explanation_id": "ef8a55fafdb96145d0e36700cb2c49a3b643e1b926d341071c64fc82459ede8b",
+      "patient_id": "a763be67e8cb4a7d2d590681d327244e27f620f41dbfe7dfd1789154be01f06f",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N049",
+      "explanation_id": "287409e2adfcb8dfa39639986a09c8361c7894a30fe0a36bd3446d5c26af93ee",
+      "patient_id": "1c6ceaacd0d9c06f071b6b2b531834262c71dd68852d2b30da72abad1815c389",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N050",
+      "explanation_id": "3cdb44abb0e0048831559929b69c56ac8c9bd3a4a7f0e879c6e9428efcb85b66",
+      "patient_id": "3aa90e39b8bffcbbf1737c258f0200eebd9e52f09c2ca2fde174404b11cfb893",
+      "random_sample": true,
+      "targeted_failure": false,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N051",
+      "explanation_id": "825ec7a842184d52ae50a84dfedd46e08ed7e6b5522adf451d667a9272d6baad",
+      "patient_id": "9697a743c274ded3069b388cdfcc3ed3fdd1fd9e903f2719cf48da52a8b4484c",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N052",
+      "explanation_id": "8faff1856e5b334a9b655e84be2e6db5701fd4aeef340e6f05098d2f87ba4438",
+      "patient_id": "d0654592a10879298422e8ee2ffbbe9dd74b2677be85d13dcdd247f95b3948e1",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N053",
+      "explanation_id": "74b043c6870f75be3887857a9fbba5769884e7f3272629691399c9cb67ef4a6a",
+      "patient_id": "3c8bff6868f5bbac43349e8b2980480e8fbc74eaf2d93bb18f3e14f2b475f199",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N054",
+      "explanation_id": "faac21d3bdf27806df36e954a9ee18ad49ecc289e9ab1f3932ef3a67bbe7103a",
+      "patient_id": "3c8bff6868f5bbac43349e8b2980480e8fbc74eaf2d93bb18f3e14f2b475f199",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N055",
+      "explanation_id": "0ab6011c377415986d5d25d84bd275024f7a762364e03b177c4db6396d57b168",
+      "patient_id": "06cb4fd864a6b06bd63786add342d474b6e8d7c68ca62e980851fe5f26bb98bd",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N056",
+      "explanation_id": "5566f06ce3be5b90bdd54a8ebb6f94a1a4d287539201e62df454d4f394bd5984",
+      "patient_id": "0ea69324afba5c6266384eb180a17981f4f6aacbd3359504589bdab4d690bea2",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N057",
+      "explanation_id": "f06a202a90c84f96d5e84a2dd5ee5dc4895f80551e77061a15e291748053a004",
+      "patient_id": "6f9e0f8f1b9ed425af966dd642ba1eba5d1cc90a203fc9901925fa4e8df0596b",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N058",
+      "explanation_id": "7540a29482facab66bf72006a476bf2f74b035b49cd62e8d00afed12b325ed07",
+      "patient_id": "1a44c5470cee7afd005db2047d833fd3e2800938943c8246385c13828ebe741e",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N059",
+      "explanation_id": "5fc156d2545c47fcbdfc875ebc6c3a091ed22a6157c911ace89201bccac000da",
+      "patient_id": "aa26463a3f08daba92866d2f34f6428bec88be262eb27c7fb215b222e75aa31d",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N060",
+      "explanation_id": "3fee1ab834c98a07db2c118d6d4328fdebe5bf0591647d173a21e9da2bc3f488",
+      "patient_id": "b4e7917b08c66d477229d85e5cf3512aaed0de637d18d217d17450708bf0926e",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N061",
+      "explanation_id": "13ee75f6c0953354586e1553a00cc11dc406e8c2c55dd2330f91388d21cfd5ae",
+      "patient_id": "c98056b48abcf468fae93fee18162ed7b7b506dde7aeb295c901b0de091d6a59",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N062",
+      "explanation_id": "00abdb07c0df63701b4eef28fb5dc77024f9584b45b75c37d96287a265a282ad",
+      "patient_id": "656eea973d9ed2950fe86e05896dc468079886d643a08af3952767071343e961",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N063",
+      "explanation_id": "e12ca7a50a0abebeb0fc843bfa2d015d23286eb95418ada8407d89d0cbe3b97c",
+      "patient_id": "684e20f08771bb7288c84fa4072bce4b99158ce5b2b9b5f5a8cf7966bf222569",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N064",
+      "explanation_id": "4d50e79b3e1b9c9b3f3cb83f3de61c5c66b9ad8dbbc0631e27c8f01df3024ac4",
+      "patient_id": "1a44c5470cee7afd005db2047d833fd3e2800938943c8246385c13828ebe741e",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N065",
+      "explanation_id": "bea9fd0c5a027a3c37473222cc2dac8247efbc5d3306e86983451d3d82030f3e",
+      "patient_id": "45151adddab50910d21a96fc4e61fb0bcaeeea1ccf633e9841e511580aa14582",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N066",
+      "explanation_id": "feda905e5506cbfb4105d13381d7ef70f5f84a8e7cd119f1db1215c92f716317",
+      "patient_id": "4b4fc605e80d8f37eedefd7f2e042062372d35529ad26ae5107820a288185989",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N067",
+      "explanation_id": "2b1b1ed8b08c6d38980a6d2c7c4149424a2e947fc43de24bcc05869ba73af2df",
+      "patient_id": "30c6dc4de13e865058c066e13aa6bdd56a9b17c14490ed771978713710205c48",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N068",
+      "explanation_id": "a38866e6066bc791f6c5dd88f7f37613b4e3794c0cd28dbc90ffc8e0007a55d4",
+      "patient_id": "07ca1bb5daa030b838b64333d1bcd1d77cb9c87c0448d701289133acf97ba480",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N069",
+      "explanation_id": "289c9bc254d9989e9776b646f369f94210e28dc00790a11378c50f4a770c3c72",
+      "patient_id": "78195297822d73d68b9150c472aa235333c67221aecafcd6d158ea6a7a5c1e9e",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N070",
+      "explanation_id": "e1b5d702a8b05414758c676997cfae9b17b2173b49013a110e441caa6d397ff4",
+      "patient_id": "3c8bff6868f5bbac43349e8b2980480e8fbc74eaf2d93bb18f3e14f2b475f199",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N071",
+      "explanation_id": "5ad37d02eea39fa585164f8a8da77de5c4592bf8c3d1185d4139cf9cc8095247",
+      "patient_id": "cdd240725bd65ea7b20535f60c1f77f739e02492c992aff804af06810d177478",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N072",
+      "explanation_id": "a7b5872ab05bf6cc565fc5424fb948934a04d36055f3e3f19056f4a167d0a27a",
+      "patient_id": "06cb4fd864a6b06bd63786add342d474b6e8d7c68ca62e980851fe5f26bb98bd",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N073",
+      "explanation_id": "493085736ba20259d2e4b96085fa900530cc3e1a44b439aec6649b40ce3f4e26",
+      "patient_id": "21b0d65a19715241d9335b6cbe126b4cd78701ec0a4b528d16d8515e194cfce7",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N074",
+      "explanation_id": "0322948a299563b18705e4209f5c94df1d543bfff2633e8f13d2b987ff000362",
+      "patient_id": "cdd240725bd65ea7b20535f60c1f77f739e02492c992aff804af06810d177478",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N075",
+      "explanation_id": "a338445fb3d6706593a6e5936b78b9d90909c22164e7582f081d11343c809ff8",
+      "patient_id": "3c8bff6868f5bbac43349e8b2980480e8fbc74eaf2d93bb18f3e14f2b475f199",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N076",
+      "explanation_id": "d449b07db5eb8661d471daabdce21e8b88527747800b85e9b9e36533a822b854",
+      "patient_id": "e403aaad1865e39b0c98064fb3401cd7cc11db4fd267802e55cd655500da2cdd",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N077",
+      "explanation_id": "fb78f1677ea34daf3dbbe9be1b25bb45ab69c7edbbd40da9c92c57ea775a6c61",
+      "patient_id": "e403aaad1865e39b0c98064fb3401cd7cc11db4fd267802e55cd655500da2cdd",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N078",
+      "explanation_id": "3afd721aadd3700f594ad62656c0312c75c7bf51551bf23b1f06f3f1c3150450",
+      "patient_id": "02abf558851d65833830b92d47f42efacaefcd6a00865b9457cef586bacb7f36",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N079",
+      "explanation_id": "3ceab2f6763fa0cde23b9e7045cb108193b6174383663e97d89bdc6db793db63",
+      "patient_id": "a0fbe8e2ff60a47c2c22878d2306acfd465ca43b6a757db5c33a6c069fd48dd8",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N080",
+      "explanation_id": "2f0fffa8ccacc41b6c60831cfacf1457d70283b6013a294c2154c887db96ed81",
+      "patient_id": "40b3b97bb0c2418c4f3ac40aecfa3b96d961e4043ddb753aa6f41eed8a218a87",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N081",
+      "explanation_id": "dcc0ac548c6e9fff38455cf58aa833474d74744f9038d9c44226d7130341be99",
+      "patient_id": "06cb4fd864a6b06bd63786add342d474b6e8d7c68ca62e980851fe5f26bb98bd",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N082",
+      "explanation_id": "d2ec85a306769a2703479b32db6d34784a7be835bb38077d418401ec691680a1",
+      "patient_id": "07ca1bb5daa030b838b64333d1bcd1d77cb9c87c0448d701289133acf97ba480",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N083",
+      "explanation_id": "6d7624ba23b4a2685de2acab7a63e9a719ea2e514d5283f97a3108d730e0408b",
+      "patient_id": "752554d4378bfa7d22ed8eb53617ec468d28b7c8c08e0c30bde5d61703f8b7f3",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N084",
+      "explanation_id": "3c7a4ca4988a5a2c83f635366d6b84f542e96f972f5836da895d79d9f5220a9d",
+      "patient_id": "a646dc4e7bd7a96568e9904ee89c6406e19b710e60ee28f7d0b19cfb230e38d3",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N085",
+      "explanation_id": "cb673bba9f9075b8dbe44a23e021cfa0d22a9fe6bf1817c56d2436f82802f1db",
+      "patient_id": "a0fbe8e2ff60a47c2c22878d2306acfd465ca43b6a757db5c33a6c069fd48dd8",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N086",
+      "explanation_id": "17dd4ac83a99afaaf97fe13230b1b160447711d1df9a3f1779cdb6a366889ba9",
+      "patient_id": "6f9e0f8f1b9ed425af966dd642ba1eba5d1cc90a203fc9901925fa4e8df0596b",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N087",
+      "explanation_id": "5c417c6dfd850f94fb4e2bcd59da77ffdf16d0be0d0501a1291a3cf2cdc15ee7",
+      "patient_id": "c98056b48abcf468fae93fee18162ed7b7b506dde7aeb295c901b0de091d6a59",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N088",
+      "explanation_id": "0f1d4a82c0e434c2833f3e6c2e44e561e39fd6858e427517f4db6c5ea34b06d6",
+      "patient_id": "32efa68801085f54c88024a8911c72b3c822f885f3b28e78404bccca97f6aaf7",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N089",
+      "explanation_id": "812f356bde52379f3beb3c1f3a37a50db6df44a9556cba44caf62821a3c8dc1a",
+      "patient_id": "cdd240725bd65ea7b20535f60c1f77f739e02492c992aff804af06810d177478",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N090",
+      "explanation_id": "4ce9d74c65d939eef1f69ed69eca14c5c1aac4f0037c2940a54915ff615ecd55",
+      "patient_id": "cdd240725bd65ea7b20535f60c1f77f739e02492c992aff804af06810d177478",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N091",
+      "explanation_id": "753ddffaeeac34716dfa45d3a1b704dc74071e98d7ea0875d73ed17264647da5",
+      "patient_id": "44eb158f60fc2d8c39c5dcbc5f3e63b23757aa28b01aacf48f30f341d7bca215",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N092",
+      "explanation_id": "867540c21fb1f88de6e6b61db40436afad33252aac91bca31715afced676924c",
+      "patient_id": "fb1a8c0614508a3c77c79c5ea521678e599756c1459b52547e4f1c9855696902",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": true
+    },
+    {
+      "audit_id": "N093",
+      "explanation_id": "a7ef99eefdd0e1ec5858d459d0d560cdc02fc8a429b2eeee58f0e4ac1b0d148e",
+      "patient_id": "44eb158f60fc2d8c39c5dcbc5f3e63b23757aa28b01aacf48f30f341d7bca215",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N094",
+      "explanation_id": "d05480e131fbaa1bae4fb683fa02c1e20b37dfbcc021bd620072991d60caeb07",
+      "patient_id": "d0654592a10879298422e8ee2ffbbe9dd74b2677be85d13dcdd247f95b3948e1",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N095",
+      "explanation_id": "d1fa2515818972589a1de7250ea9481f53a212b9e72cd4e471f41510027b93ae",
+      "patient_id": "7eafbe835683443387b7e01395de53a59ee5cb7c8e3d046f615d00dd323ac70e",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N096",
+      "explanation_id": "ba160e0d1fd480337f32406dd68bb6475000ae95029c52082991daf65ccaf90c",
+      "patient_id": "6f9e0f8f1b9ed425af966dd642ba1eba5d1cc90a203fc9901925fa4e8df0596b",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N097",
+      "explanation_id": "4579b7ec53f68f9d00a3805bf6abfd761c635d3d4417b8e23decd1a65ad2ecd1",
+      "patient_id": "d0654592a10879298422e8ee2ffbbe9dd74b2677be85d13dcdd247f95b3948e1",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N098",
+      "explanation_id": "1e3b02ae2206a89d99d14089013241fdf43779e10df358cb4e42decc525ddccd",
+      "patient_id": "c98056b48abcf468fae93fee18162ed7b7b506dde7aeb295c901b0de091d6a59",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N099",
+      "explanation_id": "d8dda8ce0e0bee0a10bf4c7a947b56a1265647645044fb01a67f32f4e21d961c",
+      "patient_id": "b8a6706b240296884c7a33f0752c7a82581a5b029fc2c2446339c878fa4609a6",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N100",
+      "explanation_id": "0ea6b59497febf6be230d683736429af1722139ef4c95d0d2f9df5d16945d2be",
+      "patient_id": "51b4a0595186df92c1cf57bf6824c9e12b34fdf8b6ee7d2e1c27428c186066f1",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N101",
+      "explanation_id": "c9b3d40d15cf6a968705663c40171b9af1462ea52fa4897b99d91e30fae7751d",
+      "patient_id": "40b3b97bb0c2418c4f3ac40aecfa3b96d961e4043ddb753aa6f41eed8a218a87",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    },
+    {
+      "audit_id": "N102",
+      "explanation_id": "16dafaa731edca2ce16df4225bbb97b9bcc3445933177768f4142a00797c54a5",
+      "patient_id": "21b0d65a19715241d9335b6cbe126b4cd78701ec0a4b528d16d8515e194cfce7",
+      "random_sample": false,
+      "targeted_failure": true,
+      "known_prior_patient": false
+    }
+  ],
+  "rq2_ledger_sha256": "7615cbea8857007fe9c3302e788c8d1be7419fde219943f47a830295760d9911"
+}

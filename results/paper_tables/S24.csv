@@ -1,0 +1,10 @@
+cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7
+Dataset / proposals,Endpoint,$n$,Events,Group,Local,$A$
+DDXPlus / incorrect,Reference,2188,69,0.0601,0.0310,0.0168
+DDXPlus / incorrect,Proposal,2188,2137,0.9904,0.9844,0.9997
+DDXPlus / all,Reference,4167,89,0.0337,0.0230,0.0207
+DDXPlus / all,Proposal,4167,2157,0.5274,0.6017,0.9988
+TRACE / incorrect,Reference,348,120,0.4063,0.3348,0.2381
+TRACE / incorrect,Proposal,348,290,0.8049,0.8929,0.9721
+TRACE / all,Reference,962,225,0.2624,0.3493,0.2925
+TRACE / all,Proposal,962,395,0.3922,0.5708,0.9193

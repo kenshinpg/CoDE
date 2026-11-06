@@ -1,0 +1,5 @@
+cell_1,cell_2,cell_3,cell_4,cell_5
+Budget,Contributing admissions,Original,Corrected,Corrected simultaneous 95\% CI
+25\%,231/232,5.43,5.77,"[2.04, 9.50]"
+50\%,182/180,2.55,2.59,"[-1.14, 6.32]"
+75\%,109/106,2.64,1.43,"[-2.30, 5.16]"

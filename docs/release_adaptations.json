@@ -1,0 +1,90 @@
+[
+  {
+    "file": "tools/CoDE/scripts/extend_rq1_random_controls.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/prepare_code10k.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/prepare_lantern_cohort.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_interventions.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_rq1.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_rq2.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_rq3.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_sources.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace2400_rq2.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace2400_tabr_repair.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace_generator_rq2.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/sharded.py",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/configs/adjudication_20261022.json",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/configs/human_return_20261016.json",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/configs/lantern_filtered_expected_manifest_20261006.json",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/configs/round1_extra_baselines_20261023.json",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/configs/round1_followup_20261016.json",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/configs/round1_roles_20261023.json",
+    "change": "Replace workstation paths or service addresses with portable local defaults; algorithm unchanged."
+  },
+  {
+    "file": "tools/CoDE/tests/test_round1_role_sensitivity.py",
+    "change": "Skip private-input integration assertion when its separately authorized audit input is absent; constructed-fixture checks retained."
+  },
+  {
+    "file": "tools/CoDE/tests/test_trace27b_review32.py",
+    "change": "Skip private-input integration assertion when its separately authorized audit input is absent; constructed-fixture checks retained."
+  },
+  {
+    "file": "upstream/TRACE_processing",
+    "change": "Restore received ZIP CRLF conversion once. All 29 restored files match the supplied published digests; original algorithms, source bindings and manifest remain unchanged. Shell files use LF."
+  },
+  {
+    "file": "tools/CoDE/scripts/export_trace_lantern_handoff.py",
+    "change": "Include the original exporter, its three existing static configurations and two existing tests; closes view-to-generation release dependency. No algorithm edit."
+  }
+]

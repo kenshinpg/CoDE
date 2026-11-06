@@ -1,0 +1,7 @@
+-r plots.txt
+scipy>=1.11,<2
+lightgbm==4.6.0
+torch>=2.2,<3
+scikit-learn>=1.3,<2
+pydantic>=2,<3
+transformers>=4.57,<5

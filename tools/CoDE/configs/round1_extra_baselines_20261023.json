@@ -1,0 +1,29 @@
+{
+  "protocol": "review-requested supplementary baselines, fixed before new results",
+  "accepted_rq2_sha256": {
+    "ddx": "341a8784d1cb84c34fa07c779d2a3d278448c66cd7b1294465aaa6497cad599d",
+    "trace": "c6d2d175cca67b7e834404aec7c9de92844f06695b6e2be9e88df9fa6e8a66ef"
+  },
+  "datasets": {
+    "ddx": {
+      "source": "artifacts/code10k_rq1_v1_retry1",
+      "models": "artifacts/code10k_sources_v1",
+      "protocol": "artifacts/code10k_protocol_v1",
+      "sample": "inputs/ddxplus_sample",
+      "config": "configs/code10k_rq1_20261007.json",
+      "view": "artifacts/trace2400_view_v2_names",
+      "rq2_scores": "artifacts/code10k_rq2_v2_retry1/scores.jsonl",
+      "rq2_ledger": "artifacts/code10k_rq2_v2_retry1/explanation_ledger.jsonl"
+    },
+    "trace": {
+      "source": "artifacts/trace2400_bce_audit_v1",
+      "models": "artifacts/trace2400_extended_sources_v1",
+      "protocol": "artifacts/code10k_protocol_v1",
+      "sample": "inputs/ddxplus_sample",
+      "config": "configs/code10k_rq1_20261007.json",
+      "view": "artifacts/trace2400_view_v2_names",
+      "rq2_scores": "artifacts/trace2400_tabr_repair_v1/rq2/scores_PRIVATE.jsonl",
+      "rq2_ledger": "artifacts/trace2400_tabr_repair_v1/rq2/explanation_ledger.jsonl"
+    }
+  }
+}

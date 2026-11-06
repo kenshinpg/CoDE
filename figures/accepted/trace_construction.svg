@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="950" viewBox="0 0 1800 950">
+<title>TRACE construction workflow</title>
+<desc>Clinical text and laboratory states form frozen facts. The same facts drive rollout generation and evidence matching. Original mappings and model audit records are retained separately.</desc>
+<rect width="1800" height="950" fill="white"/>
+<rect x="18" y="18" width="1764" height="486" rx="10" fill="white" stroke="#9198A0" stroke-width="1.5"/>
+<rect x="18" y="524" width="1328" height="408" rx="10" fill="white" stroke="#9198A0" stroke-width="1.5"/>
+<rect x="1362" y="524" width="420" height="408" rx="10" fill="white" stroke="#9198A0" stroke-width="1.5"/>
+<text x="38" y="61" font-family="Times New Roman, Times, serif" font-size="34" text-anchor="start" fill="#172338" font-weight="bold">(a) Patient records to shared facts</text>
+<text x="38" y="566" font-family="Times New Roman, Times, serif" font-size="34" text-anchor="start" fill="#172338" font-weight="bold">(b) Rollout generation and matching</text>
+<text x="1382" y="566" font-family="Times New Roman, Times, serif" font-size="33" text-anchor="start" fill="#172338" font-weight="bold">(c) Traceable release</text>
+<text x="137" y="107" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="#143AB4" font-weight="bold" font-style="italic">Preserve sources</text>
+<text x="690" y="107" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="#143AB4" font-weight="bold" font-style="italic">Extract and normalize</text>
+<text x="1492" y="107" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="#143AB4" font-weight="bold" font-style="italic">Freeze shared inputs</text>
+<text x="141" y="139" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">MIMIC-CDM derivative</text>
+<rect x="40" y="160" width="194" height="50" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="137.0" y="193.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">History</text>
+<polyline points="234,185 254,185" fill="none" stroke="#8B929A" stroke-width="2.5"/>
+<rect x="40" y="224" width="194" height="50" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="137.0" y="257.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">Examination</text>
+<polyline points="234,249 254,249" fill="none" stroke="#8B929A" stroke-width="2.5"/>
+<rect x="40" y="288" width="194" height="50" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="137.0" y="321.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">Radiology</text>
+<polyline points="234,313 254,313" fill="none" stroke="#8B929A" stroke-width="2.5"/>
+<polyline points="254,185 254,313" fill="none" stroke="#8B929A" stroke-width="2.5"/>
+<polyline points="254,249 272,249 272,227 300,227" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="300.00,227.00 288.00,221.00 288.00,233.00" fill="#8B929A"/>
+<rect x="300" y="172" width="224" height="110" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="412.0" y="222.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">EntityCoding</text>
+<text x="412.0" y="251.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Entities + assertions</text>
+<polyline points="524,227 565,227" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="565.00,227.00 553.00,221.00 553.00,233.00" fill="#8B929A"/>
+<rect x="565" y="172" width="240" height="110" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="685.0" y="222.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">SapBERT + HPO</text>
+<text x="685.0" y="251.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Candidate retrieval</text>
+<polyline points="805,227 847,227" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="847.00,227.00 835.00,221.00 835.00,233.00" fill="#8B929A"/>
+<rect x="847" y="172" width="244" height="110" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="969.0" y="222.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">Qwen3.8-27B</text>
+<text x="969.0" y="251.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Contextual linking</text>
+<polyline points="1091,227 1192,227" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="1192.00,227.00 1180.00,221.00 1180.00,233.00" fill="#8B929A"/>
+<rect x="1192" y="158" width="280" height="138" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="1332.0" y="209.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">View rules</text>
+<text x="1332.0" y="238.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Assertions + conflicts</text>
+<text x="1332.0" y="264.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Masking + vocabulary</text>
+<polyline points="1472,227 1535,227" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="1535.00,227.00 1523.00,221.00 1523.00,233.00" fill="#8B929A"/>
+<rect x="1547" y="168" width="210" height="96" rx="10" fill="white" stroke="#143AB4" stroke-width="1.5"/>
+<rect x="1541" y="174" width="210" height="96" rx="10" fill="#EEF7FF" stroke="#143AB4" stroke-width="1.5"/>
+<rect x="1535" y="180" width="210" height="96" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="1640.0" y="222.0" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="#172338" font-weight="bold">Frozen facts</text>
+<text x="1640.0" y="251.0" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="#172338" font-weight="bold">F</text>
+<text x="1640" y="323" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="#143AB4" font-style="italic">Shared input view</text>
+<polyline points="969,282 969,304" fill="none" stroke="#8B929A" stroke-width="2.5" stroke-dasharray="7 5"/>
+<polygon points="969.00,304.00 975.00,292.00 963.00,292.00" fill="#8B929A"/>
+<rect x="808" y="304" width="322" height="114" rx="10" fill="#FFF5E8" stroke="#7797B7" stroke-width="1.5"/>
+<text x="969.0" y="330.5" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338" font-weight="bold">Qwen3.8-27B review</text>
+<text x="969.0" y="359.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Extraction / mapping checks</text>
+<text x="969.0" y="385.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">(spans, assertions, concept links)</text>
+<text x="969.0" y="411.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Flags + proposed corrections</text>
+<rect x="40" y="390" width="194" height="84" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="137.0" y="426.0" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338" font-weight="bold">Laboratory</text>
+<text x="137.0" y="455.0" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338" font-weight="bold">snapshots</text>
+<polyline points="234,432 300,432" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="300.00,432.00 288.00,426.00 288.00,438.00" fill="#8B929A"/>
+<rect x="300" y="388" width="390" height="88" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="495.0" y="427.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">Reference-range states</text>
+<text x="495.0" y="456.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Low / Within range / High</text>
+<polyline points="690,432 1332,432 1332,296" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="1332.00,296.00 1326.00,308.00 1338.00,308.00" fill="#8B929A"/>
+<text x="1332" y="466" font-family="Times New Roman, Times, serif" font-size="23" text-anchor="middle" fill="#172338" font-style="italic">Original mappings and discrete states</text>
+<text x="42" y="611" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="start" fill="#143AB4" font-weight="bold" font-style="italic">Generate from the same visible facts</text>
+<rect x="52" y="660" width="100" height="102" rx="10" fill="white" stroke="#143AB4" stroke-width="1.5"/>
+<rect x="46" y="666" width="100" height="102" rx="10" fill="#EEF7FF" stroke="#143AB4" stroke-width="1.5"/>
+<rect x="40" y="672" width="100" height="102" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="90.0" y="731.5" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="#172338" font-weight="bold">F</text>
+<rect x="180" y="660" width="176" height="126" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="268.0" y="705.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">Qwen3-4B</text>
+<text x="268.0" y="734.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Rollout</text>
+<text x="268.0" y="760.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">generation</text>
+<polyline points="140,723 180,723" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="180.00,723.00 168.00,717.00 168.00,729.00" fill="#8B929A"/>
+<rect x="396" y="660" width="204" height="126" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="498.0" y="705.5" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="#172338" font-weight="bold">EntityCoding</text>
+<text x="498.0" y="734.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Entities +</text>
+<text x="498.0" y="760.5" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">assertions</text>
+<polyline points="356,723 396,723" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="396.00,723.00 384.00,717.00 384.00,729.00" fill="#8B929A"/>
+<rect x="640" y="660" width="204" height="126" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="742.0" y="704.0" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338" font-weight="bold">HPO retrieval</text>
+<text x="742.0" y="733.0" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338" font-weight="bold">and linking</text>
+<text x="742.0" y="762.0" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">SapBERT + Qwen</text>
+<polyline points="600,723 640,723" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="640.00,723.00 628.00,717.00 628.00,729.00" fill="#8B929A"/>
+<rect x="884" y="660" width="194" height="126" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="981.0" y="704.0" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="#172338" font-weight="bold">Audit + meaning</text>
+<text x="981.0" y="733.0" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="#172338" font-weight="bold">interpretation</text>
+<text x="981.0" y="762.0" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Qwen3.8-27B</text>
+<polyline points="844,723 884,723" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="884.00,723.00 872.00,717.00 872.00,729.00" fill="#8B929A"/>
+<rect x="1118" y="660" width="198" height="126" rx="10" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.5"/>
+<text x="1217.0" y="704.0" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="#172338" font-weight="bold">Match to</text>
+<text x="1217.0" y="733.0" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="#172338" font-weight="bold">visible F</text>
+<text x="1217.0" y="762.0" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="#172338">Qwen3.8-27B</text>
+<polyline points="1078,723 1118,723" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="1118.00,723.00 1106.00,717.00 1106.00,729.00" fill="#8B929A"/>
+<polyline points="90,774 90,845 1217,845 1217,786" fill="none" stroke="#143AB4" stroke-width="2.5"/>
+<polygon points="1217.00,786.00 1211.00,798.00 1223.00,798.00" fill="#143AB4"/>
+<text x="535" y="834" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="#143AB4" font-style="italic">Same F for generation and matching</text>
+<text x="679" y="898" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="#172338" font-style="italic">Original outputs, citation spans and audit records are retained</text>
+<text x="1572" y="613" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="#143AB4" font-weight="bold" font-style="italic">TRACE</text>
+<rect x="1406" y="647" width="332" height="48" rx="6" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.2"/>
+<text x="1572" y="679" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338">Source observations</text>
+<rect x="1406" y="708" width="332" height="48" rx="6" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.2"/>
+<text x="1572" y="740" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338">Frozen facts</text>
+<rect x="1406" y="769" width="332" height="48" rx="6" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.2"/>
+<text x="1572" y="801" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338">Rollouts + spans</text>
+<rect x="1406" y="830" width="332" height="48" rx="6" fill="#EEF7FF" stroke="#7797B7" stroke-width="1.2"/>
+<text x="1572" y="862" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="#172338">Matches + audit records</text>
+<polyline points="1316,723 1380,723 1380,854 1406,854" fill="none" stroke="#8B929A" stroke-width="3.5"/>
+<polygon points="1406.00,854.00 1394.00,848.00 1394.00,860.00" fill="#8B929A"/>
+</svg>

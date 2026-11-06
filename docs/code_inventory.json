@@ -1,0 +1,866 @@
+[
+  {
+    "file": "tools/CoDE/scripts/analyze_code10k_intervention_effects.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/analyze_code10k_versions.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/analyze_code10k_versions_bothcorrect.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/analyze_continuous_support.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/audit_human_source_F.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/audit_trace2400_delivery.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/diagnose_human_return_trace.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/diagnose_trace_encoder_parity.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/evaluate_saved_subsets.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/export_round1_extra_baseline_diagnostics.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/extend_rq1_random_controls.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/freeze_formal_sources.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/intervention_control_mc.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/prepare_adjudication_reference.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/prepare_code10k.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/prepare_lantern_cohort.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/prepare_subset_study.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/prepare_trace2400_view.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/prepare_trace_F_repair.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/round1_temperature_data.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_adjudication_sensitivity.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_interventions.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_rq1.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_rq2.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_rq3.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_code10k_sources.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_controlled_sets.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_coverage_controls.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_human_return_cpu_reference.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_human_return_sensitivity.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_reviewed_evidence_sensitivity.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_round1_budget_calibration.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_round1_cached_statistics.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_round1_extra_baselines.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_round1_followup.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_round1_role_sensitivity.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_round1_temperature.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_tabr_pilot.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace2400_evaluation.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace2400_extended.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace2400_review100.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace2400_rq2.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace2400_sources.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace2400_tabr_repair.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace27b_review32.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace_F_repair.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_trace_generator_rq2.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/run_tree_subset_pilot.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/smoke_tabr.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/summarize_random50_parallel.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/summarize_trace_F_repair.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/adjudication_sensitivity.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/case_retrieval.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/code_experiment.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/cohort_stats.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/context_encoder.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/context_grasp.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/explanation_scoring.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/fixed_diagnosis_g0.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/formal_sources.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/frozen_bank.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/grasp_adapter.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/grasp_repair_v2.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/human_return.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/parallel_rq1_summary.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/proxy_metrics.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/role_sensitivity.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/round1_extra_baselines.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/round1_followup.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/rq1_summary.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/rq2_audit.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/rq2_summary.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/subset_selectors.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/tabr_adapter.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/tabr_official_core.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/tree_subset.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/__init__.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/bank.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/bce_audit.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/contracts.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/cpu_reference.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/encoding.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/forensic_contract.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/f_rematch.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/f_repair.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/lab_reference_v2.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/math_policy.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/natural_contract.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/proxy_metrics.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/resampling.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/retrieval.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/review_contract.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/rq1_summary.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/rq2_audit.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/rq2_summary.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/tabr_gate.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/view.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/src/code_eval/trace2400/__init__.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/base.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/common.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/execution_audit.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/multi.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/original_generation.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/scoring.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/segment.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/service.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/sharded.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/statistics.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/scripts/trace_generator_rq2/__init__.py",
+    "kind": "implementation"
+  },
+  {
+    "file": "tools/CoDE/vendor/round1_baseline_sources.json",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/anchor/anchor_base.py",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/anchor/anchor_base_upstream.py",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/anchor/LICENSE",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/lantern/api_pipeline.py",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/lantern/contract.py",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/lantern/extraction_contract.py",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/lantern/extract_d0.py",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/lantern/schemas.py",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/sis/LICENSE",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/vendor/sis/sis.py",
+    "kind": "third-party or shared producer source"
+  },
+  {
+    "file": "tools/CoDE/tests/test_explanation_scoring.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_subset_selectors.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_code10k_rq1.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_code10k_rq2.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_code10k_rq3.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_reserved_evaluation.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_adjudication_sensitivity.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_revision_random_controls.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_round1_role_sensitivity.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_round1_extra_baselines.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_round1_followup.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_round1_temperature.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_round1_cached_statistics.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_round1_budget_calibration.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_parallel_rq1_summary.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_code10k_interventions.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_human_return.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_trace_sources.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_trace27b_review32.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_trace_generator_rq2.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_trace_generator_rq2_review.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_trace_generator_rq2_shards.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_code10k_split.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_continuous_support.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/tests/test_code10k_versions_bothcorrect.py",
+    "kind": "constructed-fixture test"
+  },
+  {
+    "file": "tools/CoDE/configs/adjudication_20261022.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/code10k_interventions_20261007.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/code10k_mapping_audit_20261007.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/code10k_rq1_20261007.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/code10k_rq2_20261007.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/code10k_versions_20261007.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/code10k_versions_bothcorrect_20261007.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/formal_result_protocol_20261006.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/human_return_20261016.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/lantern_filtered_expected_manifest_20261006.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/round1_cached_statistics_20261023.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/round1_extra_baselines_20261023.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/round1_followup_20261016.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/round1_roles_20261023.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/round1_temperature_20261023.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/tabr_pilot_20261007.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/trace2400_view_v1.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/trace2400_view_v2_names.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "tools/CoDE/configs/trace_generator_rq2_20261027.json",
+    "kind": "experiment config"
+  },
+  {
+    "file": "upstream/TRACE_processing/.gitattributes",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/.gitignore",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/LICENSE_PENDING.md",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/README.md",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/requirements.txt",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/run_original_rollouts.sh",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/run_source_pipeline.sh",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/SOURCE_CODE_MANIFEST.json",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/THIRD_PARTY_NOTICES.md",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/configs/environment.example.sh",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/configs/environment_recorded.json",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/configs/production_policy.json",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/docs/CoDE_INTEGRATION_CHECK.json",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/docs/CONTRACTS.md",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/docs/ORIGINAL_BINDING.md",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/docs/STATIC_VALIDATION.json",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/tools/prepare_local_resources.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/tools/prepare_match_source.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/entitycoding_v1/accept.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/entitycoding_v1/common.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/entitycoding_v1/prepare.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/entitycoding_v1/run.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/entitycoding_v1/verify_labels.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/hpo_review_full_v1/export.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/hpo_review_full_v1/review.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/hpo_review_v2/prepare_all_mapping.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/radiology_atoms_v1/atoms.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/radiology_bridge_v1/bridge.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/radiology_mapping_v1/accept.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/radiology_mapping_v1/pipeline.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/radiology_mapping_v1/retrieval_core.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/rag_hpo_link_v2/link.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/rag_hpo_native_fix_v1/fix.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/rag_hpo_native_fix_v1/retrieval_core.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/trace2400_ingest_v1/prepare.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/trace2400_lab_discrete_v2/build.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/trace2400_unified_v1/build.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/trace2400_unified_v1/code_contracts.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/trace_match_full_v1/base.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/trace_match_full_v1/pipeline.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/trace_match_full_v1/segment.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/scripts/trace_rollouts_full_v1/pipeline.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/vendor/entity-coding/LICENSE",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/vendor/entity-coding/ner/document_cleaning.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/vendor/entity-coding/ner/extract_entities.py",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/vendor/entity-coding/ner/rush_rules.tsv",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "upstream/TRACE_processing/vendor/entity-coding/ner/section_patterns.json",
+    "kind": "accepted source-production supplement"
+  },
+  {
+    "file": "tools/CoDE/scripts/export_trace_lantern_handoff.py",
+    "kind": "original frozen-view to generation handoff"
+  },
+  {
+    "file": "tools/CoDE/tests/test_trace_handoff.py",
+    "kind": "original frozen-view to generation handoff"
+  },
+  {
+    "file": "tools/CoDE/configs/trace_lantern_handoff/accepted_view.json",
+    "kind": "original frozen-view to generation handoff"
+  },
+  {
+    "file": "tools/CoDE/configs/trace_lantern_handoff/delivery_contract.json",
+    "kind": "original frozen-view to generation handoff"
+  },
+  {
+    "file": "tools/CoDE/configs/trace_lantern_handoff/matching_rules.json",
+    "kind": "original frozen-view to generation handoff"
+  }
+]

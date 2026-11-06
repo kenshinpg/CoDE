@@ -1,0 +1,197 @@
+dataset,contrast,removed_disease,records,units,failures,difference,original,reversal
+DDX,Association minus Group,Acute COPD exacerbation / infection,1886,864,20,0.23643896850913243,0.23637445887627798,False
+DDX,Association minus Group,Acute dystonic reactions,1914,859,20,0.23619764247150335,0.23637445887627798,False
+DDX,Association minus Group,Acute laryngitis,1912,859,20,0.23623458430361033,0.23637445887627798,False
+DDX,Association minus Group,Acute otitis media,1878,855,20,0.2358211040234156,0.23637445887627798,False
+DDX,Association minus Group,Acute pulmonary edema,1893,858,19,0.3294871304528384,0.23637445887627798,False
+DDX,Association minus Group,Acute rhinosinusitis,1910,869,8,0.17211451371716385,0.23637445887627798,False
+DDX,Association minus Group,Allergic sinusitis,1932,871,20,0.23635009360973952,0.23637445887627798,False
+DDX,Association minus Group,Anaphylaxis,1898,863,20,0.23530759119871172,0.23637445887627798,False
+DDX,Association minus Group,Anemia,1880,852,20,0.23460158779467868,0.23637445887627798,False
+DDX,Association minus Group,Atrial fibrillation,1881,855,20,0.23676799216434125,0.23637445887627798,False
+DDX,Association minus Group,Boerhaave,1972,882,20,0.236261496258558,0.23637445887627798,False
+DDX,Association minus Group,Bronchiectasis,1970,880,20,0.23637132433719746,0.23637445887627798,False
+DDX,Association minus Group,Bronchitis,1971,882,20,0.23637042231392227,0.23637445887627798,False
+DDX,Association minus Group,Bronchospasm / acute asthma exacerbation,1952,869,20,0.2363489939906687,0.23637445887627798,False
+DDX,Association minus Group,Chagas,1978,888,20,0.23683391633316994,0.23637445887627798,False
+DDX,Association minus Group,Chronic rhinosinusitis,1969,880,17,0.2719267674473172,0.23637445887627798,False
+DDX,Association minus Group,Cluster headache,1900,856,20,0.23584586942530933,0.23637445887627798,False
+DDX,Association minus Group,Croup,1934,865,20,0.23635871499474087,0.23637445887627798,False
+DDX,Association minus Group,Ebola,1893,866,20,0.23638170379623066,0.23637445887627798,False
+DDX,Association minus Group,Epiglottitis,1950,866,20,0.23660902637645245,0.23637445887627798,False
+DDX,Association minus Group,GERD,1913,861,20,0.236119035913337,0.23637445887627798,False
+DDX,Association minus Group,Guillain-Barré syndrome,1892,853,20,0.23699280159169941,0.23637445887627798,False
+DDX,Association minus Group,HIV (initial infection),1898,859,20,0.23784497537247767,0.23637445887627798,False
+DDX,Association minus Group,Influenza,1917,856,20,0.2367306073689642,0.23637445887627798,False
+DDX,Association minus Group,Inguinal hernia,1967,881,20,0.24309100175216358,0.23637445887627798,False
+DDX,Association minus Group,Localized edema,1967,878,20,0.23630193471758604,0.23637445887627798,False
+DDX,Association minus Group,Myasthenia gravis,1909,863,20,0.23629988565576446,0.23637445887627798,False
+DDX,Association minus Group,Myocarditis,1968,882,20,0.2362119327137088,0.23637445887627798,False
+DDX,Association minus Group,PSVT,1973,883,20,0.2363055621715161,0.23637445887627798,False
+DDX,Association minus Group,Pancreatic neoplasm,1922,863,20,0.2360688152095955,0.23637445887627798,False
+DDX,Association minus Group,Panic attack,1932,860,20,0.23609955428335377,0.23637445887627798,False
+DDX,Association minus Group,Pericarditis,1955,871,19,0.2497643781202355,0.23637445887627798,False
+DDX,Association minus Group,Pneumonia,1969,879,20,0.23639760376552882,0.23637445887627798,False
+DDX,Association minus Group,Possible NSTEMI / STEMI,1894,858,20,0.25595186806997583,0.23637445887627798,False
+DDX,Association minus Group,Pulmonary embolism,1901,855,19,0.24423179947193155,0.23637445887627798,False
+DDX,Association minus Group,Pulmonary neoplasm,1959,874,20,0.23625542086192622,0.23637445887627798,False
+DDX,Association minus Group,SLE,1961,876,20,0.23581642562750016,0.23637445887627798,False
+DDX,Association minus Group,Scombroid food poisoning,1975,885,20,0.23636926395109098,0.23637445887627798,False
+DDX,Association minus Group,Spontaneous pneumothorax,1936,866,20,0.2353650201940199,0.23637445887627798,False
+DDX,Association minus Group,Spontaneous rib fracture,1975,885,20,0.2362891459015703,0.23637445887627798,False
+DDX,Association minus Group,Stable angina,1978,888,20,0.23637223684721756,0.23637445887627798,False
+DDX,Association minus Group,Tuberculosis,1970,881,20,0.23679285361787897,0.23637445887627798,False
+DDX,Association minus Group,URTI,1973,883,20,0.23635550414087625,0.23637445887627798,False
+DDX,Association minus Group,Unstable angina,1958,873,19,0.2294789175569284,0.23637445887627798,False
+DDX,Association minus Group,Viral pharyngitis,1941,864,19,0.21666746479921536,0.23637445887627798,False
+DDX,Local positive SHAP minus Group,Acute COPD exacerbation / infection,1886,864,20,0.09421897915541044,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Acute dystonic reactions,1914,859,20,0.09460991592617204,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Acute laryngitis,1912,859,20,0.09437230597742977,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Acute otitis media,1878,855,20,0.09490053340234629,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Acute pulmonary edema,1893,858,19,0.04515263578814714,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Acute rhinosinusitis,1910,869,8,0.1852278354651543,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Allergic sinusitis,1932,871,20,0.09420161619696843,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Anaphylaxis,1898,863,20,0.09362870914307467,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Anemia,1880,852,20,0.09264769058167041,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Atrial fibrillation,1881,855,20,0.09888261190330244,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Boerhaave,1972,882,20,0.0940939644156879,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Bronchiectasis,1970,880,20,0.09422754177892834,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Bronchitis,1971,882,20,0.09422360737274693,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Bronchospasm / acute asthma exacerbation,1952,869,20,0.09525940492874199,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Chagas,1978,888,20,0.102861344025553,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Chronic rhinosinusitis,1969,880,17,0.10918255942609391,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Cluster headache,1900,856,20,0.09341614862428729,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Croup,1934,865,20,0.09424522140933765,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Ebola,1893,866,20,0.09434503717369622,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Epiglottitis,1950,866,20,0.09463268855713874,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,GERD,1913,861,20,0.09450483636982679,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Guillain-Barré syndrome,1892,853,20,0.10466973189140887,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,HIV (initial infection),1898,859,20,0.0946674030505598,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Influenza,1917,856,20,0.09622788508067631,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Inguinal hernia,1967,881,20,0.09397852140856933,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Localized edema,1967,878,20,0.094187059740485,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Myasthenia gravis,1909,863,20,0.0941737208454004,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Myocarditis,1968,882,20,0.09406540871541895,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,PSVT,1973,883,20,0.09421274606459036,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Pancreatic neoplasm,1922,863,20,0.09384635550597889,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Panic attack,1932,860,20,0.09422905476229072,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Pericarditis,1955,871,19,0.10046096734609698,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Pneumonia,1969,879,20,0.09470253957720959,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Possible NSTEMI / STEMI,1894,858,20,0.09650401057900201,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Pulmonary embolism,1901,855,19,0.0976169221157167,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Pulmonary neoplasm,1959,874,20,0.09416311173605055,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,SLE,1961,876,20,0.0962304867245875,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Scombroid food poisoning,1975,885,20,0.09425674397307643,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Spontaneous pneumothorax,1936,866,20,0.09316720952402108,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Spontaneous rib fracture,1975,885,20,0.09420808518578133,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Stable angina,1978,888,20,0.09422614417745043,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Tuberculosis,1970,881,20,0.0945463694253148,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,URTI,1973,883,20,0.09425077796360048,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Unstable angina,1958,873,19,0.09380328922035334,0.09422836620651084,False
+DDX,Local positive SHAP minus Group,Viral pharyngitis,1941,864,19,0.06971999618221121,0.09422836620651084,False
+DDX,Local positive SHAP minus Tree A,Acute COPD exacerbation / infection,1886,864,20,-0.07268167293669665,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Acute dystonic reactions,1914,859,20,-0.07207756105994503,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Acute laryngitis,1912,859,20,-0.07230316479364089,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Acute otitis media,1878,855,20,-0.25624009334606684,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Acute pulmonary edema,1893,858,19,-0.12123855126695944,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Acute rhinosinusitis,1910,869,8,0.07540618601671675,-0.07266312407562256,True
+DDX,Local positive SHAP minus Tree A,Allergic sinusitis,1932,871,20,-0.07269778698318344,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Anaphylaxis,1898,863,20,-0.0766386567505688,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Anemia,1880,852,20,-0.07204953654234349,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Atrial fibrillation,1881,855,20,-0.0673930144197288,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Boerhaave,1972,882,20,-0.0726645807783515,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Bronchiectasis,1970,880,20,-0.07266531051257394,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Bronchitis,1971,882,20,-0.0726598646139662,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Bronchospasm / acute asthma exacerbation,1952,869,20,-0.07152955743891988,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Chagas,1978,888,20,-0.0663505037770626,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Chronic rhinosinusitis,1969,880,17,-0.04338974734766182,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Cluster headache,1900,856,20,-0.07263099149247583,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Croup,1934,865,20,-0.07265109347086443,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Ebola,1893,866,20,-0.07257789642123061,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Epiglottitis,1950,866,20,-0.07341388273289363,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,GERD,1913,861,20,-0.07196499453570611,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Guillain-Barré syndrome,1892,853,20,-0.06268369010852512,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,HIV (initial infection),1898,859,20,-0.07794913816618752,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Influenza,1917,856,20,-0.07075880599331306,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Inguinal hernia,1967,881,20,-0.07228595524382984,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Localized edema,1967,878,20,-0.07262325715264695,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Myasthenia gravis,1909,863,20,-0.0726858605545215,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Myocarditis,1968,882,20,-0.07674543808771489,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,PSVT,1973,883,20,-0.07260471196793719,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Pancreatic neoplasm,1922,863,20,-0.07251327772182496,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Panic attack,1932,860,20,-0.07235265093375515,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Pericarditis,1955,871,19,-0.0630342465852854,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Pneumonia,1969,879,20,-0.07213047367121134,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Possible NSTEMI / STEMI,1894,858,20,-0.07060283461712422,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Pulmonary embolism,1901,855,19,-0.08046037104733046,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Pulmonary neoplasm,1959,874,20,-0.07259682369163678,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,SLE,1961,876,20,-0.06957307911632278,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Scombroid food poisoning,1975,885,20,-0.07263074522132824,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Spontaneous pneumothorax,1936,866,20,-0.07229696984687146,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Spontaneous rib fracture,1975,885,20,-0.07259163148310048,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Stable angina,1978,888,20,-0.07266401997883631,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Tuberculosis,1970,881,20,-0.07230068589503005,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,URTI,1973,883,20,-0.07262445553808072,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Unstable angina,1958,873,19,-0.04584395124889233,-0.07266312407562256,False
+DDX,Local positive SHAP minus Tree A,Viral pharyngitis,1941,864,19,-0.09378662074021081,-0.07266312407562256,False
+DDX,Association minus Local positive SHAP,Acute COPD exacerbation / infection,1886,864,20,0.142219989353722,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Acute dystonic reactions,1914,859,20,0.1415877265453313,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Acute laryngitis,1912,859,20,0.14186227832618054,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Acute otitis media,1878,855,20,0.14092057062106933,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Acute pulmonary edema,1893,858,19,0.28433449466469124,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Acute rhinosinusitis,1910,869,8,-0.013113321747990458,0.14214609266976713,True
+DDX,Association minus Local positive SHAP,Allergic sinusitis,1932,871,20,0.1421484774127711,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Anaphylaxis,1898,863,20,0.14167888205563706,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Anemia,1880,852,20,0.14195389721300827,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Atrial fibrillation,1881,855,20,0.1378853802610388,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Boerhaave,1972,882,20,0.1421675318428701,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Bronchiectasis,1970,880,20,0.14214378255826912,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Bronchitis,1971,882,20,0.14214681494117534,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Bronchospasm / acute asthma exacerbation,1952,869,20,0.1410895890619267,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Chagas,1978,888,20,0.13397257230761694,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Chronic rhinosinusitis,1969,880,17,0.16274420802122327,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Cluster headache,1900,856,20,0.142429720801022,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Croup,1934,865,20,0.1421134935854032,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Ebola,1893,866,20,0.14203666662253445,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Epiglottitis,1950,866,20,0.14197633781931368,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,GERD,1913,861,20,0.14161419954351023,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Guillain-Barré syndrome,1892,853,20,0.13232306970029054,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,HIV (initial infection),1898,859,20,0.14317757232191786,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Influenza,1917,856,20,0.14050272228828786,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Inguinal hernia,1967,881,20,0.14911248034359426,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Localized edema,1967,878,20,0.14211487497710104,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Myasthenia gravis,1909,863,20,0.14212616481036405,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Myocarditis,1968,882,20,0.14214652399828986,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,PSVT,1973,883,20,0.14209281610692573,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Pancreatic neoplasm,1922,863,20,0.14222245970361658,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Panic attack,1932,860,20,0.14187049952106304,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Pericarditis,1955,871,19,0.1493034107741385,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Pneumonia,1969,879,20,0.14169506418831923,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Possible NSTEMI / STEMI,1894,858,20,0.15944785749097382,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Pulmonary embolism,1901,855,19,0.14661487735621487,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Pulmonary neoplasm,1959,874,20,0.14209230912587567,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,SLE,1961,876,20,0.13958593890291265,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Scombroid food poisoning,1975,885,20,0.14211251997801455,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Spontaneous pneumothorax,1936,866,20,0.14219781066999881,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Spontaneous rib fracture,1975,885,20,0.14208106071578896,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Stable angina,1978,888,20,0.14214609266976713,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Tuberculosis,1970,881,20,0.14224648419256417,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,URTI,1973,883,20,0.14210472617727576,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Unstable angina,1958,873,19,0.13567562833657504,0.14214609266976713,False
+DDX,Association minus Local positive SHAP,Viral pharyngitis,1941,864,19,0.14694746861700414,0.14214609266976713,False
+TRACE,Association minus Group,appendicitis,397,123,39,0.11704424989001838,0.19481216349837066,False
+TRACE,Association minus Group,cholecystitis,392,146,89,0.14624557298212287,0.19481216349837066,False
+TRACE,Association minus Group,diverticulitis,579,198,93,0.20678075000318208,0.19481216349837066,False
+TRACE,Association minus Group,pancreatitis,474,163,94,0.21543952769688707,0.19481216349837066,False
+TRACE,Local positive SHAP minus Group,appendicitis,397,123,39,0.18276951114560375,0.23713045014380058,False
+TRACE,Local positive SHAP minus Group,cholecystitis,392,146,89,0.17659589557397992,0.23713045014380058,False
+TRACE,Local positive SHAP minus Group,diverticulitis,579,198,93,0.25974861928376985,0.23713045014380058,False
+TRACE,Local positive SHAP minus Group,pancreatitis,474,163,94,0.24086448820549305,0.23713045014380058,False
+TRACE,Local positive SHAP minus Tree A,appendicitis,397,123,39,-0.26339850409696197,-0.17916895029351138,False
+TRACE,Local positive SHAP minus Tree A,cholecystitis,392,146,89,-0.20686989843831816,-0.17916895029351138,False
+TRACE,Local positive SHAP minus Tree A,diverticulitis,579,198,93,-0.11667979806807638,-0.17916895029351138,False
+TRACE,Local positive SHAP minus Tree A,pancreatitis,474,163,94,-0.1955690445742811,-0.17916895029351138,False
+TRACE,Association minus Local positive SHAP,appendicitis,397,123,39,-0.06572526125558537,-0.042318286645429914,False
+TRACE,Association minus Local positive SHAP,cholecystitis,392,146,89,-0.03035032259185705,-0.042318286645429914,False
+TRACE,Association minus Local positive SHAP,diverticulitis,579,198,93,-0.052967869280587776,-0.042318286645429914,False
+TRACE,Association minus Local positive SHAP,pancreatitis,474,163,94,-0.025424960508605987,-0.042318286645429914,False

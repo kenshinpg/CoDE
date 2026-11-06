@@ -1,0 +1,22 @@
+\begin{table}[!tbp]\centering\scriptsize
+\caption{Fixed-diagnosis evidence-version comparisons under the Representation probe. Panel A gives local positive-SHAP minus comparator concordance (percentage points) for correct proposals and nonzero support differences. Panel B additionally requires both versions to recover the reference diagnosis and a target-support gap of at least 0.01; it reports SHAP concordance (percent) and paired differences (points). Brackets give 95\% intervals. Populations differ between panels. Higher support for an incorrect proposal is not clinical improvement.}
+\label{tab:version-support-contrasts}\label{tab:versions-bothcorrect}
+\textbf{A. Correct proposals; nonzero support difference}\par\smallskip
+\begin{tabular}{lll}\toprule
+Comparator & Addition & Deletion \\ \midrule
+Group coverage & 22.71 [20.03, 25.20] & 23.90 [22.83, 24.92] \\
+Tree support $A$ & 13.01 [9.04, 16.67] & 10.47 [9.16, 11.79] \\
+Association support $A$ & -0.79 [-2.03, 0.47] & 0.50 [-0.13, 1.14] \\
+\midrule
+Patients / rationales / pairs & 622/1,247/4,647 & 894/1,992/34,458 \\
+\bottomrule\end{tabular}
+\par\medskip
+\textbf{B. Both versions recover the reference; support gap $\geq0.01$}\par\smallskip
+\begin{tabular}{lllll}\toprule
+Proposal / operation & Patients / pairs & Local SHAP & $-$ Tree $A$ & $-$ Association $A$ \\ \midrule
+Correct / add & 98 / 387 & 88.03 [82.70, 92.91] & 11.96 [3.94, 19.91] & -0.53 [-4.97, 3.70] \\
+Correct / delete & 369 / 4,080 & 87.11 [84.85, 89.35] & 8.87 [5.89, 11.92] & -1.49 [-2.84, -0.11] \\
+Incorrect / add & 46 / 167 & 72.14 [66.20, 78.20] & -11.92 [-21.59, -1.87] & -25.04 [-31.14, -19.50] \\
+Incorrect / delete & 181 / 2,288 & 75.54 [73.18, 77.80] & -8.46 [-11.95, -5.10] & -11.68 [-14.69, -8.94] \\
+\bottomrule\end{tabular}
+\end{table}

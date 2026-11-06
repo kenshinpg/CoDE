@@ -1,0 +1,12 @@
+\begin{table}[!tbp]\centering\scriptsize
+\caption{TRACE direct accuracy contrasts at 25\% (percentage points), mean admission-level selection Jaccard and identical-set percentage. Overlap describes one fitted-model comparison, not repeat-fit stability.}\label{tab:trace-selection-contrasts}
+\begin{tabular}{llrrr}\toprule
+Contrast & Probe & Accuracy difference & Jaccard & Identical (\%) \\ \midrule
+Local absolute SHAP $-$ Class SHAP & R & -7.97 [-12.35, -3.98] & 0.529 & 0.00 \\
+TabR-S $-$ No-retrieval & R & -10.36 [-15.54, -5.58] & 0.289 & 0.00 \\
+Representation $-$ Group-enhanced & R & 1.99 [-0.40, 4.78] & 0.571 & 0.40 \\
+Local absolute SHAP $-$ Class SHAP & T & 0.00 [-1.20, 1.20] & 0.529 & 0.00 \\
+TabR-S $-$ No-retrieval & T & -8.37 [-12.35, -4.78] & 0.289 & 0.00 \\
+Representation $-$ Group-enhanced & T & -0.40 [-2.39, 1.20] & 0.571 & 0.40 \\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,57 @@
+{
+  "historical_source_digest_checks": {
+    "scripts/entitycoding_v1/run.py": "755537caa9406cde4d993412ce7ee50b59ac9e48980a3a398903786c12b340bf",
+    "scripts/rag_hpo_native_fix_v1/fix.py": "749397ac08649c30fb00d2cb9bd80118203dc976e2337cc70db9608febd68ba7",
+    "scripts/rag_hpo_native_fix_v1/retrieval_core.py": "6063cf4c5efe96ffc48f3248286be849683c7bffa3400a275bea8a33e1d9a5a6",
+    "scripts/rag_hpo_link_v2/link.py": "b0fc670870b1bba9ed5d1b3a1ff78c789fb7fdda2208785498ca843e5fe68258",
+    "scripts/hpo_review_full_v1/review.py": "3f6a7f4939d573306522d902404aeea9c6c11be779466abe142e1515e0f987b1",
+    "scripts/radiology_mapping_v1/pipeline.py": "3a2fe576857db606835ef5fe4d49bdb18146208e47471cc15fe787ff62b871d7",
+    "scripts/trace_rollouts_full_v1/pipeline.py": "09045edc5d144ec0f944790214c9eef9701179ff5c53736679a2200b3b17244a",
+    "scripts/trace_match_full_v1/pipeline.py": "c9e2d1c4caaf5ae90736db3832b5b320c6606897aa6142e3436e9c9eda7de9e7",
+    "scripts/trace_match_full_v1/base.py": "7f4bff206e405396e27eb2bf8a0447a4402b59b7bc84f6c3e670170a4800eefe",
+    "scripts/trace_match_full_v1/segment.py": "3031e14936fb4511d1ac602a3dc597be39f71249aa5153a0a28b1fb507c07fa5",
+    "vendor/entity-coding/ner/extract_entities.py": "9e01a4f59513e82d8291638b5c993bdef48b0605f6353b458c14062aeed9009b",
+    "vendor/entity-coding/ner/document_cleaning.py": "25c0925cc3a6de19c9622d3fa000738881d9780881c33a038718529d6b628288"
+  },
+  "historical_sources_matching": 12,
+  "critical_ast_checks": {
+    "scripts/trace_rollouts_full_v1/pipeline.py": [
+      "Answer",
+      "messages",
+      "parse_response",
+      "_run"
+    ],
+    "scripts/trace_match_full_v1/base.py": [
+      "Strict",
+      "Quote",
+      "Decision",
+      "Answer",
+      "validate",
+      "whitespace_stall"
+    ],
+    "scripts/trace_match_full_v1/segment.py": [
+      "Decision",
+      "Answer",
+      "segments",
+      "validate"
+    ]
+  },
+  "prompt_assignments_unchanged": true,
+  "python_syntax": "passed",
+  "json_syntax": "passed",
+  "selected_tree_path_host_scan": "passed",
+  "external_dependencies": [
+    "Torch accelerator runtime",
+    "EntityCoding NER/AC weights",
+    "HPO OBO",
+    "SapBERT derivative checkpoint",
+    "Qwen services",
+    "RAG-HPO prompt JSON",
+    "authorized source derivative and metadata CSV",
+    "CoDE frozen rollout input"
+  ],
+  "clinical_execution": "not performed",
+  "runtime_or_gpu_tests": "not performed",
+  "team_license": "pending author decision",
+  "scope": "Static checks on this explicitly selected small code tree only."
+}

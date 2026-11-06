@@ -1,0 +1,13 @@
+Characteristic,Retained (322),Excluded (37)
+"Observed facts, mean",65.60,85.24
+"Observed facts, median [IQR]","63 [53, 75]","81 [62, 104]"
+"Appendicitis, n (%)",138 (42.86),5 (13.51)
+"Cholecystitis, n (%)",87 (27.02),10 (27.03)
+"Diverticulitis, n (%)",31 (9.63),7 (18.92)
+"Pancreatitis, n (%)",66 (20.50),15 (40.54)
+"Valid generations, n/N (%)","1,283/1,288 (99.61)",148/148 (100.00)
+"Complete mappings / attempts, n/N (%)","1,240/1,288 (96.27)",139/148 (93.92)
+"Complete mappings / valid generations, n/N (%)","1,240/1,283 (96.65)",139/148 (93.92)
+"LLM Top-1, all attempts (%)",58.46,58.78
+"LLM Top-3, all attempts (%)",92.24,85.14
+"Tree full-input correct, n/N (%)",278/322 (86.34),31/37 (83.78)
